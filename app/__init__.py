@@ -7,7 +7,7 @@ from app.services.data_loader import validate_core_data
 
 
 def create_app(config_class=Config):
-    app = Flask(__name__, static_folder="../public", static_url_path="/static")
+    app = Flask(__name__)
     app.config.from_object(config_class)
     validate_core_data()
 
