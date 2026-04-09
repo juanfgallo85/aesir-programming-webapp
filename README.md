@@ -228,7 +228,7 @@ git push -u origin main
 
 La app queda lista para Vercel con un entrypoint Flask en la raiz:
 
-- `app.py` exporta `app = create_app()`
+- `server.py` exporta `app = create_app()`
 
 Compatibilidad de assets:
 
@@ -246,7 +246,7 @@ Flujo de deploy por dashboard:
 1. Sube el repo a GitHub
 2. En Vercel elige `Add New Project`
 3. Importa `aesir-programming-webapp`
-4. Vercel detectara Flask desde `app.py`
+4. Vercel detectara Flask desde `server.py`
 5. Los assets de `public/` se serviran como archivos estaticos
 
 Flujo de deploy por CLI si ya tienes sesion iniciada:
