@@ -1,0 +1,230 @@
+{
+  "session_date": "2026-11-12",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Speed Under the Bar: Short Barbell Sprint",
+  "goal": "Mejorar posiciones y velocidad bajo la barra sin perder accesibilidad para la clase general.",
+  "coach_summary": "Mantener opciones simples para principiantes y cuidar el flujo de barras antes de acelerar la complejidad.",
+  "public_summary": "Clase para practicar posiciones, velocidad y rematar con un WOD breve y escalable.",
+  "family_type": "oly_technique",
+  "dominant_stimulus": "barbell power",
+  "dominant_pattern": "front rack",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "amber",
+  "equipment_alert": "Barras, discos ligeros y espacio tecnico suficiente para progresiones de recepcion.",
+  "session_parts": [
+    {
+      "title": "Turnover and Rack Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Preparar tiron, turnover y recepcion para tecnica de barra sin fatiga innecesaria.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Double-Under Prep",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Ritmo, salto eficiente y opcion clara para principiantes.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Single Under",
+          "reps": 30,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Double Under",
+          "reps": 20,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Push Press Waves",
+      "part_type": "strength",
+      "duration_minutes": 10,
+      "description": "Transferir potencia de piernas a barra con sets cortos y consistentes.",
+      "format": "Strength work",
+      "scheme": "6 x 2 @ 75% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Push Press",
+          "reps": 2,
+          "sets": 6,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": "6 x 2 @ 75% del 1RM",
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Explosivo, sin press out lento",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Short Barbell Sprint",
+      "part_type": "wod",
+      "duration_minutes": 12,
+      "description": "Esfuerzo corto y potente con barra ligera y transiciones rapidas.",
+      "format": "EMOM",
+      "scheme": "12 min",
+      "score_type": "quality_rounds",
+      "movements": [
+        {
+          "name": "Hang Power Clean",
+          "reps": 6,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Lateral Burpee Over Bar",
+          "reps": 6,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Release de front rack, cuadriceps y t-spine para cerrar util.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 8,
+      "description": "Trabajo adicional de repeat efforts para perfiles competitivos.",
+      "format": "Intervals",
+      "scheme": "6 x 30 s on / 60 s off",
+      "score_type": "repeatable_effort",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 150,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar PVC, barra vacia o high pull simple para sostener posicion y timing."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener tecnica con carga moderada y recepcion estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la carga y el formato objetivo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y tomar el extra solo si la velocidad bajo la barra sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    {
+      "title": "Bloque",
+      "content": "Mixed Modal Power debe sentirse explosivo, corto y con volumen facil de controlar."
+    }
+  ]
+}

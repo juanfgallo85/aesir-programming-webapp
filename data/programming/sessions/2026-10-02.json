@@ -1,0 +1,123 @@
+{
+  "session_date": "2026-10-02",
+  "title": "Friday Skill Sprint",
+  "goal": "Desarrollar densidad tecnica y control de skill dentro del bloque: Aumentar densidad de practica manteniendo descansos utiles.",
+  "coach_summary": "El objetivo del dia es calidad tecnica repetida, no solo cansarse rapido.",
+  "public_summary": "Sesion tecnica de CrossFit general fitness con progresiones claras y un WOD util.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "power output",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "high",
+  "operational_color": "yellow",
+  "equipment_alert": "Wall space, barras, anillas, cuerdas y maquinas organizadas por carriles para no saturar la clase.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de mu\u00f1eca, hombro, cadera y pie segun la skill del dia."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion progresiva del patron principal y linea media.",
+      "format": "2 rounds",
+      "scheme": "Trabajo general + activacion especifica"
+    },
+    {
+      "title": "Skill Block",
+      "part_type": "skill",
+      "duration_minutes": 10,
+      "description": "Bloque tecnico principal con opciones reales para todos los perfiles.",
+      "movements": [
+        {
+          "name": "Wall Walk",
+          "reps": 0
+        }
+      ]
+    },
+    {
+      "title": "Support Primer",
+      "part_type": "skill",
+      "duration_minutes": 6,
+      "description": "Recordar estandares y transiciones antes del WOD."
+    },
+    {
+      "title": "Main WOD",
+      "part_type": "wod",
+      "duration_minutes": 14,
+      "description": "Pieza principal para repetir la skill o un soporte cercano bajo fatiga controlada.",
+      "format": "For time",
+      "scheme": "12-24 minutes segun el dia",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Bike",
+          "machine_calories_male": 8,
+          "machine_calories_female": 6
+        },
+        {
+          "name": "Dumbbell Push Press",
+          "reps": 10,
+          "suggested_load_general": "Moderado"
+        },
+        {
+          "name": "Handstand Hold",
+          "reps": 1,
+          "notes": "10-15 s o alternativa equivalente"
+        }
+      ],
+      "notes": "La tecnica del skill de la semana sigue importando dentro del WOD."
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 5,
+      "description": "Flush corto para atletas con margen.",
+      "format": "EMOM",
+      "scheme": "5 minutes",
+      "movements": [
+        {
+          "name": "Toes-to-Bar",
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Soltar mu\u00f1eca, hombro, pantorrilla y cadera."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Elegir la progresion tecnica mas simple que mantenga el objetivo del dia."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen moderado y tecnica repetible."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el plan completo del dia con el skill correspondiente."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Skill First",
+      "content": "No dejar que el reloj se coma la calidad de la progresion tecnica."
+    },
+    {
+      "title": "Stations",
+      "content": "Separar por nivel y por tipo de skill para evitar cuellos de botella."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "session_date": "2026-07-09",
+  "title": "Run Ladder Summer",
+  "goal": "Dar continuidad al bloque de verano: Aumentar volumen de trabajo aerobico mixto con transiciones simples.",
+  "coach_summary": "Usar el clima y la operacion del box para decidir rapido la mejor alternativa sin perder el objetivo del dia.",
+  "public_summary": "Sesion de verano para construir motor, ritmo y trabajo general fitness con buena continuidad.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "aerobic endurance",
+  "dominant_pattern": "core",
+  "technical_level": "beginner",
+  "fatigue_level": "moderate",
+  "operational_color": "green",
+  "equipment_alert": "Exterior, rowers, bikes y cargas simples coordinadas para la misma clase en todos los horarios.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y hombro antes del trabajo principal."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Carrera, row o bike progresiva y activacion general.",
+      "format": "2 rounds",
+      "scheme": "100-150 m cyclical work, 8 squats o lunges, 20 s plank"
+    },
+    {
+      "title": "Skill Prep",
+      "part_type": "skill",
+      "duration_minutes": 6,
+      "description": "Practicar la pieza tecnica o la transicion principal del dia.",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row"
+        }
+      ]
+    },
+    {
+      "title": "Main WOD",
+      "part_type": "wod",
+      "duration_minutes": 18,
+      "description": "Pieza principal del dia para sostener el objetivo del bloque con ritmo util y escalable.",
+      "format": "Intervals",
+      "scheme": "Bloque de verano",
+      "score_type": "time_per_piece",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row por tramo"
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 12
+        }
+      ],
+      "notes": "Priorizar pacing y transiciones limpias antes que hero efforts."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y cierre ligero."
+    },
+    {
+      "title": "Accessory Reset",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Trabajo ligero de recovery y respiracion."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Bajar metros, calorias, carga o usar la alternativa por clima desde el inicio."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen intermedio y ritmo estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la sesion completa del dia con buen control de pacing."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Weather",
+      "content": "Tomar la decision exterior/interior antes de arrancar la clase."
+    },
+    {
+      "title": "Summer Pacing",
+      "content": "En calor fuerte, cuidar hidratacion y evitar salidas demasiado agresivas."
+    }
+  ]
+}

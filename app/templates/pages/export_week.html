@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Export Week | AESIR Programming WebApp{% endblock %}
+
+{% block content %}
+<section class="py-3 export-page">
+    <div class="d-flex flex-column gap-4">
+        <div class="export-actions no-print">
+            <a class="btn btn-outline-dark btn-sm" href="{{ url_for('weeks.week_detail', week_start=requested_week_start) }}">Volver a la semana</a>
+            <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('weeks.calendar') }}">Calendario anual</a>
+            <button class="btn btn-dark btn-sm" type="button" onclick="window.print()">Imprimir / PDF</button>
+        </div>
+
+        {% if error_message %}
+        <div class="surface-card p-4">
+            <h1 class="h4 mb-3">Semana no encontrada</h1>
+            <p class="mb-0">{{ error_message }}</p>
+        </div>
+        {% elif week %}
+        <div class="surface-card p-4 p-md-5">
+            <p class="page-eyebrow mb-2">Exportacion semanal</p>
+            <h1 class="h2 mb-2">{{ week.title }}</h1>
+            <p class="muted-copy mb-2">{{ week.start_date.isoformat() }} - {{ week.end_date.isoformat() }}</p>
+            <p class="mb-2">{{ week.weekly_focus }}</p>
+            <div class="d-flex flex-wrap gap-2">
+                <span class="metric-pill">deload: {{ week.deload_flag }}</span>
+                <span class="metric-pill">test: {{ week.test_week_flag }}</span>
+                {% if related_block %}
+                <span class="metric-pill">{{ related_block.title }}</span>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="status-banner {{ week_status.label }}">
+            <strong>{{ week_status.message }}</strong>
+        </div>
+
+        {% if sessions %}
+        <div class="d-flex flex-column gap-3">
+            {% for session in sessions %}
+            <div class="surface-card p-4 export-section">
+                <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-3">
+                    <div>
+                        <p class="section-label mb-2">{{ session.session_date.isoformat() }}</p>
+                        <h2 class="h5 mb-1">{{ session.title }}</h2>
+                        <p class="muted-copy mb-0">{{ session.goal }}</p>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="metric-pill">{{ session.dominant_stimulus }}</span>
+                        <span class="metric-pill">{{ session.dominant_pattern }}</span>
+                        <span class="metric-pill text-uppercase">{{ session.operational_color }}</span>
+                    </div>
+                </div>
+                <div class="metric-grid mb-3">
+                    <div class="metric-card"><div class="metric-label">Nivel</div><div class="metric-value">{{ session.technical_level }}</div></div>
+                    <div class="metric-card"><div class="metric-label">Fatiga</div><div class="metric-value">{{ session.fatigue_level }}</div></div>
+                    <div class="metric-card"><div class="metric-label">Familia</div><div class="metric-value">{{ session.family_type }}</div></div>
+                </div>
+                <p class="mb-0">{{ session.public_summary }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="surface-card p-4">
+            <p class="mb-0">{{ week_status.message }}</p>
+        </div>
+        {% endif %}
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

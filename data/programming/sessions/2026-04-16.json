@@ -1,0 +1,132 @@
+{
+  "session_date": "2026-04-16",
+  "title": "Aerobic Lunge Builder",
+  "goal": "Dar continuidad al bloque con trabajo unilateral, gimnasia simple o soporte aerobico: Subir densidad aerobica sin perder calidad de recepcion y postura..",
+  "coach_summary": "Mantener una sesion clara, accesible y muy ordenada operativamente.",
+  "public_summary": "Trabajo util de clase general con movimiento simple, core y respiracion.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "aerobic endurance",
+  "dominant_pattern": "single_leg",
+  "technical_level": "beginner-intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "green",
+  "equipment_alert": "Espacio de piso, boxes y maquinas listos segun la variante del dia.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion de hombro, cadera y linea media para movernos con control."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Locomocion simple, core y activacion de piernas.",
+      "format": "2 rounds",
+      "scheme": "20 m walkouts o marches, 8 lunges, 20 s plank"
+    },
+    {
+      "title": "Skill Primer",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Practicar el patron principal del dia y fijar transiciones.",
+      "movements": [
+        {
+          "name": "Box Step-Up",
+          "reps": 6
+        },
+        {
+          "name": "Walking Lunge",
+          "reps": 8
+        },
+        {
+          "name": "Dumbbell Push Press",
+          "reps": 6,
+          "suggested_load_general": "Ligero"
+        }
+      ]
+    },
+    {
+      "title": "Thursday Builder",
+      "part_type": "wod",
+      "duration_minutes": 16,
+      "description": "Pieza principal para sostener densidad y calidad.",
+      "format": "AMRAP",
+      "scheme": "16-20 minutes",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Bike",
+          "machine_calories_male": 12,
+          "machine_calories_female": 10
+        },
+        {
+          "name": "Box Step-Up",
+          "reps": 12
+        },
+        {
+          "name": "Walking Lunge",
+          "reps": 16
+        },
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row si el clima no permite salir"
+        }
+      ],
+      "notes": "La postura del tronco debe verse igual del principio al final."
+    },
+    {
+      "title": "Accessory",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Trabajo breve de core y respiracion.",
+      "movements": [
+        {
+          "name": "Dead Bug",
+          "reps": 10
+        },
+        {
+          "name": "Couch Stretch",
+          "reps": 1,
+          "notes": "30 s por lado"
+        }
+      ]
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Cierre de cadera, hombros y respiracion."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Bajar reps, calorias o usar versiones estacionarias del patron."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con carga ligera o reps recortadas."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el volumen completo del dia con control tecnico."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Floor Flow",
+      "content": "Separar por carriles y niveles para evitar cruces."
+    },
+    {
+      "title": "Core",
+      "content": "La calidad del tronco manda el ritmo del dia."
+    }
+  ]
+}

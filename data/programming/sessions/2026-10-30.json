@@ -1,0 +1,246 @@
+{
+  "session_date": "2026-10-30",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Friday Modal Flow: Run and DB Flow",
+  "goal": "Construir una clase redonda de general fitness sin perder el enfoque central del bloque.",
+  "coach_summary": "El WOD debe sentirse completo pero sostenible. Ajustar carga o complejidad antes de perder calidad.",
+  "public_summary": "Clase para mover varias capacidades en una misma hora con una pieza principal bien estructurada.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "threshold",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "amber",
+  "equipment_alert": "Barra, mancuernas o kettlebells y una maquina por carril segun el montaje del dia.",
+  "session_parts": [
+    {
+      "title": "Mixed Flow Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad global y activacion general para una clase mixta con transiciones simples.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Front Squat Strength",
+      "part_type": "strength",
+      "duration_minutes": 12,
+      "description": "Bloque de fuerza con porcentaje claro y prioridad total a postura y front rack.",
+      "format": "Strength work",
+      "scheme": "5 x 3 @ 72% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "reps": 3,
+          "sets": 5,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": "5 x 3 @ 72% del 1RM",
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Subir solo si la postura sigue limpia",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Mantener codos altos y control del descenso."
+    },
+    {
+      "title": "Run and DB Flow",
+      "part_type": "wod",
+      "duration_minutes": 16,
+      "description": "Sesion mixta con carrera, mancuerna y escalones para sostener buena transicion.",
+      "format": "AMRAP",
+      "scheme": "16 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 12/10 cal bike",
+          "notes": null
+        },
+        {
+          "name": "Dumbbell Snatch",
+          "reps": 16,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "50 lb",
+          "suggested_load_female": "35 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Box Step-Up",
+          "reps": 16,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Carry and Hold",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Accesorio corto para brace, agarre y postura.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Farmer Hold",
+          "reps": 1,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "30-40 s"
+        },
+        {
+          "name": "Suitcase Carry",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 20,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 8,
+      "description": "Flush corto para sostener base o umbral sin complicar la operacion.",
+      "format": "Easy flush",
+      "scheme": "8 min",
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 800,
+          "weather_alternative": "1000 m row",
+          "notes": null
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir reps, usar DB o cargas simples y simplificar la estacion mas tecnica."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con carga moderada y ritmo controlado."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el volumen completo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y considerar el extra solo si la sesion principal no dejo desorden tecnico."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Equipment",
+      "content": "Montar la sesion con la menor cantidad de cambios de equipo posible."
+    },
+    {
+      "title": "Pacing",
+      "content": "El objetivo es sostener rounds parecidos, no romperse en la primera salida."
+    },
+    {
+      "title": "Bloque",
+      "content": "Mixed Modal Power debe sentirse explosivo, corto y con volumen facil de controlar."
+    }
+  ]
+}

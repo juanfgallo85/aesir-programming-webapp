@@ -1,0 +1,100 @@
+{
+  "session_date": "2026-04-18",
+  "title": "Saturday Community Chipper",
+  "goal": "Cerrar la semana con una sesion social y util conectada con Subir densidad aerobica sin perder calidad de recepcion y postura..",
+  "coach_summary": "El sabado debe sentirse comunitario, ordenado y con opciones simples para todos.",
+  "public_summary": "Sesion en parejas o equipos con enfasis en motor, relevos claros y buena experiencia de clase.",
+  "family_type": "partner_work",
+  "dominant_stimulus": "aerobic endurance",
+  "dominant_pattern": "mixed",
+  "technical_level": "beginner",
+  "fatigue_level": "moderate",
+  "operational_color": "green",
+  "equipment_alert": "Compartir una sola maquina por duo o equipo y dejar open gym operativo.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion general y respiracion para una clase larga y social."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Row o bike suave, medball prep y carry ligera.",
+      "format": "2 rounds",
+      "scheme": "100-150 m row, 8 medball squats, 20 m carry"
+    },
+    {
+      "title": "Partner Prep",
+      "part_type": "skill",
+      "duration_minutes": 6,
+      "description": "Practicar relevos, conteo de reps y estandares del trabajo en equipo."
+    },
+    {
+      "title": "Saturday Team WOD",
+      "part_type": "wod",
+      "duration_minutes": 22,
+      "description": "Pieza principal del sabado para sostener flujo comunitario y buena energia.",
+      "format": "AMRAP",
+      "scheme": "20-24 minutes in pairs o teams of 3",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 250
+        },
+        {
+          "name": "Wall Ball",
+          "reps": 16
+        },
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 10/8 cal bike"
+        },
+        {
+          "name": "Farmer Carry",
+          "distance_meters": 30,
+          "suggested_load_general": "Ligero a moderado"
+        }
+      ],
+      "notes": "Los relevos deben ser cortos y consistentes, no hero turns."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Movilidad ligera, respiracion y charla de cierre."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Bajar metros, carga o reps para sostener buena experiencia de clase."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener la estructura con relevos mas cortos y volumen intermedio."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el plan tal como esta con foco en flujo y consistencia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Pairing",
+      "content": "Emparejar por ritmo y experiencia, no solo por amistad."
+    },
+    {
+      "title": "Logistics",
+      "content": "Dejar carriles muy claros y una sola maquina por duo o equipo."
+    }
+  ]
+}

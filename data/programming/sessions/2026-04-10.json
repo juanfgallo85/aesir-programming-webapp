@@ -1,0 +1,120 @@
+{
+  "session_date": "2026-04-10",
+  "title": "Friday Threshold Grind",
+  "goal": "Cerrar la semana con una pieza fuerte y muy clara dentro de Reset de ritmo, sentadilla frontal y trabajo mixto controlado..",
+  "coach_summary": "El error comun del viernes es salir demasiado rapido. Pacing primero, ego despues.",
+  "public_summary": "Sesion exigente para practicar tolerancia al esfuerzo y control tecnico.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "threshold",
+  "dominant_pattern": "squat",
+  "technical_level": "intermediate",
+  "fatigue_level": "high",
+  "operational_color": "yellow",
+  "equipment_alert": "Asignar carriles por pareja y explicar muy bien el flujo antes de arrancar.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de hombro, tobillo y tronco para soportar el WOD principal."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Bike o row suave, barbell prep y activacion general.",
+      "format": "2 rounds",
+      "scheme": "5/4 cal bike, 6 squats o presses ligeros, 4 burpees"
+    },
+    {
+      "title": "Primer",
+      "part_type": "skill",
+      "duration_minutes": 6,
+      "description": "Series progresivas o repaso rapido del patron del dia.",
+      "movements": [
+        {
+          "name": "Thruster",
+          "sets": 3,
+          "reps": 5,
+          "suggested_load_general": "Ligero y tecnico"
+        }
+      ]
+    },
+    {
+      "title": "Friday Main WOD",
+      "part_type": "wod",
+      "duration_minutes": 24,
+      "description": "Pieza principal del dia para cerrar la semana con un esfuerzo util y medible.",
+      "format": "For time",
+      "scheme": "3-5 rounds segun variante",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Bike",
+          "machine_calories_male": 10,
+          "machine_calories_female": 8
+        },
+        {
+          "name": "Thruster",
+          "reps": 12,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb"
+        },
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row si el clima no permite correr"
+        }
+      ],
+      "notes": "Buscar un negative split o al menos una caida minima entre sets."
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 5,
+      "description": "Flush corto para atletas con margen.",
+      "format": "EMOM",
+      "scheme": "5 minutes",
+      "movements": [
+        {
+          "name": "Toes-to-Bar",
+          "reps": 6
+        }
+      ]
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Soltar hombros, cuadriceps y zona media."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir metros, reps o carga del implemento principal."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen intermedio y tecnica limpia."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Completar el volumen tal como esta programado."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Pacing",
+      "content": "La primera salida debe ser la mas disciplinada del dia."
+    },
+    {
+      "title": "Standards",
+      "content": "No regalar lockout, profundidad ni reps dudosas."
+    }
+  ]
+}

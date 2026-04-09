@@ -10,10 +10,14 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
     >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/print.css') }}" media="print">
 </head>
-<body class="bg-light">
-    <nav class="navbar navbar-expand-lg bg-white border-bottom mb-4">
-        <div class="container">
+<body class="app-shell">
+    {% if not hide_nav %}
+    <nav class="navbar navbar-expand-lg aesir-nav border-bottom mb-4 no-print">
+        <div class="container container-xl">
             <a class="navbar-brand fw-semibold" href="{{ url_for('main.home') }}">AESIR</a>
             <button
                 class="navbar-toggler"
@@ -29,16 +33,19 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('main.home') }}">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Hoy</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Semana</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Bloque</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Biblioteca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('days.today') }}">Hoy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('weeks.current_week') }}">Semana</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('weeks.calendar') }}">Calendario</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('blocks.current_block') }}">Bloque</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('library.library_index') }}">Biblioteca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('library.glossary_index') }}">Glosario</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    {% endif %}
 
-    <main class="container pb-5">
+    <main class="container container-xl pb-5 {% if export_mode %}export-shell{% endif %}">
         {% block content %}{% endblock %}
     </main>
 

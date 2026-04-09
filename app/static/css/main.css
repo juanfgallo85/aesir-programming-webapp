@@ -1,0 +1,107 @@
+:root {
+    --aesir-ink: #1f2933;
+    --aesir-muted: #64748b;
+    --aesir-soft: #eef2f5;
+    --aesir-paper: #f4f1eb;
+    --aesir-line: #d9dee5;
+    --aesir-accent: #b45309;
+    --aesir-accent-soft: #fff2e2;
+    --aesir-dark: #16202a;
+}
+
+body.app-shell {
+    background:
+        radial-gradient(circle at top left, rgba(180, 83, 9, 0.08), transparent 30%),
+        linear-gradient(180deg, #f8f6f2 0%, #edf2f6 60%, #e7edf1 100%);
+    color: var(--aesir-ink);
+    min-height: 100vh;
+}
+
+.aesir-nav {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    letter-spacing: 0.12em;
+}
+
+.page-eyebrow {
+    color: var(--aesir-accent);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.page-intro,
+.muted-copy {
+    color: var(--aesir-muted);
+}
+
+.hero-panel,
+.surface-card {
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(217, 222, 229, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 18px 40px rgba(22, 32, 42, 0.06);
+}
+
+.hero-panel {
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-panel::after {
+    background: linear-gradient(90deg, rgba(180, 83, 9, 0.14), transparent 55%);
+    content: "";
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.hero-panel > * {
+    position: relative;
+    z-index: 1;
+}
+
+.metric-pill {
+    align-items: center;
+    background: var(--aesir-soft);
+    border: 1px solid var(--aesir-line);
+    border-radius: 999px;
+    color: var(--aesir-ink);
+    display: inline-flex;
+    font-size: 0.85rem;
+    font-weight: 600;
+    gap: 0.4rem;
+    padding: 0.45rem 0.8rem;
+}
+
+.tag-pill {
+    background: var(--aesir-accent-soft);
+    border: 1px solid rgba(180, 83, 9, 0.15);
+    border-radius: 999px;
+    color: var(--aesir-accent);
+    display: inline-flex;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.35rem 0.7rem;
+}
+
+.section-label {
+    color: var(--aesir-muted);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.export-shell {
+    max-width: 1080px;
+}
+
+.empty-copy {
+    color: var(--aesir-muted);
+    font-size: 0.95rem;
+}

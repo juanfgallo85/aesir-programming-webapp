@@ -1,0 +1,202 @@
+{
+  "session_date": "2026-02-12",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Oly Technique Reset: Clean and Bike Builder",
+  "goal": "Desarrollar capacidad de tiron, agarre y control de traccion sin perder el enfoque general fitness. Dia tecnico de barra con complejidad util y transicion limpia hacia un WOD corto.",
+  "coach_summary": "No convertir el dia en una prueba de carga. La calidad de recepcion y timing manda la sesion.",
+  "public_summary": "Sesion de tecnica de barra con trabajo principal claro y un cierre corto para mover con control.",
+  "family_type": "oly_technique",
+  "dominant_stimulus": "technical practice",
+  "dominant_pattern": "olympic lifting",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "amber",
+  "equipment_alert": "Barras, discos ligeros y espacio tecnico suficiente para progresiones de recepcion.",
+  "session_parts": [
+    {
+      "title": "Turnover and Rack Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Preparar tiron, turnover y recepcion para tecnica de barra sin fatiga innecesaria.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Barra ligera y posiciones basicas para un dia tecnico.",
+      "format": "Barbell prep",
+      "scheme": "2 rounds de 5 muscle clean, 5 front squat, 5 press, 5 jump and land",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Power Clean Positions",
+      "part_type": "skill",
+      "duration_minutes": 10,
+      "description": "Revisar posicion por encima de rodilla, extension y recepcion.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Hang Power Clean",
+          "reps": 2,
+          "sets": 4,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Ligero a moderado",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Priorizar timing y recepcion estable."
+    },
+    {
+      "title": "Push Press Waves",
+      "part_type": "strength",
+      "duration_minutes": 10,
+      "description": "Transferir potencia de piernas a barra con sets cortos y consistentes.",
+      "format": "Strength work",
+      "scheme": "6 x 2 @ 75% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Push Press",
+          "reps": 2,
+          "sets": 6,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": "6 x 2 @ 75% del 1RM",
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Explosivo, sin press out lento",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Clean and Bike Builder",
+      "part_type": "wod",
+      "duration_minutes": 14,
+      "description": "Combinar barra ligera-media con motor corto y linea media estable.",
+      "format": "For time",
+      "scheme": "4 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Power Clean",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "115 lb",
+          "suggested_load_female": "75 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Echo Bike",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": 12,
+          "machine_calories_female": 10,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 14,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Release de front rack, cuadriceps y t-spine para cerrar util.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar PVC, barra vacia o high pull simple para sostener posicion y timing."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener tecnica con carga moderada y recepcion estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la carga y el formato objetivo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y tomar el extra solo si la velocidad bajo la barra sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    {
+      "title": "Bloque",
+      "content": "En Pulling Capacity, la calidad de tiron y el manejo de agarre mandan el dia."
+    }
+  ]
+}

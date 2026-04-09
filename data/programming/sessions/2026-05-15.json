@@ -1,0 +1,202 @@
+{
+  "session_date": "2026-05-15",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Mixed Builder: Power Row Triplet",
+  "goal": "Construir una clase redonda de general fitness sin perder el enfoque central del bloque.",
+  "coach_summary": "Cuidar el montaje y las transiciones para que la clase mantenga ritmo sin crear cuellos de botella.",
+  "public_summary": "Sesion mixta de clase completa con fuerza util, WOD claro y accesorio corto.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "threshold",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "amber",
+  "equipment_alert": "Barra, mancuernas o kettlebells y una maquina por carril segun el montaje del dia.",
+  "session_parts": [
+    {
+      "title": "Hinge Activation",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion de posterior, brace y cadera para fijar bisagra y linea media.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Deadlift Wave",
+      "part_type": "strength",
+      "duration_minutes": 12,
+      "description": "Bisagra simple con trabajo por olas para reforzar tension y posicion.",
+      "format": "Wave loading",
+      "scheme": "5-5-3-3 build controlado",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Deadlift",
+          "reps": 5,
+          "sets": 4,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Moderado a pesado, sin perder brace",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Apretar el piso y no despegar con hombros por delante."
+    },
+    {
+      "title": "Power Row Triplet",
+      "part_type": "wod",
+      "duration_minutes": 15,
+      "description": "Trabajo corto con maquina, empuje y salto.",
+      "format": "For time",
+      "scheme": "5 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 200,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Thruster",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "75 lb",
+          "suggested_load_female": "55 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Box Jump",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Single-Leg Reset",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Cierre util para cadera, equilibrio y control unilateral.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Rear Foot Elevated Split Squat",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Ligero",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir reps, usar DB o cargas simples y simplificar la estacion mas tecnica."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con carga moderada y ritmo controlado."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el volumen completo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y considerar el extra solo si la sesion principal no dejo desorden tecnico."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Equipment",
+      "content": "Montar la sesion con la menor cantidad de cambios de equipo posible."
+    },
+    {
+      "title": "Pacing",
+      "content": "El objetivo es sostener rounds parecidos, no romperse en la primera salida."
+    },
+    {
+      "title": "Bloque",
+      "content": "Barbell Cycling pide repeticiones limpias, montaje ordenado y cargas sostenibles."
+    }
+  ]
+}

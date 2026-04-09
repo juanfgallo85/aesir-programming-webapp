@@ -1,0 +1,17 @@
+{
+  "name": "AESIR CrossFit Aguascalientes",
+  "city": "Aguascalientes",
+  "state": "Aguascalientes",
+  "country": "Mexico",
+  "discipline": "CrossFit",
+  "class_duration_minutes": 60,
+  "focus": "General fitness",
+  "open_gym_enabled": true,
+  "same_class_all_day": true,
+  "session_levels": [
+    "Principiante",
+    "Intermedio",
+    "RX",
+    "Competidor"
+  ]
+}

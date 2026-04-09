@@ -1,0 +1,174 @@
+{
+  "session_date": "2026-02-09",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Lower Line Builder: Run and Front Rack",
+  "goal": "Desarrollar capacidad de tiron, agarre y control de traccion sin perder el enfoque general fitness. Dia de fuerza de pierna y metcon corto alineado con el foco semanal: Construir tolerancia de agarre y respiracion bajo sets repetidos..",
+  "coach_summary": "La prioridad del dia es respetar posicion y mecanica antes de intensificar el metcon. Revisar si la sala pide mas o menos barras.",
+  "public_summary": "Clase de fuerza de pierna y metcon corto con una pieza principal clara, retadora y escalable.",
+  "family_type": "strength_mixed",
+  "dominant_stimulus": "aerobic power",
+  "dominant_pattern": "hinge",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "amber",
+  "equipment_alert": "Racks, barras y floor space coordinados para todos los horarios.",
+  "session_parts": [
+    {
+      "title": "Front Rack Mobility",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y front rack para preparar sentadilla y recepcion.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Subir temperatura y preparar sentadilla con movilidad y ritmo.",
+      "format": "2 rounds",
+      "scheme": "150 m jog, 10 air squats, 8 reverse lunges, 6 tempo goblet squats",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Deadlift Wave",
+      "part_type": "strength",
+      "duration_minutes": 12,
+      "description": "Bisagra simple con trabajo por olas para reforzar tension y posicion.",
+      "format": "Wave loading",
+      "scheme": "5-5-3-3 build controlado",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Deadlift",
+          "reps": 5,
+          "sets": 4,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Moderado a pesado, sin perder brace",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Apretar el piso y no despegar con hombros por delante."
+    },
+    {
+      "title": "Run and Front Rack",
+      "part_type": "wod",
+      "duration_minutes": 16,
+      "description": "Pieza principal para mezclar locomocion, squat y respiracion bajo fatiga.",
+      "format": "For time",
+      "scheme": "3-4 rounds segun variante",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row o 24/20 cal bike",
+          "notes": null
+        },
+        {
+          "name": "Front Squat",
+          "reps": 12,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Burpee Over Bar",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Buscar que la carrera no rompa la primera sentadilla de cada ronda."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar goblet squat, trap bar o barra ligera y bajar rondas del WOD si hace falta."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el esquema con carga moderada y series tecnicas estables."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir los porcentajes o cargas sugeridas del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar un set o extra solo si la postura sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Pacing",
+      "content": "El objetivo es sostener rounds parecidos, no romperse en la primera salida."
+    },
+    {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    {
+      "title": "Bloque",
+      "content": "En Pulling Capacity, la calidad de tiron y el manejo de agarre mandan el dia."
+    }
+  ]
+}

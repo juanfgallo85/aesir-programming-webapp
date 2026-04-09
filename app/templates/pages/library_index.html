@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}Biblioteca | AESIR Programming WebApp{% endblock %}
+
+{% block content %}
+<section class="py-2 py-md-3">
+    <div class="d-flex flex-column gap-3">
+        <div class="hero-panel p-4 p-md-5">
+            <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
+                <div>
+                    <p class="page-eyebrow mb-2">Biblioteca</p>
+                    <h1 class="h2 mb-2">Movimientos</h1>
+                    <p class="page-intro mb-0">Catalogo base de movimientos reales para consultar categorias, patrones, cues y escalados.</p>
+                </div>
+                <div class="d-flex align-items-start">
+                    <a class="btn btn-outline-secondary" href="{{ url_for('library.glossary_index') }}">Ver glosario</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="surface-card p-4 library-filter-card">
+            <form class="row g-3" method="get" action="{{ url_for('library.library_index') }}">
+                <div class="col-12 col-lg-5">
+                    <label class="form-label" for="q">Buscar</label>
+                    <input class="form-control" id="q" name="q" type="search" value="{{ query }}" placeholder="Ej. squat, row, carry, press">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <label class="form-label" for="category">Categoria</label>
+                    <select class="form-select" id="category" name="category">
+                        <option value="">Todas</option>
+                        {% for category in categories %}
+                        <option value="{{ category }}" {% if selected_category == category %}selected{% endif %}>{{ category }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <label class="form-label" for="pattern">Patron</label>
+                    <select class="form-select" id="pattern" name="pattern">
+                        <option value="">Todos</option>
+                        {% for pattern in patterns %}
+                        <option value="{{ pattern }}" {% if selected_pattern == pattern %}selected{% endif %}>{{ pattern }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-12 col-lg-1 d-grid">
+                    <label class="form-label d-none d-lg-block">&nbsp;</label>
+                    <button class="btn btn-dark" type="submit">Filtrar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center gap-3">
+            <div>
+                <p class="section-label mb-2">Resultados</p>
+                <h2 class="h5 mb-0">Biblioteca filtrada</h2>
+            </div>
+            <span class="metric-pill">{{ movements|length }} movimientos</span>
+        </div>
+
+        {% if movements %}
+        <div class="row g-3">
+            {% for movement in movements %}
+            <div class="col-12 col-md-6 col-xl-4">
+                <a class="library-card text-decoration-none text-reset d-block h-100 p-4" href="{{ url_for('library.movement_detail', slug=movement.slug) }}">
+                    <div class="d-flex flex-column gap-3 h-100">
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="tag-pill">{{ movement.category }}</span>
+                            <span class="tag-pill">{{ movement.dominant_pattern }}</span>
+                            <span class="metric-pill">Nivel: {{ movement.technical_level or "No definido" }}</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 mb-2">{{ movement.name }}</h3>
+                            <p class="muted-copy mb-0">{{ movement.description or "Consultar cues, errores comunes y escalado." }}</p>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="small text-secondary mb-1">Coach cue</div>
+                            <div class="fw-semibold">
+                                {% if movement.basic_cues %}
+                                {{ movement.basic_cues[0] }}
+                                {% else %}
+                                Revisar detalle completo
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="surface-card p-4">
+            <p class="empty-copy mb-0">No hay movimientos que coincidan con ese filtro.</p>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

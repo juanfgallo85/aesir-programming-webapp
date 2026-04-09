@@ -1,0 +1,1034 @@
+[
+  {
+    "slug": "air-squat",
+    "name": "Air Squat",
+    "category": "squat",
+    "dominant_pattern": "squat",
+    "technical_level": "beginner",
+    "description": "Sentadilla sin carga para desarrollar control y ritmo.",
+    "equipment": [],
+    "basic_cues": [
+      "Pecho alto.",
+      "Pie completo en el piso."
+    ],
+    "common_errors": [
+      "Colapsar torso.",
+      "Cortar profundidad."
+    ],
+    "scaling_notes": [
+      "Usar box squat si la profundidad aun no es estable."
+    ]
+  },
+  {
+    "slug": "goblet-squat",
+    "name": "Goblet Squat",
+    "category": "squat",
+    "dominant_pattern": "squat",
+    "technical_level": "beginner",
+    "description": "Sentadilla con carga frontal unica para reforzar postura.",
+    "equipment": [
+      "dumbbell",
+      "kettlebell"
+    ],
+    "basic_cues": [
+      "Codos abajo.",
+      "Carga cerca del torso."
+    ],
+    "common_errors": [
+      "Separar la carga del cuerpo.",
+      "Perder tension al fondo."
+    ],
+    "scaling_notes": [
+      "Reducir carga o usar caja."
+    ]
+  },
+  {
+    "slug": "front-squat",
+    "name": "Front Squat",
+    "category": "squat",
+    "dominant_pattern": "squat",
+    "technical_level": "intermediate",
+    "description": "Sentadilla frontal con barra para fuerza de piernas y postura.",
+    "equipment": [
+      "barbell",
+      "rack"
+    ],
+    "basic_cues": [
+      "Codos altos.",
+      "Brace antes de bajar."
+    ],
+    "common_errors": [
+      "Codos bajos.",
+      "Salir como good morning."
+    ],
+    "scaling_notes": [
+      "Usar goblet squat o bajar carga."
+    ]
+  },
+  {
+    "slug": "back-squat",
+    "name": "Back Squat",
+    "category": "squat",
+    "dominant_pattern": "squat",
+    "technical_level": "intermediate",
+    "description": "Sentadilla trasera para acumular fuerza base.",
+    "equipment": [
+      "barbell",
+      "rack"
+    ],
+    "basic_cues": [
+      "Barra estable.",
+      "Rodillas siguen el pie."
+    ],
+    "common_errors": [
+      "Perder brace.",
+      "Inclinarse demasiado."
+    ],
+    "scaling_notes": [
+      "Bajar carga o usar tempo."
+    ]
+  },
+  {
+    "slug": "overhead-squat",
+    "name": "Overhead Squat",
+    "category": "squat",
+    "dominant_pattern": "squat",
+    "technical_level": "advanced",
+    "description": "Sentadilla overhead que exige movilidad y estabilidad total.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Empujar la barra arriba.",
+      "Torso activo."
+    ],
+    "common_errors": [
+      "Perder linea overhead.",
+      "Colapsar cadera o pie."
+    ],
+    "scaling_notes": [
+      "Cambiar por goblet squat o PVC."
+    ]
+  },
+  {
+    "slug": "walking-lunge",
+    "name": "Walking Lunge",
+    "category": "single_leg",
+    "dominant_pattern": "single_leg",
+    "technical_level": "beginner",
+    "description": "Desplante caminando para trabajo unilateral.",
+    "equipment": [],
+    "basic_cues": [
+      "Paso estable.",
+      "Torso alto."
+    ],
+    "common_errors": [
+      "Paso demasiado largo.",
+      "Perder equilibrio."
+    ],
+    "scaling_notes": [
+      "Usar reverse lunge estacionario."
+    ]
+  },
+  {
+    "slug": "deadlift",
+    "name": "Deadlift",
+    "category": "hinge",
+    "dominant_pattern": "hinge",
+    "technical_level": "beginner-intermediate",
+    "description": "Bisagra con barra desde el piso para fuerza base.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Crear tension antes de despegar.",
+      "Barra cerca del cuerpo."
+    ],
+    "common_errors": [
+      "Redondear espalda.",
+      "Jalar con espalda."
+    ],
+    "scaling_notes": [
+      "Subir la barra desde bloques o bajar carga."
+    ]
+  },
+  {
+    "slug": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "category": "hinge",
+    "dominant_pattern": "hinge",
+    "technical_level": "beginner-intermediate",
+    "description": "Bisagra desde arriba para reforzar posterior y control.",
+    "equipment": [
+      "barbell",
+      "dumbbell"
+    ],
+    "basic_cues": [
+      "Cadera atras.",
+      "Espalda larga."
+    ],
+    "common_errors": [
+      "Doblar demasiado rodillas.",
+      "Bajar sin tension."
+    ],
+    "scaling_notes": [
+      "Usar DBs o rango corto."
+    ]
+  },
+  {
+    "slug": "kettlebell-swing",
+    "name": "Kettlebell Swing",
+    "category": "hinge",
+    "dominant_pattern": "hinge",
+    "technical_level": "beginner-intermediate",
+    "description": "Bisagra dinamica para potencia de cadera y ritmo.",
+    "equipment": [
+      "kettlebell"
+    ],
+    "basic_cues": [
+      "La cadera impulsa el implemento.",
+      "Brazos largos."
+    ],
+    "common_errors": [
+      "Levantar con brazos.",
+      "Convertirlo en squat."
+    ],
+    "scaling_notes": [
+      "Usar russian swing o menos peso."
+    ]
+  },
+  {
+    "slug": "good-morning",
+    "name": "Good Morning",
+    "category": "hinge",
+    "dominant_pattern": "hinge",
+    "technical_level": "beginner",
+    "description": "Bisagra con PVC o barra ligera para reforzar posicion.",
+    "equipment": [
+      "PVC",
+      "barbell"
+    ],
+    "basic_cues": [
+      "Cadera atras.",
+      "Peso sobre todo el pie."
+    ],
+    "common_errors": [
+      "Doblar mucho rodillas.",
+      "Perder brace."
+    ],
+    "scaling_notes": [
+      "Usar PVC o rango corto."
+    ]
+  },
+  {
+    "slug": "strict-press",
+    "name": "Strict Press",
+    "category": "press",
+    "dominant_pattern": "press",
+    "technical_level": "beginner-intermediate",
+    "description": "Empuje vertical sin ayuda de piernas.",
+    "equipment": [
+      "barbell",
+      "dumbbell"
+    ],
+    "basic_cues": [
+      "Costillas abajo.",
+      "Biceps cerca de orejas."
+    ],
+    "common_errors": [
+      "Arquear lumbar.",
+      "Empujar la barra lejos."
+    ],
+    "scaling_notes": [
+      "Usar DBs o bajar carga."
+    ]
+  },
+  {
+    "slug": "push-press",
+    "name": "Push Press",
+    "category": "press",
+    "dominant_pattern": "press",
+    "technical_level": "intermediate",
+    "description": "Empuje vertical con dip y drive.",
+    "equipment": [
+      "barbell",
+      "dumbbell"
+    ],
+    "basic_cues": [
+      "Dip vertical corto.",
+      "Extender antes de empujar."
+    ],
+    "common_errors": [
+      "Hacer squat en el dip.",
+      "Perder linea media."
+    ],
+    "scaling_notes": [
+      "Usar DBs o bajar carga."
+    ]
+  },
+  {
+    "slug": "push-jerk",
+    "name": "Push Jerk",
+    "category": "press",
+    "dominant_pattern": "press",
+    "technical_level": "intermediate-advanced",
+    "description": "Empuje con recepcion overhead para timing y estabilidad.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Dip vertical.",
+      "Recibir estable arriba."
+    ],
+    "common_errors": [
+      "No volver a extender.",
+      "Recibir la barra al frente."
+    ],
+    "scaling_notes": [
+      "Cambiar por push press."
+    ]
+  },
+  {
+    "slug": "dumbbell-push-press",
+    "name": "Dumbbell Push Press",
+    "category": "press",
+    "dominant_pattern": "press",
+    "technical_level": "beginner-intermediate",
+    "description": "Empuje con mancuernas para volumen y control.",
+    "equipment": [
+      "dumbbell"
+    ],
+    "basic_cues": [
+      "Dip corto.",
+      "Hombros activos."
+    ],
+    "common_errors": [
+      "Perder linea de las mancuernas.",
+      "Colapsar torso."
+    ],
+    "scaling_notes": [
+      "Usar una sola mancuerna o bajar peso."
+    ]
+  },
+  {
+    "slug": "push-up",
+    "name": "Push-Up",
+    "category": "gymnastics",
+    "dominant_pattern": "press",
+    "technical_level": "beginner",
+    "description": "Empuje horizontal con peso corporal.",
+    "equipment": [],
+    "basic_cues": [
+      "Cuerpo en linea.",
+      "Pecho y cadera bajan juntos."
+    ],
+    "common_errors": [
+      "Romper linea media.",
+      "Acortar rango."
+    ],
+    "scaling_notes": [
+      "Usar caja o elevar manos."
+    ]
+  },
+  {
+    "slug": "hand-release-push-up",
+    "name": "Hand-Release Push-Up",
+    "category": "gymnastics",
+    "dominant_pattern": "press",
+    "technical_level": "beginner",
+    "description": "Push-up con pausa total en el piso.",
+    "equipment": [],
+    "basic_cues": [
+      "Soltar manos rapido.",
+      "Mantener linea del cuerpo."
+    ],
+    "common_errors": [
+      "Rebotar en el piso.",
+      "Subir cadera primero."
+    ],
+    "scaling_notes": [
+      "Apoyar manos en caja."
+    ]
+  },
+  {
+    "slug": "ring-row",
+    "name": "Ring Row",
+    "category": "pulling",
+    "dominant_pattern": "pull",
+    "technical_level": "beginner",
+    "description": "Traccion horizontal con anillas para base de pull-up.",
+    "equipment": [
+      "rings"
+    ],
+    "basic_cues": [
+      "Cuerpo firme.",
+      "Pecho a las manos."
+    ],
+    "common_errors": [
+      "Perder linea media.",
+      "Jalar solo con brazos."
+    ],
+    "scaling_notes": [
+      "Ajustar inclinacion."
+    ]
+  },
+  {
+    "slug": "strict-pull-up",
+    "name": "Strict Pull-Up",
+    "category": "pulling",
+    "dominant_pattern": "pull",
+    "technical_level": "intermediate",
+    "description": "Traccion vertical estricta para fuerza de espalda y agarre.",
+    "equipment": [
+      "pull-up bar"
+    ],
+    "basic_cues": [
+      "Hombros activos.",
+      "Core firme."
+    ],
+    "common_errors": [
+      "Patear o kippear.",
+      "Encoger hombros."
+    ],
+    "scaling_notes": [
+      "Cambiar por banda o ring row."
+    ]
+  },
+  {
+    "slug": "pull-up",
+    "name": "Pull-Up",
+    "category": "pulling",
+    "dominant_pattern": "pull",
+    "technical_level": "intermediate",
+    "description": "Version de pull-up que puede incluir kip segun la sesion.",
+    "equipment": [
+      "pull-up bar"
+    ],
+    "basic_cues": [
+      "Definir si el dia es estricto o con kip.",
+      "Buscar repeticiones claras."
+    ],
+    "common_errors": [
+      "Kip desordenado.",
+      "Perder hombro activo."
+    ],
+    "scaling_notes": [
+      "Escalar a banda o ring row."
+    ]
+  },
+  {
+    "slug": "single-arm-dumbbell-row",
+    "name": "Single-Arm Dumbbell Row",
+    "category": "pulling",
+    "dominant_pattern": "pull",
+    "technical_level": "beginner",
+    "description": "Remo unilateral para volumen de traccion y control escapular.",
+    "equipment": [
+      "dumbbell",
+      "bench"
+    ],
+    "basic_cues": [
+      "Torso estable.",
+      "Codo hacia la cadera."
+    ],
+    "common_errors": [
+      "Girar el torso.",
+      "Encoger hombro."
+    ],
+    "scaling_notes": [
+      "Bajar carga o mejorar apoyo."
+    ]
+  },
+  {
+    "slug": "power-clean",
+    "name": "Power Clean",
+    "category": "olympic_lifting",
+    "dominant_pattern": "hinge",
+    "technical_level": "intermediate",
+    "description": "Recepcion por encima de paralelo para desarrollar potencia.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Barra cerca.",
+      "Extender antes de jalar."
+    ],
+    "common_errors": [
+      "Jalar temprano con brazos.",
+      "Golpear la barra lejos."
+    ],
+    "scaling_notes": [
+      "Usar hang power clean o bajar carga."
+    ]
+  },
+  {
+    "slug": "hang-power-clean",
+    "name": "Hang Power Clean",
+    "category": "olympic_lifting",
+    "dominant_pattern": "hinge",
+    "technical_level": "intermediate",
+    "description": "Power clean desde el hang para extension y recepcion.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Cargar posterior.",
+      "Codos rapidos."
+    ],
+    "common_errors": [
+      "Bajar sin tension.",
+      "Recibir muy arriba."
+    ],
+    "scaling_notes": [
+      "Usar high hang o DB clean."
+    ]
+  },
+  {
+    "slug": "squat-clean",
+    "name": "Squat Clean",
+    "category": "olympic_lifting",
+    "dominant_pattern": "squat",
+    "technical_level": "advanced",
+    "description": "Clean recibido en sentadilla completa.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Barra cerca.",
+      "Recibir profundo y activo."
+    ],
+    "common_errors": [
+      "Power clean mas front squat involuntario.",
+      "Perder postura al fondo."
+    ],
+    "scaling_notes": [
+      "Usar power clean o front squat."
+    ]
+  },
+  {
+    "slug": "power-snatch",
+    "name": "Power Snatch",
+    "category": "olympic_lifting",
+    "dominant_pattern": "hinge",
+    "technical_level": "advanced",
+    "description": "Recepcion overhead por encima de paralelo.",
+    "equipment": [
+      "barbell"
+    ],
+    "basic_cues": [
+      "Barra cerca del cuerpo.",
+      "Recibir fuerte arriba."
+    ],
+    "common_errors": [
+      "Sacar la barra hacia afuera.",
+      "Recibir sin estabilidad."
+    ],
+    "scaling_notes": [
+      "Cambiar por hang power snatch o DB snatch."
+    ]
+  },
+  {
+    "slug": "wall-ball",
+    "name": "Wall Ball",
+    "category": "mixed",
+    "dominant_pattern": "squat",
+    "technical_level": "beginner",
+    "description": "Squat ciclico con lanzamiento a target.",
+    "equipment": [
+      "medicine ball",
+      "wall target"
+    ],
+    "basic_cues": [
+      "Recibir con pecho alto.",
+      "Usar piernas para impulsar."
+    ],
+    "common_errors": [
+      "Atrapar con torso colapsado.",
+      "Lanzar solo con brazos."
+    ],
+    "scaling_notes": [
+      "Bajar peso o target."
+    ]
+  },
+  {
+    "slug": "thruster",
+    "name": "Thruster",
+    "category": "mixed",
+    "dominant_pattern": "squat",
+    "technical_level": "intermediate",
+    "description": "Front squat mas press continuo para combinar piernas y hombro.",
+    "equipment": [
+      "barbell",
+      "dumbbell"
+    ],
+    "basic_cues": [
+      "Usar la salida del squat.",
+      "Respirar arriba."
+    ],
+    "common_errors": [
+      "Separar squat y press.",
+      "Codos bajos."
+    ],
+    "scaling_notes": [
+      "Usar DBs o bajar carga."
+    ]
+  },
+  {
+    "slug": "burpee-over-rower",
+    "name": "Burpee Over Rower",
+    "category": "gymnastics",
+    "dominant_pattern": "hinge",
+    "technical_level": "beginner",
+    "description": "Burpee con desplazamiento sobre el rower.",
+    "equipment": [
+      "rower"
+    ],
+    "basic_cues": [
+      "Paso corto y ordenado.",
+      "Manos debajo de hombros."
+    ],
+    "common_errors": [
+      "Saltar demasiado alto.",
+      "Perder linea al caer."
+    ],
+    "scaling_notes": [
+      "Usar burpee step-over o linea simple."
+    ]
+  },
+  {
+    "slug": "box-step-up",
+    "name": "Box Step-Up",
+    "category": "single_leg",
+    "dominant_pattern": "single_leg",
+    "technical_level": "beginner",
+    "description": "Subida unilateral al cajon para piernas y ritmo.",
+    "equipment": [
+      "box"
+    ],
+    "basic_cues": [
+      "Pie completo arriba.",
+      "Extender antes de bajar."
+    ],
+    "common_errors": [
+      "Impulsarse demasiado con la pierna de abajo.",
+      "Perder control al bajar."
+    ],
+    "scaling_notes": [
+      "Bajar altura del cajon o sin carga."
+    ]
+  },
+  {
+    "slug": "toes-to-bar",
+    "name": "Toes-to-Bar",
+    "category": "gymnastics",
+    "dominant_pattern": "core",
+    "technical_level": "advanced",
+    "description": "Movimiento de core en barra con contacto de pies a la barra.",
+    "equipment": [
+      "pull-up bar"
+    ],
+    "basic_cues": [
+      "Hombros activos.",
+      "Cerrar rapido de costillas a cadera."
+    ],
+    "common_errors": [
+      "Balanceo sin control.",
+      "Perder agarre activo."
+    ],
+    "scaling_notes": [
+      "Cambiar por hanging knee raise o V-up."
+    ]
+  },
+  {
+    "slug": "hanging-knee-raise",
+    "name": "Hanging Knee Raise",
+    "category": "gymnastics",
+    "dominant_pattern": "core",
+    "technical_level": "beginner-intermediate",
+    "description": "Trabajo de core colgado mas accesible que toes-to-bar.",
+    "equipment": [
+      "pull-up bar"
+    ],
+    "basic_cues": [
+      "Subir rodillas con control.",
+      "Evitar balanceo excesivo."
+    ],
+    "common_errors": [
+      "Columpiarse sin tension.",
+      "Relajar hombros."
+    ],
+    "scaling_notes": [
+      "Reducir reps o usar knee tuck."
+    ]
+  },
+  {
+    "slug": "v-up",
+    "name": "V-Up",
+    "category": "core",
+    "dominant_pattern": "core",
+    "technical_level": "beginner-intermediate",
+    "description": "Flexion potente de tronco en el piso.",
+    "equipment": [],
+    "basic_cues": [
+      "Subir brazos y piernas al mismo tiempo.",
+      "Controlar la bajada."
+    ],
+    "common_errors": [
+      "Rebotar en el piso.",
+      "Perder tension de linea media."
+    ],
+    "scaling_notes": [
+      "Cambiar por tuck-up o sit-up."
+    ]
+  },
+  {
+    "slug": "sit-up",
+    "name": "Sit-Up",
+    "category": "core",
+    "dominant_pattern": "core",
+    "technical_level": "beginner",
+    "description": "Trabajo simple de flexion de tronco.",
+    "equipment": [
+      "abmat"
+    ],
+    "basic_cues": [
+      "Usar rango completo.",
+      "Mantener ritmo parejo."
+    ],
+    "common_errors": [
+      "Cortar recorrido.",
+      "Acelerar y perder respiracion."
+    ],
+    "scaling_notes": [
+      "Reducir reps o usar crunch controlado."
+    ]
+  },
+  {
+    "slug": "dead-bug",
+    "name": "Dead Bug",
+    "category": "core",
+    "dominant_pattern": "core",
+    "technical_level": "beginner",
+    "description": "Trabajo de control lumbo-pelvico y brace.",
+    "equipment": [],
+    "basic_cues": [
+      "Espalda baja pegada al piso.",
+      "Mover extremidades sin perder brace."
+    ],
+    "common_errors": [
+      "Arquear lumbar.",
+      "Mover demasiado rapido."
+    ],
+    "scaling_notes": [
+      "Acortar rango del brazo o pierna."
+    ]
+  },
+  {
+    "slug": "plank-shoulder-tap",
+    "name": "Plank Shoulder Tap",
+    "category": "core",
+    "dominant_pattern": "core",
+    "technical_level": "beginner",
+    "description": "Plancha con estabilidad anti-rotacion.",
+    "equipment": [],
+    "basic_cues": [
+      "Caderas quietas.",
+      "Pies separados."
+    ],
+    "common_errors": [
+      "Girar el torso.",
+      "Subir demasiado la cadera."
+    ],
+    "scaling_notes": [
+      "Apoyar rodillas o bajar reps."
+    ]
+  },
+  {
+    "slug": "farmer-carry",
+    "name": "Farmer Carry",
+    "category": "carry",
+    "dominant_pattern": "carry",
+    "technical_level": "beginner",
+    "description": "Caminata cargada bilateral para agarre y postura.",
+    "equipment": [
+      "dumbbell",
+      "kettlebell"
+    ],
+    "basic_cues": [
+      "Hombros abajo y atras.",
+      "Caminar rapido sin perder postura."
+    ],
+    "common_errors": [
+      "Encoger hombros.",
+      "Acortar respiracion en exceso."
+    ],
+    "scaling_notes": [
+      "Bajar carga o distancia."
+    ]
+  },
+  {
+    "slug": "front-rack-carry",
+    "name": "Front Rack Carry",
+    "category": "carry",
+    "dominant_pattern": "carry",
+    "technical_level": "beginner-intermediate",
+    "description": "Carry en front rack para postura y brace.",
+    "equipment": [
+      "kettlebell",
+      "dumbbell",
+      "sandbag"
+    ],
+    "basic_cues": [
+      "Codos al frente.",
+      "Costillas abajo."
+    ],
+    "common_errors": [
+      "Arquear lumbar.",
+      "Dejar caer la carga."
+    ],
+    "scaling_notes": [
+      "Usar una sola carga o menor distancia."
+    ]
+  },
+  {
+    "slug": "sandbag-carry",
+    "name": "Sandbag Carry",
+    "category": "carry",
+    "dominant_pattern": "carry",
+    "technical_level": "beginner",
+    "description": "Carry con sandbag para trabajo de cuerpo completo.",
+    "equipment": [
+      "sandbag"
+    ],
+    "basic_cues": [
+      "Abrazar la bolsa cerca del cuerpo.",
+      "Respirar corto y estable."
+    ],
+    "common_errors": [
+      "Separar la bolsa del torso.",
+      "Redondear demasiado la espalda al levantar."
+    ],
+    "scaling_notes": [
+      "Usar sandbag mas ligera o carry mas corto."
+    ]
+  },
+  {
+    "slug": "row",
+    "name": "Row",
+    "category": "cyclical",
+    "dominant_pattern": "pull",
+    "technical_level": "beginner",
+    "description": "Trabajo monoestructural en rower para ritmo y capacidad aerobica.",
+    "equipment": [
+      "rower"
+    ],
+    "basic_cues": [
+      "Piernas primero, brazos al final.",
+      "Regresa brazos, torso y piernas."
+    ],
+    "common_errors": [
+      "Jalar con brazos desde el inicio.",
+      "Salir demasiado fuerte."
+    ],
+    "scaling_notes": [
+      "Reducir metros o usar bike."
+    ]
+  },
+  {
+    "slug": "bike",
+    "name": "Bike",
+    "category": "cyclical",
+    "dominant_pattern": "cyclical",
+    "technical_level": "beginner",
+    "description": "Trabajo monoestructural en bike para output y pacing.",
+    "equipment": [
+      "bike"
+    ],
+    "basic_cues": [
+      "Cadencia estable.",
+      "Respirar desde el arranque."
+    ],
+    "common_errors": [
+      "Ir all-out demasiado pronto.",
+      "Subir resistencia sin sostener rpm."
+    ],
+    "scaling_notes": [
+      "Usar calorias hombre/mujer o recortar calorias totales."
+    ]
+  },
+  {
+    "slug": "ski-erg",
+    "name": "Ski Erg",
+    "category": "cyclical",
+    "dominant_pattern": "pull",
+    "technical_level": "beginner",
+    "description": "Trabajo monoestructural de tiron y core en ski erg.",
+    "equipment": [
+      "ski erg"
+    ],
+    "basic_cues": [
+      "Brazo largo y cadera activa.",
+      "Cadencia estable."
+    ],
+    "common_errors": [
+      "Tirar solo con brazos.",
+      "Doblar demasiado rodillas."
+    ],
+    "scaling_notes": [
+      "Cambiar por row si no hay ski disponible."
+    ]
+  },
+  {
+    "slug": "run",
+    "name": "Run",
+    "category": "running",
+    "dominant_pattern": "cyclical",
+    "technical_level": "beginner",
+    "description": "Carrera alrededor del gimnasio para trabajo aerobico y pacing.",
+    "equipment": [],
+    "basic_cues": [
+      "Postura alta.",
+      "Cadencia pareja."
+    ],
+    "common_errors": [
+      "Salir demasiado rapido.",
+      "Perder postura."
+    ],
+    "scaling_notes": [
+      "Cambiar 200 m por 250 m row o 10/8 cal bike si hay frio o lluvia."
+    ]
+  },
+  {
+    "slug": "couch-stretch",
+    "name": "Couch Stretch",
+    "category": "mobility",
+    "dominant_pattern": "mobility",
+    "technical_level": "beginner",
+    "description": "Movilidad de cadera y cuadriceps util para squat y carrera.",
+    "equipment": [
+      "box",
+      "wall"
+    ],
+    "basic_cues": [
+      "Mantener gluteo activo.",
+      "Respirar sin arquear lumbar."
+    ],
+    "common_errors": [
+      "Perder alineacion de cadera.",
+      "Forzar sin respirar."
+    ],
+    "scaling_notes": [
+      "Acortar rango o apoyar manos en caja."
+    ]
+  },
+  {
+    "slug": "banded-face-pull",
+    "name": "Banded Face Pull",
+    "category": "mobility_prep",
+    "dominant_pattern": "pull",
+    "technical_level": "beginner",
+    "description": "Trabajo ligero de escapula y hombro para prep o accessory.",
+    "equipment": [
+      "band"
+    ],
+    "basic_cues": [
+      "Codos altos.",
+      "Llevar manos hacia la cara."
+    ],
+    "common_errors": [
+      "Hacerlo con tronco suelto.",
+      "Usar demasiada tension."
+    ],
+    "scaling_notes": [
+      "Bajar tension de la banda."
+    ]
+  },
+  {
+    "slug": "handstand-hold",
+    "name": "Handstand Hold",
+    "category": "gymnastics",
+    "dominant_pattern": "press",
+    "technical_level": "intermediate",
+    "description": "Posicion invertida isometrica para control de hombro y linea media.",
+    "equipment": [
+      "wall"
+    ],
+    "basic_cues": [
+      "Empujar el piso.",
+      "Costillas adentro."
+    ],
+    "common_errors": [
+      "Colapsar hombros.",
+      "Arquear lumbar."
+    ],
+    "scaling_notes": [
+      "Usar box pike hold o feet-elevated plank."
+    ]
+  },
+  {
+    "slug": "wall-walk",
+    "name": "Wall Walk",
+    "category": "gymnastics",
+    "dominant_pattern": "press",
+    "technical_level": "advanced",
+    "description": "Trabajo invertido dinamico para hombro y control del tronco.",
+    "equipment": [
+      "wall"
+    ],
+    "basic_cues": [
+      "Subir con control.",
+      "Mantener linea media activa."
+    ],
+    "common_errors": [
+      "Arquear lumbar.",
+      "Bajar sin control."
+    ],
+    "scaling_notes": [
+      "Usar wall walk parcial o box pike walk-in."
+    ]
+  },
+  {
+    "slug": "double-under-progression",
+    "name": "Double-Under Progression",
+    "category": "gymnastics",
+    "dominant_pattern": "cyclical",
+    "technical_level": "beginner-intermediate",
+    "description": "Progresion de cuerda para coordinacion y ritmo.",
+    "equipment": [
+      "jump rope"
+    ],
+    "basic_cues": [
+      "Saltos bajos.",
+      "Munecas rapidas."
+    ],
+    "common_errors": [
+      "Saltar demasiado alto.",
+      "Mover hombros en vez de munecas."
+    ],
+    "scaling_notes": [
+      "Usar single unders, penguin taps o tiempo equivalente."
+    ]
+  },
+  {
+    "slug": "rope-climb-progression",
+    "name": "Rope Climb Progression",
+    "category": "gymnastics",
+    "dominant_pattern": "pull",
+    "technical_level": "intermediate",
+    "description": "Progresiones de cuerda para construir tecnica de pies y tiron.",
+    "equipment": [
+      "rope"
+    ],
+    "basic_cues": [
+      "Definir hook antes de subir.",
+      "Mantener rodillas altas al rehook."
+    ],
+    "common_errors": [
+      "Subir solo con brazos.",
+      "No fijar bien los pies."
+    ],
+    "scaling_notes": [
+      "Usar seated rope pull, rope stand o low rope drill."
+    ]
+  }
+]

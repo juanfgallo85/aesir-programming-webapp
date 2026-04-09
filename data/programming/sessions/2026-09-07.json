@@ -1,0 +1,174 @@
+{
+  "session_date": "2026-09-07",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Leg Drive Reset: Run and Front Rack",
+  "goal": "Preparar una fase de engine competitivo opcional sin perder accesibilidad para la clase general. Dia de fuerza de pierna y metcon corto alineado con el foco semanal: Mezclar threshold work con bloques de skill simples..",
+  "coach_summary": "Draft autogenerado para Lower strength + short metcon. Ajustar carga objetivo, flujo de racks y criterio de ritmo antes de aprobar.",
+  "public_summary": "Sesion para desarrollar fuerza util y cerrar con un WOD corto de buena intencion.",
+  "family_type": "strength_mixed",
+  "dominant_stimulus": "aerobic power",
+  "dominant_pattern": "hinge",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "amber",
+  "equipment_alert": "Racks, barras y floor space coordinados para todos los horarios.",
+  "session_parts": [
+    {
+      "title": "Front Rack Mobility",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y front rack para preparar sentadilla y recepcion.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Front Squat Strength",
+      "part_type": "strength",
+      "duration_minutes": 12,
+      "description": "Bloque de fuerza con porcentaje claro y prioridad total a postura y front rack.",
+      "format": "Strength work",
+      "scheme": "5 x 3 @ 72% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "reps": 3,
+          "sets": 5,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": "5 x 3 @ 72% del 1RM",
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Subir solo si la postura sigue limpia",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Mantener codos altos y control del descenso."
+    },
+    {
+      "title": "Run and Front Rack",
+      "part_type": "wod",
+      "duration_minutes": 16,
+      "description": "Pieza principal para mezclar locomocion, squat y respiracion bajo fatiga.",
+      "format": "For time",
+      "scheme": "3-4 rounds segun variante",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row o 24/20 cal bike",
+          "notes": null
+        },
+        {
+          "name": "Front Squat",
+          "reps": 12,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Burpee Over Bar",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Buscar que la carrera no rompa la primera sentadilla de cada ronda."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar goblet squat, trap bar o barra ligera y bajar rondas del WOD si hace falta."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el esquema con carga moderada y series tecnicas estables."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir los porcentajes o cargas sugeridas del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar un set o extra solo si la postura sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    {
+      "title": "Rack Flow",
+      "content": "Asignar racks y discos antes del warm-up para evitar cuellos de botella."
+    },
+    {
+      "title": "Bloque",
+      "content": "Competition Engine debe permitir pacing agresivo opcional sin romper la sesion general."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "session_date": "2026-07-10",
+  "title": "Friday Long Summer WOD",
+  "goal": "Dar continuidad al bloque de verano: Aumentar volumen de trabajo aerobico mixto con transiciones simples.",
+  "coach_summary": "Usar el clima y la operacion del box para decidir rapido la mejor alternativa sin perder el objetivo del dia.",
+  "public_summary": "Sesion de verano para construir motor, ritmo y trabajo general fitness con buena continuidad.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "aerobic endurance",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "high",
+  "operational_color": "yellow",
+  "equipment_alert": "Exterior, rowers, bikes y cargas simples coordinadas para la misma clase en todos los horarios.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y hombro antes del trabajo principal."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Carrera, row o bike progresiva y activacion general.",
+      "format": "2 rounds",
+      "scheme": "100-150 m cyclical work, 8 squats o lunges, 20 s plank"
+    },
+    {
+      "title": "Skill Prep",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Practicar la pieza tecnica o la transicion principal del dia.",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "distance_meters": null,
+          "reps": 5,
+          "suggested_load_general": "Ligero"
+        }
+      ]
+    },
+    {
+      "title": "Main WOD",
+      "part_type": "wod",
+      "duration_minutes": 20,
+      "description": "Pieza principal del dia para sostener el objetivo del bloque con ritmo util y escalable.",
+      "format": "For time",
+      "scheme": "Bloque de verano",
+      "score_type": "time_per_piece",
+      "movements": [
+        {
+          "name": "Bike",
+          "machine_calories_male": 12,
+          "machine_calories_female": 10
+        },
+        {
+          "name": "Sandbag Carry",
+          "distance_meters": 40,
+          "suggested_load_general": "Moderado"
+        },
+        {
+          "name": "Run",
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row o 22/18 cal bike"
+        },
+        {
+          "name": "Wall Ball",
+          "reps": 15
+        }
+      ],
+      "notes": "Priorizar pacing y transiciones limpias antes que hero efforts."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y cierre ligero."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion y descarga de cadera, pantorrilla y hombros."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Bajar metros, calorias, carga o usar la alternativa por clima desde el inicio."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen intermedio y ritmo estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la sesion completa del dia con buen control de pacing."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Weather",
+      "content": "Tomar la decision exterior/interior antes de arrancar la clase."
+    },
+    {
+      "title": "Summer Pacing",
+      "content": "En calor fuerte, cuidar hidratacion y evitar salidas demasiado agresivas."
+    }
+  ]
+}

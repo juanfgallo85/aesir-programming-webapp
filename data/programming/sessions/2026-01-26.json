@@ -1,0 +1,174 @@
+{
+  "session_date": "2026-01-26",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Lower Line Builder: Row and Lunge Builder",
+  "goal": "Construir fuerza util y cerrar con intensidad controlada sin salir del objetivo del bloque: Reinstalar consistencia de clase, posiciones basicas y base aerobica despues del arranque de ano..",
+  "coach_summary": "La prioridad del dia es respetar posicion y mecanica antes de intensificar el metcon. Revisar si la sala pide mas o menos barras.",
+  "public_summary": "Clase de fuerza de pierna y metcon corto con una pieza principal clara, retadora y escalable.",
+  "family_type": "strength_mixed",
+  "dominant_stimulus": "short power",
+  "dominant_pattern": "hinge",
+  "technical_level": "intermediate",
+  "fatigue_level": "low-moderate",
+  "operational_color": "green",
+  "equipment_alert": "Racks, barras y floor space coordinados para todos los horarios.",
+  "session_parts": [
+    {
+      "title": "Hinge Activation",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion de posterior, brace y cadera para fijar bisagra y linea media.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Subir temperatura y preparar sentadilla con movilidad y ritmo.",
+      "format": "2 rounds",
+      "scheme": "150 m jog, 10 air squats, 8 reverse lunges, 6 tempo goblet squats",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Deadlift Wave",
+      "part_type": "strength",
+      "duration_minutes": 12,
+      "description": "Bisagra simple con trabajo por olas para reforzar tension y posicion.",
+      "format": "Wave loading",
+      "scheme": "5-5-3-3 build controlado",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Deadlift",
+          "reps": 5,
+          "sets": 4,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Moderado a pesado, sin perder brace",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Apretar el piso y no despegar con hombros por delante."
+    },
+    {
+      "title": "Row and Lunge Builder",
+      "part_type": "wod",
+      "duration_minutes": 15,
+      "description": "Pieza corta para respirar bajo control y sostener patron unilateral.",
+      "format": "For time",
+      "scheme": "4 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 300,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Front Rack Reverse Lunge",
+          "reps": 14,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "75 lb",
+          "suggested_load_female": "55 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Burpee",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar goblet squat, trap bar o barra ligera y bajar rondas del WOD si hace falta."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el esquema con carga moderada y series tecnicas estables."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir los porcentajes o cargas sugeridas del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar un set o extra solo si la postura sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Pacing",
+      "content": "El objetivo es sostener rounds parecidos, no romperse en la primera salida."
+    },
+    {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    {
+      "title": "Bloque",
+      "content": "Mantener el bloque Foundation Reset simple y sostenible para sumar adherencia."
+    }
+  ]
+}

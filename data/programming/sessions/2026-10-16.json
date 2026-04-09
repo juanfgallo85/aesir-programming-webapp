@@ -1,0 +1,246 @@
+{
+  "session_date": "2026-10-16",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Friday Modal Flow: Run and DB Flow",
+  "goal": "Trabajar densidad tecnica en handstand, cuerda y recepciones sin perder el enfoque general fitness. Dia mixto para unir fuerza util, transiciones y una pieza principal completa.",
+  "coach_summary": "Cuidar el montaje y las transiciones para que la clase mantenga ritmo sin crear cuellos de botella.",
+  "public_summary": "Sesion mixta de clase completa con fuerza util, WOD claro y accesorio corto.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "aerobic power",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "amber",
+  "equipment_alert": "Barra, mancuernas o kettlebells y una maquina por carril segun el montaje del dia.",
+  "session_parts": [
+    {
+      "title": "Mixed Flow Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad global y activacion general para una clase mixta con transiciones simples.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Preparar una clase mixta con transiciones rapidas y patron completo.",
+      "format": "2 rounds",
+      "scheme": "150 m row, 8 DB deadlifts, 8 sit-ups, 6 burpees",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Strict Press Build",
+      "part_type": "strength",
+      "duration_minutes": 10,
+      "description": "Trabajo de empuje vertical con control de linea media y repeticiones limpias.",
+      "format": "Build",
+      "scheme": "5 x 5 build controlado",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Strict Press",
+          "reps": 5,
+          "sets": 5,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "75-95 lb",
+          "suggested_load_female": "45-65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Evitar arco lumbar excesivo."
+    },
+    {
+      "title": "Run and DB Flow",
+      "part_type": "wod",
+      "duration_minutes": 16,
+      "description": "Sesion mixta con carrera, mancuerna y escalones para sostener buena transicion.",
+      "format": "AMRAP",
+      "scheme": "16 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 12/10 cal bike",
+          "notes": null
+        },
+        {
+          "name": "Dumbbell Snatch",
+          "reps": 16,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "50 lb",
+          "suggested_load_female": "35 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Box Step-Up",
+          "reps": 16,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Single-Leg Reset",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Cierre util para cadera, equilibrio y control unilateral.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Rear Foot Elevated Split Squat",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Ligero",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Bajar revoluciones, respirar y soltar las zonas mas cargadas del dia.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 8,
+      "description": "Bloque adicional de densidad tecnica para quien aun tenga calidad de repeticion.",
+      "format": "Density",
+      "scheme": "8 min",
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Chest-to-Bar Pull-Up",
+          "reps": 4,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Strict HSPU",
+          "reps": 4,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir reps, usar DB o cargas simples y simplificar la estacion mas tecnica."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con carga moderada y ritmo controlado."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el volumen completo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y considerar el extra solo si la sesion principal no dejo desorden tecnico."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Equipment",
+      "content": "Montar la sesion con la menor cantidad de cambios de equipo posible."
+    },
+    {
+      "title": "Pacing",
+      "content": "El objetivo es sostener rounds parecidos, no romperse en la primera salida."
+    },
+    {
+      "title": "Bloque",
+      "content": "Skill Density requiere ventanas tecnicas cortas, repetidas y faciles de escalar."
+    }
+  ]
+}

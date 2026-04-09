@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page_title or "Dia" }} | AESIR Programming WebApp{% endblock %}
+
+{% macro render_part_card(part, emphasized=false) %}
+<article class="{% if emphasized %}wod-spotlight p-4{% else %}timeline-section{% endif %}">
+    <div class="d-flex flex-column gap-3">
+        <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
+            <div>
+                <p class="section-label mb-2">{{ part.display_label }}</p>
+                <h3 class="{% if emphasized %}h3{% else %}h5{% endif %} mb-1">{{ part.title }}</h3>
+                <p class="mb-0 {% if emphasized %}wod-subcopy{% else %}muted-copy{% endif %}">{{ part.description }}</p>
+            </div>
+            <div class="d-flex flex-column gap-2 align-items-start align-items-lg-end">
+                <span class="metric-pill">{{ part.duration_minutes }} min</span>
+                {% if part.score_type %}
+                <span class="tag-pill {% if emphasized %}bg-white text-dark border-0{% endif %}">{{ part.score_type }}</span>
+                {% endif %}
+            </div>
+        </div>
+
+        {% if part.format or part.scheme %}
+        <div class="metric-grid">
+            {% if part.format %}
+            <div class="{% if emphasized %}wod-metric-card{% else %}metric-card{% endif %}">
+                <div class="metric-label">Formato</div>
+                <div class="metric-value">{{ part.format }}</div>
+            </div>
+            {% endif %}
+            {% if part.scheme %}
+            <div class="{% if emphasized %}wod-metric-card{% else %}metric-card{% endif %}">
+                <div class="metric-label">Esquema</div>
+                <div class="metric-value">{{ part.scheme }}</div>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% if part.movements %}
+        <div class="d-flex flex-column gap-2">
+            {% for movement in part.movements %}
+            <div class="{% if emphasized %}wod-movement-chip{% else %}part-movement-chip{% endif %}">
+                <div class="d-flex flex-column gap-2">
+                    <div>
+                        <h4 class="h6 mb-1">{{ movement.name }}</h4>
+                        {% if movement.notes %}
+                        <p class="small {% if emphasized %}wod-subcopy{% else %}muted-copy{% endif %} mb-0">{{ movement.notes }}</p>
+                        {% endif %}
+                    </div>
+                    <div class="row g-2 small">
+                        {% if movement.sets %}
+                        <div class="col-6 col-md-3"><strong>Sets:</strong> {{ movement.sets }}</div>
+                        {% endif %}
+                        {% if movement.reps %}
+                        <div class="col-6 col-md-3"><strong>Reps:</strong> {{ movement.reps }}</div>
+                        {% endif %}
+                        {% if movement.calories %}
+                        <div class="col-6 col-md-3"><strong>Cal:</strong> {{ movement.calories }}</div>
+                        {% endif %}
+                        {% if movement.distance_meters %}
+                        <div class="col-6 col-md-3"><strong>Distancia:</strong> {{ movement.distance_meters }} m</div>
+                        {% endif %}
+                        {% if movement.percentage_of_pr %}
+                        <div class="col-12 col-md-6"><strong>% PR:</strong> {{ movement.percentage_of_pr }}</div>
+                        {% endif %}
+                        {% if movement.suggested_load_general %}
+                        <div class="col-12 col-md-6"><strong>Carga base:</strong> {{ movement.suggested_load_general }}</div>
+                        {% endif %}
+                        {% if movement.suggested_load_male or movement.suggested_load_female %}
+                        <div class="col-12 col-md-6">
+                            <strong>Carga sugerida:</strong>
+                            {{ movement.suggested_load_male or "-" }} hombre / {{ movement.suggested_load_female or "-" }} mujer
+                        </div>
+                        {% endif %}
+                        {% if movement.machine_calories_male or movement.machine_calories_female %}
+                        <div class="col-12 col-md-6">
+                            <strong>Calorias maquina:</strong>
+                            {{ movement.machine_calories_male or "-" }}/{{ movement.machine_calories_female or "-" }}
+                        </div>
+                        {% endif %}
+                        {% if movement.running_distance_meters %}
+                        <div class="col-12 col-md-6"><strong>Carrera:</strong> {{ movement.running_distance_meters }} m</div>
+                        {% endif %}
+                        {% if movement.weather_alternative %}
+                        <div class="col-12"><strong>Alternativa clima:</strong> {{ movement.weather_alternative }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if part.notes %}
+        <div class="small {% if emphasized %}wod-note{% else %}muted-copy{% endif %}">
+            <strong>Notas:</strong> {{ part.notes }}
+        </div>
+        {% endif %}
+    </div>
+</article>
+{% endmacro %}
+
+{% block content %}
+<section class="py-2 py-md-3">
+    <div class="d-flex flex-column gap-3">
+        <div class="hero-panel p-4 p-md-5">
+            <p class="page-eyebrow mb-2">Pantalla operativa</p>
+            <div class="d-flex flex-column gap-3">
+                <div>
+                    <h1 class="h2 mb-2">{{ page_heading or "Detalle del dia" }}</h1>
+                    <p class="page-intro mb-0">{{ page_intro or "Sesion cargada desde archivos JSON validados." }}</p>
+                </div>
+
+                <div class="control-bar">
+                    <div class="d-flex flex-wrap gap-2">
+                        <a class="btn btn-outline-dark btn-sm" href="{{ url_for('days.day_detail', session_date=previous_day) }}">Dia anterior</a>
+                        <a class="btn btn-outline-dark btn-sm" href="{{ url_for('days.day_detail', session_date=next_day) }}">Dia siguiente</a>
+                        <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('weeks.week_detail', week_start=week_start_for_day) }}">Volver a Semana</a>
+                        {% if session %}
+                        <a class="btn btn-dark btn-sm" href="{{ url_for('exports.export_day', session_date=session.session_date.isoformat()) }}">Exportar dia</a>
+                        {% endif %}
+                        {% if show_back_links %}
+                        <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('days.today') }}">Ir a Hoy</a>
+                        {% endif %}
+                    </div>
+                    <form class="d-flex flex-column flex-sm-row gap-2" method="get" action="{{ url_for('days.day_lookup') }}">
+                        <input class="form-control" type="date" name="session_date" value="{{ requested_date }}">
+                        <button class="btn btn-dark btn-sm" type="submit">Ir al dia</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        {% if error_message %}
+        <div class="alert alert-warning mb-0" role="alert">
+            {{ error_message }}
+        </div>
+        {% endif %}
+
+        {% if session %}
+        {% if is_fallback %}
+        <div class="alert alert-info mb-0" role="alert">
+            No se encontro sesion para {{ requested_date }}. Mostrando el fallback {{ fallback_session_date }}.
+        </div>
+        {% endif %}
+
+        <div class="surface-card p-4 summary-panel">
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+                    <div>
+                        <p class="section-label mb-2">Fecha de sesion</p>
+                        <h2 class="h3 mb-1">{{ session.title }}</h2>
+                        <p class="muted-copy mb-0">{{ session.session_date.isoformat() }}</p>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="metric-pill text-uppercase">{{ session.operational_color }}</span>
+                        <span class="metric-pill">{{ session.family_type }}</span>
+                        <span class="session-state-badge {{ session.status }}">{{ session.status_label }}</span>
+                        {% if session.is_auto_generated %}
+                        <span class="metric-pill">Auto-generated</span>
+                        {% endif %}
+                    </div>
+                </div>
+                <p class="mb-0">{{ session.goal }}</p>
+            </div>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-lg-6">
+                <div class="surface-card h-100 p-4">
+                    <p class="section-label mb-2">Resumen publico</p>
+                    <p class="mb-0">{{ session.public_summary }}</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="surface-card h-100 p-4">
+                    <p class="section-label mb-2">Resumen coach</p>
+                    <p class="mb-0">{{ session.coach_summary }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="surface-card p-4">
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                    <div>
+                        <p class="section-label mb-2">Overview</p>
+                        <h3 class="h5 mb-0">Lectura rapida del dia</h3>
+                    </div>
+                    <span class="metric-pill">{{ session.equipment_alert }}</span>
+                </div>
+                <div class="metric-grid">
+                    <div class="metric-card"><div class="metric-label">Stimulus</div><div class="metric-value">{{ session.dominant_stimulus }}</div></div>
+                    <div class="metric-card"><div class="metric-label">Pattern</div><div class="metric-value">{{ session.dominant_pattern }}</div></div>
+                    <div class="metric-card"><div class="metric-label">Nivel tecnico</div><div class="metric-value">{{ session.technical_level }}</div></div>
+                    <div class="metric-card"><div class="metric-label">Fatiga</div><div class="metric-value">{{ session.fatigue_level }}</div></div>
+                </div>
+            </div>
+        </div>
+
+        {% for section in day_sections %}
+        {% if section.key == "wod" %}
+        <div class="timeline-stack">
+            <div>
+                <p class="page-eyebrow mb-2">Bloque principal</p>
+                <h2 class="h2 mb-1">WOD principal</h2>
+                <p class="muted-copy mb-0">La pieza mas importante del dia, con el formato, esquema y referencias operativas mas visibles.</p>
+            </div>
+            {% for part in section.parts %}
+            {{ render_part_card(part, true) }}
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="timeline-stack">
+            <div>
+                <p class="section-label mb-2">Secuencia de clase</p>
+                <h2 class="h4 mb-0">{{ section.title }}</h2>
+            </div>
+            {% for part in section.parts %}
+            {{ render_part_card(part) }}
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        <div class="row g-3">
+            <div class="col-12 col-xl-6">
+                <div class="surface-card h-100 p-4">
+                    <div class="d-flex justify-content-between align-items-center gap-3 mb-3">
+                        <div>
+                            <p class="section-label mb-2">Escalados</p>
+                            <h3 class="h5 mb-0">Scaling options</h3>
+                        </div>
+                        <span class="metric-pill">{{ session.scaling_options|length }} niveles</span>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        {% for scaling in session.scaling_options %}
+                        <div class="timeline-section">
+                            <h4 class="h6 mb-2">{{ scaling.level }}</h4>
+                            <p class="mb-0">{{ scaling.adjustment }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div class="surface-card h-100 p-4">
+                    <div class="d-flex justify-content-between align-items-center gap-3 mb-3">
+                        <div>
+                            <p class="section-label mb-2">Coach notes</p>
+                            <h3 class="h5 mb-0">Notas internas</h3>
+                        </div>
+                        <span class="metric-pill">{{ session.coach_notes|length }} notas</span>
+                    </div>
+                    <div class="d-flex flex-column gap-3">
+                        {% for note in session.coach_notes %}
+                        <div class="timeline-section">
+                            <h4 class="h6 mb-2">{{ note.title }}</h4>
+                            <p class="mb-0">{{ note.content }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="surface-card p-4">
+            <h2 class="h4 mb-3">Rutina detallada pendiente</h2>
+            <p class="empty-copy mb-3">
+                La fecha {{ requested_date }} existe dentro del calendario anual, pero todavia no tiene rutina detallada cargada.
+            </p>
+            <div class="d-flex flex-column flex-sm-row gap-2">
+                <a class="btn btn-dark" href="{{ url_for('weeks.week_detail', week_start=week_start_for_day) }}">Volver a Semana</a>
+                <a class="btn btn-outline-secondary" href="{{ url_for('days.today') }}">Ir a Hoy</a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

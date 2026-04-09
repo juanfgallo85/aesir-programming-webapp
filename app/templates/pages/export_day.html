@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block title %}Export Day | AESIR Programming WebApp{% endblock %}
+
+{% block content %}
+<section class="py-3 export-page">
+    <div class="d-flex flex-column gap-4">
+        <div class="export-actions no-print">
+            <a class="btn btn-outline-dark btn-sm" href="{{ url_for('days.day_detail', session_date=requested_date) }}">Volver al dia</a>
+            <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('days.today') }}">Ir a Hoy</a>
+            <button class="btn btn-dark btn-sm" type="button" onclick="window.print()">Imprimir / PDF</button>
+        </div>
+
+        {% if error_message %}
+        <div class="surface-card p-4">
+            <h1 class="h4 mb-3">Sesion no encontrada</h1>
+            <p class="mb-0">{{ error_message }}</p>
+        </div>
+        {% elif session %}
+        <div class="surface-card p-4 p-md-5">
+            <p class="page-eyebrow mb-2">Exportacion de dia</p>
+            <h1 class="h2 mb-2">{{ session.title }}</h1>
+            <p class="muted-copy mb-2">{{ session.session_date.isoformat() }}</p>
+            <p class="mb-0">{{ session.goal }}</p>
+        </div>
+
+        <div class="metric-grid">
+            <div class="metric-card"><div class="metric-label">Stimulus</div><div class="metric-value">{{ session.dominant_stimulus }}</div></div>
+            <div class="metric-card"><div class="metric-label">Pattern</div><div class="metric-value">{{ session.dominant_pattern }}</div></div>
+            <div class="metric-card"><div class="metric-label">Nivel</div><div class="metric-value">{{ session.technical_level }}</div></div>
+            <div class="metric-card"><div class="metric-label">Fatiga</div><div class="metric-value">{{ session.fatigue_level }}</div></div>
+        </div>
+
+        <div class="surface-card p-4 export-section">
+            <p class="section-label mb-2">Resumen publico</p>
+            <p class="mb-0">{{ session.public_summary }}</p>
+        </div>
+
+        {% for section in day_sections %}
+        <div class="surface-card p-4 export-section">
+            <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-3">
+                <div>
+                    <p class="section-label mb-2">{% if section.key == "wod" %}Bloque principal{% else %}Secuencia de clase{% endif %}</p>
+                    <h2 class="h4 mb-0">{{ section.title }}</h2>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-3">
+                {% for part in section.parts %}
+                <div class="timeline-section {% if section.key == 'wod' %}border border-dark{% endif %}">
+                    <div class="d-flex flex-column gap-2">
+                        <div class="d-flex flex-wrap justify-content-between gap-3">
+                            <div>
+                                <h3 class="h5 mb-1">{{ part.title }}</h3>
+                                <p class="muted-copy mb-0">{{ part.description }}</p>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="metric-pill">{{ part.duration_minutes }} min</span>
+                                {% if part.score_type %}
+                                <span class="metric-pill">{{ part.score_type }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% if part.format or part.scheme %}
+                        <div class="small">
+                            {% if part.format %}<strong>Formato:</strong> {{ part.format }}{% endif %}
+                            {% if part.scheme %}<br><strong>Esquema:</strong> {{ part.scheme }}{% endif %}
+                        </div>
+                        {% endif %}
+                        {% if part.movements %}
+                        <div class="small">
+                            {% for movement in part.movements %}
+                            <div>
+                                <strong>{{ movement.name }}</strong>
+                                {% if movement.sets %} | sets: {{ movement.sets }}{% endif %}
+                                {% if movement.reps %} | reps: {{ movement.reps }}{% endif %}
+                                {% if movement.distance_meters %} | distancia: {{ movement.distance_meters }} m{% endif %}
+                                {% if movement.running_distance_meters %} | carrera: {{ movement.running_distance_meters }} m{% endif %}
+                                {% if movement.machine_calories_male or movement.machine_calories_female %} | cal: {{ movement.machine_calories_male or "-" }}/{{ movement.machine_calories_female or "-" }}{% endif %}
+                                {% if movement.suggested_load_general %} | carga base: {{ movement.suggested_load_general }}{% endif %}
+                                {% if movement.suggested_load_male or movement.suggested_load_female %} | carga sugerida: {{ movement.suggested_load_male or "-" }}/{{ movement.suggested_load_female or "-" }}{% endif %}
+                                {% if movement.percentage_of_pr %} | % PR: {{ movement.percentage_of_pr }}{% endif %}
+                                {% if movement.weather_alternative %}<br><span class="muted-copy">Alternativa clima: {{ movement.weather_alternative }}</span>{% endif %}
+                                {% if movement.notes %}<br><span class="muted-copy">{{ movement.notes }}</span>{% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        {% if part.notes %}
+                        <div class="small"><strong>Notas:</strong> {{ part.notes }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <div class="surface-card p-4 export-section">
+            <p class="section-label mb-2">Escalados</p>
+            <div class="d-flex flex-column gap-2">
+                {% for scaling in session.scaling_options %}
+                <div><strong>{{ scaling.level }}:</strong> {{ scaling.adjustment }}</div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="surface-card p-4 export-section">
+            <p class="section-label mb-2">Coach notes</p>
+            <div class="d-flex flex-column gap-2">
+                {% for note in session.coach_notes %}
+                <div><strong>{{ note.title }}:</strong> {{ note.content }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

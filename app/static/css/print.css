@@ -1,0 +1,55 @@
+@media print {
+    body {
+        background: #fff !important;
+    }
+
+    .no-print,
+    .btn,
+    form,
+    nav {
+        display: none !important;
+    }
+
+    .container,
+    .container-xl,
+    .export-shell {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .hero-panel,
+    .surface-card,
+    .timeline-section,
+    .session-link-card,
+    .library-card,
+    .definition-card,
+    .metric-card,
+    .wod-spotlight {
+        background: #fff !important;
+        border: 1px solid #cbd5e1 !important;
+        box-shadow: none !important;
+        color: #000 !important;
+    }
+
+    .wod-spotlight .section-label,
+    .wod-spotlight .text-secondary,
+    .wod-spotlight h3,
+    .wod-spotlight h4,
+    .wod-spotlight p,
+    .wod-spotlight strong {
+        color: #000 !important;
+    }
+
+    a {
+        color: #000 !important;
+        text-decoration: none !important;
+    }
+
+    .export-section,
+    .timeline-section,
+    .surface-card,
+    .hero-panel {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}

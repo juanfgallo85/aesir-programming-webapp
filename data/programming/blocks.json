@@ -1,0 +1,197 @@
+[
+  {
+    "id": "block-2026-01-foundation-reset",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Foundation Reset",
+    "block_type": "foundation",
+    "objective": "Reinstalar consistencia de clase, posiciones basicas y base aerobica despues del arranque de ano.",
+    "focus_tags": [
+      "consistency",
+      "aerobic base",
+      "movement quality"
+    ],
+    "benchmark_plan": "Revisar consistencia de asistencia, control de ritmo y estabilidad en posiciones basicas.",
+    "start_date": "2026-01-05",
+    "end_date": "2026-02-01"
+  },
+  {
+    "id": "block-2026-02-pulling-capacity",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Pulling Capacity",
+    "block_type": "build",
+    "objective": "Desarrollar capacidad de tiron, agarre y control de traccion sin perder el enfoque general fitness.",
+    "focus_tags": [
+      "pulling",
+      "grip",
+      "engine"
+    ],
+    "benchmark_plan": "Cerrar con referencia simple de tiron y control en gimnasia basica.",
+    "start_date": "2026-02-02",
+    "end_date": "2026-03-01"
+  },
+  {
+    "id": "block-2026-03-position-and-tempo",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Position and Tempo",
+    "block_type": "technique",
+    "objective": "Mejorar posiciones de sentadilla, tempos de barra y control postural para el trabajo mixto.",
+    "focus_tags": [
+      "tempo",
+      "squat pattern",
+      "positioning"
+    ],
+    "benchmark_plan": "Valorar estabilidad en posiciones y calidad de tempo antes del siguiente bloque.",
+    "start_date": "2026-03-02",
+    "end_date": "2026-04-05"
+  },
+  {
+    "id": "block-2026-04-engine-reset",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Engine Reset",
+    "block_type": "base",
+    "objective": "Reforzar pacing, posiciones basicas y tolerancia al trabajo mixto.",
+    "focus_tags": [
+      "aerobic base",
+      "front squat",
+      "movement quality"
+    ],
+    "benchmark_plan": "Revisar consistencia de pacing y calidad de posicion en front rack al cierre del bloque.",
+    "start_date": "2026-04-06",
+    "end_date": "2026-05-03"
+  },
+  {
+    "id": "block-2026-05-barbell-cycling",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Barbell Cycling",
+    "block_type": "strength",
+    "objective": "Construir economia en barbell cycling y fuerza util para clases generales.",
+    "focus_tags": [
+      "barbell cycling",
+      "clean positions",
+      "midline"
+    ],
+    "benchmark_plan": "Comparar fluidez de ciclaje y tolerancia de repeticiones moderadas al cierre.",
+    "start_date": "2026-05-04",
+    "end_date": "2026-05-31"
+  },
+  {
+    "id": "block-2026-06-gymnastics-volume",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Gymnastics Volume",
+    "block_type": "skill",
+    "objective": "Acumular volumen tecnico de gimnasia basica y control corporal util para todos los perfiles.",
+    "focus_tags": [
+      "gymnastics",
+      "pull-up progressions",
+      "hollow positions"
+    ],
+    "benchmark_plan": "Observar calidad de repeticiones y sostenibilidad de volumen tecnico.",
+    "start_date": "2026-06-01",
+    "end_date": "2026-06-28"
+  },
+  {
+    "id": "block-2026-06-summer-aerobic-mix",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Summer Aerobic Mix",
+    "block_type": "conditioning",
+    "objective": "Expandir la base aerobica en verano con mezclas de carrera, row, bike y trabajo de cuerpo completo.",
+    "focus_tags": [
+      "running",
+      "row",
+      "mixed engine"
+    ],
+    "benchmark_plan": "Medir control de ritmo en bloques largos y recuperacion entre esfuerzos.",
+    "start_date": "2026-06-29",
+    "end_date": "2026-07-26"
+  },
+  {
+    "id": "block-2026-07-leg-strength-rebuild",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Leg Strength Rebuild",
+    "block_type": "strength",
+    "objective": "Reforzar fuerza de piernas y estabilidad en sentadilla, desplante y bisagra.",
+    "focus_tags": [
+      "front squat",
+      "lunges",
+      "posterior chain"
+    ],
+    "benchmark_plan": "Comparar control de profundidad y tolerancia a volumen de pierna al cierre.",
+    "start_date": "2026-07-27",
+    "end_date": "2026-08-23"
+  },
+  {
+    "id": "block-2026-08-competition-engine",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Competition Engine",
+    "block_type": "performance",
+    "objective": "Preparar una fase de engine competitivo opcional sin perder accesibilidad para la clase general.",
+    "focus_tags": [
+      "competition prep",
+      "repeat efforts",
+      "threshold"
+    ],
+    "benchmark_plan": "Cerrar con semana de referencia sobre esfuerzos repetidos y pacing agresivo.",
+    "start_date": "2026-08-24",
+    "end_date": "2026-09-20"
+  },
+  {
+    "id": "block-2026-09-skill-density",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Skill Density",
+    "block_type": "skill",
+    "objective": "Trabajar densidad tecnica en handstand, cuerda y recepciones sin perder el enfoque general fitness.",
+    "focus_tags": [
+      "handstand",
+      "rope work",
+      "coordination"
+    ],
+    "benchmark_plan": "Observar progreso tecnico en ventanas cortas y repetidas.",
+    "start_date": "2026-09-21",
+    "end_date": "2026-10-18"
+  },
+  {
+    "id": "block-2026-10-mixed-modal-power",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Mixed Modal Power",
+    "block_type": "power",
+    "objective": "Desarrollar potencia corta y expresion rapida en combinaciones de barra, salto y maquina.",
+    "focus_tags": [
+      "power output",
+      "short intervals",
+      "barbell"
+    ],
+    "benchmark_plan": "Comparar capacidad de repetir esfuerzos cortos y potentes al cierre del bloque.",
+    "start_date": "2026-10-19",
+    "end_date": "2026-11-15"
+  },
+  {
+    "id": "block-2026-11-holiday-consistency",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Holiday Consistency",
+    "block_type": "maintenance",
+    "objective": "Sostener consistencia y buena sensacion de clase en una temporada de agendas mas variables.",
+    "focus_tags": [
+      "consistency",
+      "simple strength",
+      "short metcons"
+    ],
+    "benchmark_plan": "Priorizar adherencia y sensacion de progreso simple durante la temporada.",
+    "start_date": "2026-11-16",
+    "end_date": "2026-12-13"
+  },
+  {
+    "id": "block-2026-12-year-end-maintenance",
+    "cycle_id": "cycle-2026-annual-general-fitness",
+    "title": "Year-End Maintenance",
+    "block_type": "maintenance",
+    "objective": "Cerrar el ano con sesiones sostenibles, trabajo general y transicion ordenada hacia el siguiente ciclo.",
+    "focus_tags": [
+      "maintenance",
+      "general fitness",
+      "recovery"
+    ],
+    "benchmark_plan": "Usar el cierre para observar sensacion general y preparar el siguiente macro.",
+    "start_date": "2026-12-14",
+    "end_date": "2027-01-03"
+  }
+]

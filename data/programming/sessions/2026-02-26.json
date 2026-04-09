@@ -1,0 +1,230 @@
+{
+  "session_date": "2026-02-26",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Barbell Position Builder: Short Barbell Sprint",
+  "goal": "Mejorar posiciones y velocidad bajo la barra sin perder accesibilidad para la clase general.",
+  "coach_summary": "No convertir el dia en una prueba de carga. La calidad de recepcion y timing manda la sesion.",
+  "public_summary": "Clase para practicar posiciones, velocidad y rematar con un WOD breve y escalable.",
+  "family_type": "oly_technique",
+  "dominant_stimulus": "technical practice",
+  "dominant_pattern": "front rack",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "amber",
+  "equipment_alert": "Barras, discos ligeros y espacio tecnico suficiente para progresiones de recepcion.",
+  "session_parts": [
+    {
+      "title": "Front Rack Mobility",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y front rack para preparar sentadilla y recepcion.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Double-Under Prep",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Ritmo, salto eficiente y opcion clara para principiantes.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Single Under",
+          "reps": 30,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Double Under",
+          "reps": 20,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Power Clean Build",
+      "part_type": "strength",
+      "duration_minutes": 10,
+      "description": "Build tecnico para practicar tiron, extension y recepcion sin perseguir maximo.",
+      "format": "Build",
+      "scheme": "5 x 2 progresivo",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Power Clean",
+          "reps": 2,
+          "sets": 5,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95-135 lb",
+          "suggested_load_female": "65-95 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Cargar solo si la linea de barra y recepcion siguen limpias."
+    },
+    {
+      "title": "Short Barbell Sprint",
+      "part_type": "wod",
+      "duration_minutes": 12,
+      "description": "Esfuerzo corto y potente con barra ligera y transiciones rapidas.",
+      "format": "EMOM",
+      "scheme": "12 min",
+      "score_type": "quality_rounds",
+      "movements": [
+        {
+          "name": "Hang Power Clean",
+          "reps": 6,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Lateral Burpee Over Bar",
+          "reps": 6,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Bajar revoluciones, respirar y soltar las zonas mas cargadas del dia.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 8,
+      "description": "Extra breve de barbell cycling solo para quien conserve calidad tecnica.",
+      "format": "Every 90 s",
+      "scheme": "5 rounds",
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Power Clean",
+          "reps": 3,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "135 lb",
+          "suggested_load_female": "95 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Omitir si la sesion principal ya dejo fatiga tecnica alta."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar PVC, barra vacia o high pull simple para sostener posicion y timing."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener tecnica con carga moderada y recepcion estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la carga y el formato objetivo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y tomar el extra solo si la velocidad bajo la barra sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    {
+      "title": "Quality Reps",
+      "content": "Cortar o escalar el set si la calidad de repeticion empieza a caer."
+    },
+    {
+      "title": "Bloque",
+      "content": "En Pulling Capacity, la calidad de tiron y el manejo de agarre mandan el dia."
+    }
+  ]
+}

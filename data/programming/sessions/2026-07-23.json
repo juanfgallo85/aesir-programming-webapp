@@ -1,0 +1,246 @@
+{
+  "session_date": "2026-07-23",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Oly Technique Reset: Power Row Triplet",
+  "goal": "Mejorar posiciones y velocidad bajo la barra sin perder accesibilidad para la clase general.",
+  "coach_summary": "Mantener opciones simples para principiantes y cuidar el flujo de barras antes de acelerar la complejidad.",
+  "public_summary": "Sesion de tecnica de barra con trabajo principal claro y un cierre corto para mover con control.",
+  "family_type": "oly_technique",
+  "dominant_stimulus": "skill under fatigue",
+  "dominant_pattern": "front rack",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "amber",
+  "equipment_alert": "Barras, discos ligeros y espacio tecnico suficiente para progresiones de recepcion.",
+  "session_parts": [
+    {
+      "title": "Turnover and Rack Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Preparar tiron, turnover y recepcion para tecnica de barra sin fatiga innecesaria.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Barra ligera y posiciones basicas para un dia tecnico.",
+      "format": "Barbell prep",
+      "scheme": "2 rounds de 5 muscle clean, 5 front squat, 5 press, 5 jump and land",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Double-Under Prep",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Ritmo, salto eficiente y opcion clara para principiantes.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Single Under",
+          "reps": 30,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Double Under",
+          "reps": 20,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Push Press Waves",
+      "part_type": "strength",
+      "duration_minutes": 10,
+      "description": "Transferir potencia de piernas a barra con sets cortos y consistentes.",
+      "format": "Strength work",
+      "scheme": "6 x 2 @ 75% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Push Press",
+          "reps": 2,
+          "sets": 6,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": "6 x 2 @ 75% del 1RM",
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Explosivo, sin press out lento",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Power Row Triplet",
+      "part_type": "wod",
+      "duration_minutes": 15,
+      "description": "Trabajo corto con maquina, empuje y salto.",
+      "format": "For time",
+      "scheme": "5 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 200,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Thruster",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "75 lb",
+          "suggested_load_female": "55 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Box Jump",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Bajar revoluciones, respirar y soltar las zonas mas cargadas del dia.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 8,
+      "description": "Trabajo adicional de repeat efforts para perfiles competitivos.",
+      "format": "Intervals",
+      "scheme": "6 x 30 s on / 60 s off",
+      "score_type": "repeatable_effort",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 150,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar PVC, barra vacia o high pull simple para sostener posicion y timing."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener tecnica con carga moderada y recepcion estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la carga y el formato objetivo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y tomar el extra solo si la velocidad bajo la barra sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    {
+      "title": "Bloque",
+      "content": "Summer Aerobic Mix debe contemplar clima, hidratacion y alternativa interior desde el briefing."
+    }
+  ]
+}

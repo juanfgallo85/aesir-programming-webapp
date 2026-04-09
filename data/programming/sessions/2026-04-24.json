@@ -1,0 +1,105 @@
+{
+  "session_date": "2026-04-24",
+  "title": "Friday Long Chipper",
+  "goal": "Cerrar la semana con una pieza fuerte y muy clara dentro de Combinar trabajo mixto mas largo con control de transiciones..",
+  "coach_summary": "El error comun del viernes es salir demasiado rapido. Pacing primero, ego despues.",
+  "public_summary": "Sesion exigente para practicar tolerancia al esfuerzo y control tecnico.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "aerobic endurance",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "high",
+  "operational_color": "yellow",
+  "equipment_alert": "Asignar carriles por pareja y explicar muy bien el flujo antes de arrancar.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de hombro, tobillo y tronco para soportar el WOD principal."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Bike o row suave, barbell prep y activacion general.",
+      "format": "2 rounds",
+      "scheme": "5/4 cal bike, 6 squats o presses ligeros, 4 burpees"
+    },
+    {
+      "title": "Primer",
+      "part_type": "skill",
+      "duration_minutes": 6,
+      "description": "Series progresivas o repaso rapido del patron del dia.",
+      "movements": [
+        {
+          "name": "Thruster",
+          "sets": 3,
+          "reps": 5,
+          "suggested_load_general": "Ligero y tecnico"
+        }
+      ]
+    },
+    {
+      "title": "Friday Main WOD",
+      "part_type": "wod",
+      "duration_minutes": 24,
+      "description": "Pieza principal del dia para cerrar la semana con un esfuerzo util y medible.",
+      "format": "For time",
+      "scheme": "3-5 rounds segun variante",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 250
+        },
+        {
+          "name": "Run",
+          "running_distance_meters": 800,
+          "weather_alternative": "250 m row si el clima no permite correr"
+        }
+      ],
+      "notes": "Buscar un negative split o al menos una caida minima entre sets."
+    },
+    {
+      "title": "Accessory Reset",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Carry corto y respiracion de recuperacion."
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Soltar hombros, cuadriceps y zona media."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir metros, reps o carga del implemento principal."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen intermedio y tecnica limpia."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Completar el volumen tal como esta programado."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Pacing",
+      "content": "La primera salida debe ser la mas disciplinada del dia."
+    },
+    {
+      "title": "Standards",
+      "content": "No regalar lockout, profundidad ni reps dudosas."
+    }
+  ]
+}

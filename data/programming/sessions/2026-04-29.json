@@ -1,0 +1,123 @@
+{
+  "session_date": "2026-04-29",
+  "title": "Front Squat Test",
+  "goal": "Reforzar el patron de squat dentro del objetivo del bloque: Semana de referencia de pacing para cerrar el bloque con criterio claro..",
+  "coach_summary": "La posicion manda la clase. Subir carga solo si el front rack y la profundidad siguen limpios.",
+  "public_summary": "Sesion de sentadilla y motor con un WOD principal claro, exigente y escalable.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "strength",
+  "dominant_pattern": "squat",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "yellow",
+  "equipment_alert": "Uso moderado de racks, barras y una maquina por pareja.",
+  "session_parts": [
+    {
+      "title": "Rack Mobility",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y front rack para preparar la sentadilla."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Jog corto, air squats y tempo squats con PVC.",
+      "format": "2 rounds",
+      "scheme": "150 m jog, 10 air squats, 6 tempo front squats con PVC"
+    },
+    {
+      "title": "Front Squat Prep",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Series tecnicas de squat y postura.",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "sets": 3,
+          "reps": 3,
+          "suggested_load_general": "Ligero para fijar postura"
+        }
+      ]
+    },
+    {
+      "title": "Front Squat Strength",
+      "part_type": "strength",
+      "duration_minutes": 14,
+      "description": "Bloque de fuerza del dia con porcentaje claro o build controlado.",
+      "format": "Strength work",
+      "scheme": "Build to a heavy triple tecnico",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "sets": null,
+          "reps": 3,
+          "percentage_of_pr": null,
+          "suggested_load_general": "Subir solo si la postura sigue limpia"
+        }
+      ],
+      "notes": "Priorizar codos altos y recepcion estable en cada serie."
+    },
+    {
+      "title": "Midweek Squat WOD",
+      "part_type": "wod",
+      "duration_minutes": 10,
+      "description": "WOD principal para mezclar locomocion, squat y respiracion bajo fatiga.",
+      "format": "For time",
+      "scheme": "3-4 rounds segun variante",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row si el clima no permite correr alrededor del gimnasio"
+        },
+        {
+          "name": "Front Squat",
+          "reps": 6,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb"
+        },
+        {
+          "name": "Burpee Over Bar",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 8,
+      "description": "Respiracion, cuadriceps y release de front rack."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir metros, usar goblet squat o bajar la carga de la barra."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener repeticiones con squat moderado y carrera controlada."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el volumen y carga objetivo de la clase."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Front Rack",
+      "content": "Corregir codos bajos antes de subir carga."
+    },
+    {
+      "title": "Pacing",
+      "content": "La carrera no puede romper la postura de la primera sentadilla."
+    }
+  ]
+}

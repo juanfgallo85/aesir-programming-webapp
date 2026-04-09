@@ -1,0 +1,315 @@
+{
+  "default_rotation": [
+    "lower_strength_short_metcon",
+    "upper_gymnastics_base",
+    "engine_day",
+    "oly_technique_day",
+    "mixed_modal_builder",
+    "saturday_community"
+  ],
+  "block_rules": {
+    "block-2026-01-foundation-reset": {
+      "goal_line": "Reinstalar consistencia de clase, posiciones basicas y base aerobica despues del arranque de ano.",
+      "block_note": "Mantener el bloque Foundation Reset simple y sostenible para sumar adherencia.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "strength_pool": [
+            "back_squat_percentage",
+            "deadlift_wave"
+          ],
+          "wod_pool": [
+            "bike_deadlift_box_jump",
+            "row_lunge_burpee"
+          ]
+        },
+        "upper_gymnastics_base": {
+          "skill_pool": [
+            "pull_up_progression",
+            "handstand_line_drill"
+          ]
+        },
+        "engine_day": {
+          "wod_pool": [
+            "intervals_run_row",
+            "row_bike_situp_intervals"
+          ]
+        }
+      }
+    },
+    "block-2026-02-pulling-capacity": {
+      "goal_line": "Desarrollar capacidad de tiron, agarre y control de traccion sin perder el enfoque general fitness.",
+      "block_note": "En Pulling Capacity, la calidad de tiron y el manejo de agarre mandan el dia.",
+      "family_overrides": {
+        "upper_gymnastics_base": {
+          "skill_pool": [
+            "pull_up_progression",
+            "kipping_swing_shapes",
+            "rope_climb_footlock"
+          ],
+          "wod_pool": [
+            "row_pullup_wallball",
+            "gymnastics_bike_amrap"
+          ]
+        },
+        "mixed_modal_builder": {
+          "wod_pool": [
+            "mixed_modal_chipper",
+            "row_push_press_toes_to_bar"
+          ]
+        }
+      }
+    },
+    "block-2026-03-position-and-tempo": {
+      "goal_line": "Mejorar posiciones de sentadilla, tempos de barra y control postural para el trabajo mixto.",
+      "block_note": "Usar el bloque de Position and Tempo para reforzar posiciones, pausas y control tecnico.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "strength_pool": [
+            "front_squat_percentage",
+            "back_squat_percentage"
+          ]
+        },
+        "oly_technique_day": {
+          "skill_pool": [
+            "power_clean_positions",
+            "snatch_balance_drill"
+          ],
+          "strength_pool": [
+            "push_press_percentage"
+          ]
+        }
+      }
+    },
+    "block-2026-04-engine-reset": {
+      "goal_line": "Reforzar pacing, posiciones basicas y tolerancia al trabajo mixto.",
+      "block_note": "Engine Reset debe sentirse claro, controlado y facil de operar en todos los horarios.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "strength_pool": [
+            "front_squat_percentage"
+          ],
+          "wod_pool": [
+            "run_front_squat_burpee",
+            "row_lunge_burpee"
+          ]
+        },
+        "engine_day": {
+          "skill_pool": [
+            "run_drill_200s"
+          ],
+          "wod_pool": [
+            "intervals_run_row",
+            "bike_run_triplet"
+          ]
+        },
+        "mixed_modal_builder": {
+          "wod_pool": [
+            "run_db_snatch_box_step",
+            "emom_bike_pushup_lunge"
+          ]
+        }
+      }
+    },
+    "block-2026-05-barbell-cycling": {
+      "goal_line": "Construir economia en barbell cycling y fuerza util para clases generales.",
+      "block_note": "Barbell Cycling pide repeticiones limpias, montaje ordenado y cargas sostenibles.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "strength_pool": [
+            "front_squat_percentage",
+            "deadlift_wave"
+          ]
+        },
+        "oly_technique_day": {
+          "strength_pool": [
+            "power_clean_build",
+            "push_press_percentage"
+          ],
+          "wod_pool": [
+            "clean_bike_situp",
+            "oly_barbell_sprint"
+          ]
+        },
+        "mixed_modal_builder": {
+          "wod_pool": [
+            "mixed_modal_chipper",
+            "row_thruster_jump"
+          ]
+        }
+      }
+    },
+    "block-2026-06-gymnastics-volume": {
+      "goal_line": "Acumular volumen tecnico de gimnasia basica y control corporal util para todos los perfiles.",
+      "block_note": "Gymnastics Volume debe proteger calidad de repeticion y progresiones realistas.",
+      "family_overrides": {
+        "upper_gymnastics_base": {
+          "skill_pool": [
+            "pull_up_progression",
+            "kipping_swing_shapes",
+            "handstand_line_drill",
+            "rope_climb_footlock"
+          ],
+          "wod_pool": [
+            "gymnastics_bike_amrap",
+            "row_pullup_wallball"
+          ],
+          "scaling_profile": "gymnastics_day"
+        },
+        "mixed_modal_builder": {
+          "competitor_extra_pool": [
+            "gymnastics_density"
+          ]
+        }
+      }
+    },
+    "block-2026-06-summer-aerobic-mix": {
+      "goal_line": "Expandir la base aerobica en verano con mezclas de carrera, row, bike y trabajo de cuerpo completo.",
+      "block_note": "Summer Aerobic Mix debe contemplar clima, hidratacion y alternativa interior desde el briefing.",
+      "family_overrides": {
+        "engine_day": {
+          "wod_pool": [
+            "intervals_run_row",
+            "bike_run_triplet",
+            "row_bike_situp_intervals"
+          ],
+          "scaling_profile": "engine_day"
+        },
+        "saturday_community": {
+          "wod_pool": [
+            "team_run_carry_situp",
+            "saturday_machine_rotate"
+          ]
+        }
+      }
+    },
+    "block-2026-07-leg-strength-rebuild": {
+      "goal_line": "Reforzar fuerza de piernas y estabilidad en sentadilla, desplante y bisagra.",
+      "block_note": "Leg Strength Rebuild debe mantener enfasis de pierna sin perder flow de clase.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "strength_pool": [
+            "front_squat_percentage",
+            "back_squat_percentage",
+            "deadlift_wave"
+          ],
+          "wod_pool": [
+            "run_front_squat_burpee",
+            "bike_deadlift_box_jump"
+          ]
+        },
+        "mixed_modal_builder": {
+          "accessory_pool": [
+            "single_leg_accessory",
+            "carry_hold_accessory"
+          ]
+        }
+      }
+    },
+    "block-2026-08-competition-engine": {
+      "goal_line": "Preparar una fase de engine competitivo opcional sin perder accesibilidad para la clase general.",
+      "block_note": "Competition Engine debe permitir pacing agresivo opcional sin romper la sesion general.",
+      "family_overrides": {
+        "engine_day": {
+          "wod_pool": [
+            "intervals_run_row",
+            "bike_run_triplet"
+          ],
+          "coach_note_pool": [
+            "pacing",
+            "weather_call",
+            "recovery_window"
+          ]
+        },
+        "mixed_modal_builder": {
+          "competitor_extra_pool": [
+            "threshold_flush",
+            "repeat_sprint_row"
+          ]
+        }
+      }
+    },
+    "block-2026-09-skill-density": {
+      "goal_line": "Trabajar densidad tecnica en handstand, cuerda y recepciones sin perder el enfoque general fitness.",
+      "block_note": "Skill Density requiere ventanas tecnicas cortas, repetidas y faciles de escalar.",
+      "family_overrides": {
+        "upper_gymnastics_base": {
+          "skill_pool": [
+            "handstand_line_drill",
+            "rope_climb_footlock",
+            "kipping_swing_shapes"
+          ]
+        },
+        "oly_technique_day": {
+          "skill_pool": [
+            "power_clean_positions",
+            "snatch_balance_drill"
+          ]
+        }
+      }
+    },
+    "block-2026-10-mixed-modal-power": {
+      "goal_line": "Desarrollar potencia corta y expresion rapida en combinaciones de barra, salto y maquina.",
+      "block_note": "Mixed Modal Power debe sentirse explosivo, corto y con volumen facil de controlar.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "wod_pool": [
+            "bike_deadlift_box_jump",
+            "run_front_squat_burpee"
+          ]
+        },
+        "oly_technique_day": {
+          "wod_pool": [
+            "oly_barbell_sprint",
+            "clean_bike_situp"
+          ],
+          "competitor_extra_pool": [
+            "repeat_sprint_row",
+            "extra_barbell_cycling"
+          ]
+        }
+      }
+    },
+    "block-2026-11-holiday-consistency": {
+      "goal_line": "Sostener consistencia y buena sensacion de clase en una temporada de agendas mas variables.",
+      "block_note": "Holiday Consistency debe priorizar simplicidad operativa y buena experiencia de clase.",
+      "family_overrides": {
+        "lower_strength_short_metcon": {
+          "strength_pool": [
+            "front_squat_percentage",
+            "strict_press_build"
+          ]
+        },
+        "saturday_community": {
+          "wod_pool": [
+            "community_partner_amrap",
+            "team_run_carry_situp"
+          ]
+        }
+      }
+    },
+    "block-2026-12-year-end-maintenance": {
+      "goal_line": "Cerrar el ano con sesiones sostenibles, trabajo general y transicion ordenada hacia el siguiente ciclo.",
+      "block_note": "Year-End Maintenance debe sentirse sostenible, claro y facil de adaptar en semanas variables.",
+      "family_overrides": {
+        "engine_day": {
+          "wod_pool": [
+            "row_bike_situp_intervals",
+            "intervals_run_row"
+          ]
+        },
+        "mixed_modal_builder": {
+          "wod_pool": [
+            "emom_bike_pushup_lunge",
+            "mixed_modal_chipper"
+          ]
+        },
+        "saturday_community": {
+          "wod_pool": [
+            "community_partner_amrap",
+            "saturday_machine_rotate"
+          ]
+        }
+      }
+    }
+  }
+}

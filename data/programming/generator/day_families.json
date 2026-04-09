@@ -1,0 +1,439 @@
+{
+  "lower_strength_short_metcon": {
+    "label": "Lower strength + short metcon",
+    "family_type": "strength_mixed",
+    "session_title_stems": [
+      "Lower Line Builder",
+      "Front Rack and Pace",
+      "Leg Drive Reset"
+    ],
+    "dominant_stimulus_options": [
+      "short power",
+      "aerobic power",
+      "lactate tolerance"
+    ],
+    "dominant_pattern_options": [
+      "squat",
+      "hinge"
+    ],
+    "technical_level": "intermediate",
+    "fatigue_level": "moderate-high",
+    "operational_color": "amber",
+    "equipment_alert": "Racks, barras y floor space coordinados para todos los horarios.",
+    "part_sequence": [
+      "joint_prep",
+      "warm_up",
+      "strength",
+      "wod",
+      "cooldown"
+    ],
+    "joint_prep_pool": [
+      "front_rack_mobility",
+      "hinge_activation"
+    ],
+    "warm_up_pool": [
+      "squat_cycle_warmup",
+      "barbell_lower_warmup"
+    ],
+    "strength_pool": [
+      "front_squat_percentage",
+      "back_squat_percentage",
+      "deadlift_wave"
+    ],
+    "wod_pool": [
+      "run_front_squat_burpee",
+      "bike_deadlift_box_jump",
+      "row_lunge_burpee"
+    ],
+    "cooldown_pool": [
+      "lower_body_downreg",
+      "front_rack_reset"
+    ],
+    "scaling_profile": "strength_day",
+    "coach_note_pool": [
+      "bar_path",
+      "pacing",
+      "rack_flow"
+    ],
+    "goal_templates": [
+      "{{block_objective}} Dia de fuerza de pierna y metcon corto alineado con el foco semanal: {{week_focus}}.",
+      "Construir fuerza util y cerrar con intensidad controlada sin salir del objetivo del bloque: {{block_objective}}."
+    ],
+    "coach_summary_options": [
+      "Draft autogenerado para {{family_label}}. Ajustar carga objetivo, flujo de racks y criterio de ritmo antes de aprobar.",
+      "La prioridad del dia es respetar posicion y mecanica antes de intensificar el metcon. Revisar si la sala pide mas o menos barras."
+    ],
+    "public_summary_options": [
+      "Clase de fuerza de pierna y metcon corto con una pieza principal clara, retadora y escalable.",
+      "Sesion para desarrollar fuerza util y cerrar con un WOD corto de buena intencion."
+    ]
+  },
+  "upper_gymnastics_base": {
+    "label": "Upper / gymnastics base",
+    "family_type": "gymnastics_skill",
+    "session_title_stems": [
+      "Upper Line Control",
+      "Gymnastics Base Builder",
+      "Grip and Pull Reset"
+    ],
+    "dominant_stimulus_options": [
+      "skill stamina",
+      "moderate engine",
+      "control under fatigue"
+    ],
+    "dominant_pattern_options": [
+      "pull",
+      "upper push",
+      "midline"
+    ],
+    "technical_level": "beginner-intermediate",
+    "fatigue_level": "moderate",
+    "operational_color": "green",
+    "equipment_alert": "Pull-up bars, rings y espacio de pared organizados con progresiones simples.",
+    "part_sequence": [
+      "joint_prep",
+      "warm_up",
+      "skill",
+      "wod",
+      "accessory",
+      "cooldown"
+    ],
+    "joint_prep_pool": [
+      "upper_scap_prep",
+      "overhead_stack_prep"
+    ],
+    "warm_up_pool": [
+      "upper_pull_warmup",
+      "hollow_arch_warmup"
+    ],
+    "skill_pool": [
+      "pull_up_progression",
+      "kipping_swing_shapes",
+      "handstand_line_drill"
+    ],
+    "wod_pool": [
+      "row_pullup_wallball",
+      "gymnastics_bike_amrap",
+      "row_push_press_toes_to_bar"
+    ],
+    "accessory_pool": [
+      "scap_control_accessory",
+      "midline_brace_accessory"
+    ],
+    "cooldown_pool": [
+      "upper_body_downreg",
+      "mixed_reset"
+    ],
+    "scaling_profile": "gymnastics_day",
+    "coach_note_pool": [
+      "quality_reps",
+      "grip_management",
+      "lane_setup"
+    ],
+    "goal_templates": [
+      "{{block_objective}} Dia de gimnasia base y tren superior con progresiones claras para toda la clase.",
+      "Construir control de traccion y estabilidad de hombro sin perder continuidad de clase ni ritmo util."
+    ],
+    "coach_summary_options": [
+      "Revisar la progresion mas adecuada para cada perfil y no acelerar a kipping si no hay posicion base.",
+      "Mantener la calidad de repeticiones como criterio principal antes de subir volumen o complejidad."
+    ],
+    "public_summary_options": [
+      "Sesion de gimnasia base y trabajo de tren superior con escalados simples y un WOD sostenible.",
+      "Clase enfocada en control, agarre y buen ritmo con una pieza principal escalable."
+    ]
+  },
+  "engine_day": {
+    "label": "Engine day",
+    "family_type": "engine_builder",
+    "session_title_stems": [
+      "Engine Reset",
+      "Cyclical Builder",
+      "Pacing Day"
+    ],
+    "dominant_stimulus_options": [
+      "aerobic base",
+      "threshold",
+      "repeat efforts"
+    ],
+    "dominant_pattern_options": [
+      "cyclical",
+      "running",
+      "mixed cyclical"
+    ],
+    "technical_level": "beginner-intermediate",
+    "fatigue_level": "moderate",
+    "operational_color": "green",
+    "equipment_alert": "Exterior, rowers y bikes coordinados con alternativa clara por clima.",
+    "part_sequence": [
+      "joint_prep",
+      "warm_up",
+      "skill",
+      "wod",
+      "cooldown"
+    ],
+    "joint_prep_pool": [
+      "run_stride_prep",
+      "mixed_flow_prep"
+    ],
+    "warm_up_pool": [
+      "run_row_warmup",
+      "machine_threshold_warmup"
+    ],
+    "skill_pool": [
+      "run_drill_200s",
+      "carry_bracing_primer"
+    ],
+    "wod_pool": [
+      "intervals_run_row",
+      "bike_run_triplet",
+      "row_bike_situp_intervals"
+    ],
+    "cooldown_pool": [
+      "cyclical_downreg",
+      "mixed_reset"
+    ],
+    "scaling_profile": "engine_day",
+    "coach_note_pool": [
+      "weather_call",
+      "pacing",
+      "lane_setup"
+    ],
+    "goal_templates": [
+      "{{block_objective}} Dia de motor con foco en ritmo sostenible y control de respiracion.",
+      "Expandir la base aerobica del bloque sin perder la logistica simple de una clase general fitness."
+    ],
+    "coach_summary_options": [
+      "Tomar la decision de exterior o alternativa de clima antes de arrancar el warm-up y sostener la misma logica en todos los horarios.",
+      "El objetivo del dia es pacing y continuidad, no hero efforts. Ajustar volumen si el clima o la operacion lo piden."
+    ],
+    "public_summary_options": [
+      "Sesion de motor y ritmo con carrera o alternativa por clima, clara y escalable.",
+      "Clase para construir engine, respiracion y constancia con una pieza principal facil de seguir."
+    ]
+  },
+  "oly_technique_day": {
+    "label": "Oly technique day",
+    "family_type": "oly_technique",
+    "session_title_stems": [
+      "Barbell Position Builder",
+      "Oly Technique Reset",
+      "Speed Under the Bar"
+    ],
+    "dominant_stimulus_options": [
+      "technical practice",
+      "barbell power",
+      "skill under fatigue"
+    ],
+    "dominant_pattern_options": [
+      "olympic lifting",
+      "triple extension",
+      "front rack"
+    ],
+    "technical_level": "intermediate",
+    "fatigue_level": "moderate",
+    "operational_color": "amber",
+    "equipment_alert": "Barras, discos ligeros y espacio tecnico suficiente para progresiones de recepcion.",
+    "part_sequence": [
+      "joint_prep",
+      "warm_up",
+      "skill",
+      "strength",
+      "wod",
+      "cooldown",
+      "competitor_extra"
+    ],
+    "joint_prep_pool": [
+      "oly_turnover_prep",
+      "front_rack_mobility"
+    ],
+    "warm_up_pool": [
+      "oly_barbell_warmup",
+      "barbell_lower_warmup"
+    ],
+    "skill_pool": [
+      "power_clean_positions",
+      "snatch_balance_drill",
+      "double_under_prep"
+    ],
+    "strength_pool": [
+      "power_clean_build",
+      "push_press_percentage"
+    ],
+    "wod_pool": [
+      "clean_bike_situp",
+      "oly_barbell_sprint",
+      "row_thruster_jump"
+    ],
+    "cooldown_pool": [
+      "front_rack_reset",
+      "mixed_reset"
+    ],
+    "competitor_extra_pool": [
+      "extra_barbell_cycling",
+      "repeat_sprint_row"
+    ],
+    "scaling_profile": "oly_day",
+    "coach_note_pool": [
+      "bar_path",
+      "quality_reps",
+      "lane_setup"
+    ],
+    "goal_templates": [
+      "{{block_objective}} Dia tecnico de barra con complejidad util y transicion limpia hacia un WOD corto.",
+      "Mejorar posiciones y velocidad bajo la barra sin perder accesibilidad para la clase general."
+    ],
+    "coach_summary_options": [
+      "No convertir el dia en una prueba de carga. La calidad de recepcion y timing manda la sesion.",
+      "Mantener opciones simples para principiantes y cuidar el flujo de barras antes de acelerar la complejidad."
+    ],
+    "public_summary_options": [
+      "Sesion de tecnica de barra con trabajo principal claro y un cierre corto para mover con control.",
+      "Clase para practicar posiciones, velocidad y rematar con un WOD breve y escalable."
+    ]
+  },
+  "mixed_modal_builder": {
+    "label": "Mixed modal builder",
+    "family_type": "mixed_modal",
+    "session_title_stems": [
+      "Mixed Builder",
+      "Full Class Builder",
+      "Friday Modal Flow"
+    ],
+    "dominant_stimulus_options": [
+      "mixed modal",
+      "aerobic power",
+      "threshold"
+    ],
+    "dominant_pattern_options": [
+      "mixed",
+      "squat-pull",
+      "carry"
+    ],
+    "technical_level": "intermediate",
+    "fatigue_level": "moderate-high",
+    "operational_color": "amber",
+    "equipment_alert": "Barra, mancuernas o kettlebells y una maquina por carril segun el montaje del dia.",
+    "part_sequence": [
+      "joint_prep",
+      "warm_up",
+      "strength",
+      "wod",
+      "accessory",
+      "cooldown",
+      "competitor_extra"
+    ],
+    "joint_prep_pool": [
+      "mixed_flow_prep",
+      "hinge_activation"
+    ],
+    "warm_up_pool": [
+      "mixed_builder_warmup",
+      "barbell_lower_warmup"
+    ],
+    "strength_pool": [
+      "strict_press_build",
+      "front_squat_percentage",
+      "deadlift_wave"
+    ],
+    "wod_pool": [
+      "run_db_snatch_box_step",
+      "mixed_modal_chipper",
+      "emom_bike_pushup_lunge"
+    ],
+    "accessory_pool": [
+      "single_leg_accessory",
+      "carry_hold_accessory"
+    ],
+    "cooldown_pool": [
+      "mixed_reset",
+      "lower_body_downreg"
+    ],
+    "competitor_extra_pool": [
+      "threshold_flush",
+      "gymnastics_density"
+    ],
+    "scaling_profile": "mixed_day",
+    "coach_note_pool": [
+      "transition_quality",
+      "equipment_flow",
+      "pacing"
+    ],
+    "goal_templates": [
+      "{{block_objective}} Dia mixto para unir fuerza util, transiciones y una pieza principal completa.",
+      "Construir una clase redonda de general fitness sin perder el enfoque central del bloque."
+    ],
+    "coach_summary_options": [
+      "Cuidar el montaje y las transiciones para que la clase mantenga ritmo sin crear cuellos de botella.",
+      "El WOD debe sentirse completo pero sostenible. Ajustar carga o complejidad antes de perder calidad."
+    ],
+    "public_summary_options": [
+      "Sesion mixta de clase completa con fuerza util, WOD claro y accesorio corto.",
+      "Clase para mover varias capacidades en una misma hora con una pieza principal bien estructurada."
+    ]
+  },
+  "saturday_community": {
+    "label": "Saturday community",
+    "family_type": "community_partner",
+    "session_title_stems": [
+      "Saturday Community Session",
+      "Partner Engine Day",
+      "Weekend Builder"
+    ],
+    "dominant_stimulus_options": [
+      "community pacing",
+      "mixed engine",
+      "sustainable volume"
+    ],
+    "dominant_pattern_options": [
+      "mixed cyclical",
+      "carry",
+      "full body"
+    ],
+    "technical_level": "beginner-friendly",
+    "fatigue_level": "moderate",
+    "operational_color": "green",
+    "equipment_alert": "Montaje sencillo por parejas o equipos cortos, con opciones claras para clases grandes.",
+    "part_sequence": [
+      "joint_prep",
+      "warm_up",
+      "wod",
+      "cooldown"
+    ],
+    "joint_prep_pool": [
+      "saturday_partner_prep",
+      "mixed_flow_prep"
+    ],
+    "warm_up_pool": [
+      "saturday_team_warmup",
+      "run_row_warmup"
+    ],
+    "wod_pool": [
+      "community_partner_amrap",
+      "team_run_carry_situp",
+      "saturday_machine_rotate"
+    ],
+    "cooldown_pool": [
+      "cyclical_downreg",
+      "mixed_reset"
+    ],
+    "scaling_profile": "community_day",
+    "coach_note_pool": [
+      "partner_balance",
+      "weather_call",
+      "equipment_flow"
+    ],
+    "goal_templates": [
+      "{{block_objective}} Sabado de comunidad con formato simple, claro y sostenible para todos los horarios.",
+      "Usar el sabado para sumar volumen y buena experiencia de clase sin complicar la operacion."
+    ],
+    "coach_summary_options": [
+      "Priorizar flow, parejas equilibradas y una explicacion corta del formato antes de arrancar.",
+      "El sabado debe sentirse accesible, ordenado y con buena energia de grupo."
+    ],
+    "public_summary_options": [
+      "Sesion sabatina de comunidad con formato simple, ritmo sostenible y buena experiencia de clase.",
+      "Clase para compartir trabajo en pareja o equipo con una pieza principal clara y divertida."
+    ]
+  }
+}

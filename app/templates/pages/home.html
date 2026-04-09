@@ -4,14 +4,20 @@
 
 {% block content %}
 <section class="py-4">
-    <div class="p-4 p-md-5 bg-white border rounded-3 shadow-sm">
+    <div class="hero-panel p-4 p-md-5">
+        <p class="page-eyebrow mb-2">Inicio</p>
         <h1 class="display-6 fw-semibold mb-3">AESIR Programming WebApp</h1>
         <p class="lead mb-3">
-            Base minima del proyecto lista para seguir construyendo.
+            Base anual navegable para consultar hoy, semanas, bloques y biblioteca.
         </p>
-        <p class="text-secondary mb-0">
-            Desde aqui podremos conectar las vistas de hoy, semana, bloque y biblioteca en los siguientes bloques.
+        <p class="page-intro mb-4">
+            La app ya puede mostrar una semana detallada real y un calendario 2026 completo listo para seguir poblandose.
         </p>
+        <div class="d-flex flex-column flex-sm-row gap-2">
+            <a class="btn btn-dark" href="{{ url_for('weeks.calendar') }}">Ver calendario anual</a>
+            <a class="btn btn-outline-dark" href="{{ url_for('days.today') }}">Ir a Hoy</a>
+            <a class="btn btn-outline-secondary" href="{{ url_for('library.library_index') }}">Abrir biblioteca</a>
+        </div>
     </div>
 </section>
 {% endblock %}

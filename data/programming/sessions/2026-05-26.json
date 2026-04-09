@@ -1,0 +1,234 @@
+{
+  "session_date": "2026-05-26",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Gymnastics Base Builder: Bike and Gymnastics Base",
+  "goal": "Construir control de traccion y estabilidad de hombro sin perder continuidad de clase ni ritmo util.",
+  "coach_summary": "Mantener la calidad de repeticiones como criterio principal antes de subir volumen o complejidad.",
+  "public_summary": "Sesion de gimnasia base y trabajo de tren superior con escalados simples y un WOD sostenible.",
+  "family_type": "gymnastics_skill",
+  "dominant_stimulus": "moderate engine",
+  "dominant_pattern": "upper push",
+  "technical_level": "beginner-intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "amber",
+  "equipment_alert": "Pull-up bars, rings y espacio de pared organizados con progresiones simples.",
+  "session_parts": [
+    {
+      "title": "Scap and Grip Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion escapular, agarre y hombro para trabajo de tiron o gimnasia base.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Preparar linea media, hombros y ritmo de gimnasia basica.",
+      "format": "2 rounds",
+      "scheme": "8 beat swings, 8 arch rocks, 8 dead bugs, 6 box step-ups",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Pull-Up Progression",
+      "part_type": "skill",
+      "duration_minutes": 10,
+      "description": "Definir progresion de tiron segun nivel antes del WOD.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Ring Row",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "Opcion base para principiantes"
+        },
+        {
+          "name": "Strict Pull-Up",
+          "reps": 4,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "Controlar scap y hollow"
+        }
+      ],
+      "notes": "Elegir una sola progresion por atleta y sostener calidad."
+    },
+    {
+      "title": "Bike and Gymnastics Base",
+      "part_type": "wod",
+      "duration_minutes": 15,
+      "description": "Ventana de ritmo moderado para repetir repeticiones tecnicas con respiracion util.",
+      "format": "AMRAP",
+      "scheme": "15 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Echo Bike",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": 12,
+          "machine_calories_female": 10,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Ring Row",
+          "reps": 12,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Push-Up",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "El objetivo es repetir buena postura, no ir al fallo."
+    },
+    {
+      "title": "Scap Control",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Cierre breve para hombro, control escapular y postura.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Banded Face Pull",
+          "reps": 15,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Prone Y-T-W",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, dorsales y hombro para soltar tension de tren superior.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Cambiar a ring row, jumping pull-up o soporte en pared segun la progresion mas util."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen moderado y kipping solo si la posicion es consistente."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir las repeticiones del dia con criterio tecnico claro."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y usar el extra solo si no se pierde calidad de repeticion."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Grip",
+      "content": "Cuidar agarre y manos desde el warm-up si hay mucho volumen de tiron."
+    },
+    {
+      "title": "Quality Reps",
+      "content": "Cortar o escalar el set si la calidad de repeticion empieza a caer."
+    },
+    {
+      "title": "Bloque",
+      "content": "Barbell Cycling pide repeticiones limpias, montaje ordenado y cargas sostenibles."
+    }
+  ]
+}

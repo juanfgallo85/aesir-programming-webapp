@@ -1,0 +1,146 @@
+{
+  "session_date": "2026-09-19",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Partner Engine Day: Saturday Machine Rotate",
+  "goal": "Preparar una fase de engine competitivo opcional sin perder accesibilidad para la clase general. Sabado de comunidad con formato simple, claro y sostenible para todos los horarios.",
+  "coach_summary": "El sabado debe sentirse accesible, ordenado y con buena energia de grupo.",
+  "public_summary": "Clase para compartir trabajo en pareja o equipo con una pieza principal clara y divertida.",
+  "family_type": "community_partner",
+  "dominant_stimulus": "community pacing",
+  "dominant_pattern": "mixed cyclical",
+  "technical_level": "beginner-friendly",
+  "fatigue_level": "moderate",
+  "operational_color": "amber",
+  "equipment_alert": "Montaje sencillo por parejas o equipos cortos, con opciones claras para clases grandes.",
+  "session_parts": [
+    {
+      "title": "Community Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion general y coordinacion breve para arrancar una sesion sabatina con buen flow.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Entrar en ritmo de carrera o maquina antes de la pieza principal.",
+      "format": "2 rounds",
+      "scheme": "200 m run o 250 m row, 10 air squats, 8 sit-ups",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Saturday Machine Rotate",
+      "part_type": "wod",
+      "duration_minutes": 24,
+      "description": "Sesion por estaciones para clase grande con motor y volumen simple.",
+      "format": "Teams of 3",
+      "scheme": "24 min rotating stations",
+      "score_type": "quality_rounds",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 250,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Echo Bike",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": 10,
+          "machine_calories_female": 8,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Medball Squat",
+          "reps": 16,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "20 lb",
+          "suggested_load_female": "14 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion nasal, pantorrilla y cadera despues del trabajo de motor.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Ajustar metros, carga o formato de pareja para sostener una buena experiencia de clase."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen moderado y transiciones ordenadas."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el formato sabatino completo."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y priorizar flow del equipo antes que intensidad extra."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Partners",
+      "content": "Buscar parejas equilibradas para que el ritmo de equipo sea sostenible."
+    },
+    {
+      "title": "Weather",
+      "content": "Tomar la decision exterior o interior antes del briefing para no cambiar a mitad de clase."
+    },
+    {
+      "title": "Bloque",
+      "content": "Competition Engine debe permitir pacing agresivo opcional sin romper la sesion general."
+    }
+  ]
+}

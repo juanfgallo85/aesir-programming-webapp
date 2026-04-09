@@ -1,0 +1,1114 @@
+﻿{
+  "joint_prep": {
+    "front_rack_mobility": {
+      "title": "Front Rack Mobility",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y front rack para preparar sentadilla y recepcion."
+    },
+    "hinge_activation": {
+      "title": "Hinge Activation",
+      "duration_minutes": 6,
+      "description": "Activacion de posterior, brace y cadera para fijar bisagra y linea media."
+    },
+    "upper_scap_prep": {
+      "title": "Scap and Grip Prep",
+      "duration_minutes": 6,
+      "description": "Activacion escapular, agarre y hombro para trabajo de tiron o gimnasia base."
+    },
+    "overhead_stack_prep": {
+      "title": "Overhead Stack Prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de t-spine, hombro y linea media para presion vertical y soporte."
+    },
+    "run_stride_prep": {
+      "title": "Stride Prep",
+      "duration_minutes": 6,
+      "description": "Activar pie, tobillo, cadera y brace antes de carrera o trabajo ciclico."
+    },
+    "mixed_flow_prep": {
+      "title": "Mixed Flow Prep",
+      "duration_minutes": 6,
+      "description": "Movilidad global y activacion general para una clase mixta con transiciones simples."
+    },
+    "oly_turnover_prep": {
+      "title": "Turnover and Rack Prep",
+      "duration_minutes": 6,
+      "description": "Preparar tiron, turnover y recepcion para tecnica de barra sin fatiga innecesaria."
+    },
+    "saturday_partner_prep": {
+      "title": "Community Prep",
+      "duration_minutes": 6,
+      "description": "Activacion general y coordinacion breve para arrancar una sesion sabatina con buen flow."
+    }
+  },
+  "warm_up": {
+    "squat_cycle_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Subir temperatura y preparar sentadilla con movilidad y ritmo.",
+      "format": "2 rounds",
+      "scheme": "150 m jog, 10 air squats, 8 reverse lunges, 6 tempo goblet squats"
+    },
+    "barbell_lower_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms"
+    },
+    "upper_pull_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Activacion general para tiron y control escapular.",
+      "format": "2 rounds",
+      "scheme": "150 m row, 8 ring rows, 8 push-ups, 20 s hollow hold"
+    },
+    "hollow_arch_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Preparar linea media, hombros y ritmo de gimnasia basica.",
+      "format": "2 rounds",
+      "scheme": "8 beat swings, 8 arch rocks, 8 dead bugs, 6 box step-ups"
+    },
+    "run_row_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Entrar en ritmo de carrera o maquina antes de la pieza principal.",
+      "format": "2 rounds",
+      "scheme": "200 m run o 250 m row, 10 air squats, 8 sit-ups"
+    },
+    "machine_threshold_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Preparar respiracion y transiciones cortas para trabajo ciclico.",
+      "format": "2 rounds",
+      "scheme": "45 s easy bike, 8 alternating lunges, 8 push-ups, 20 s plank"
+    },
+    "oly_barbell_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Barra ligera y posiciones basicas para un dia tecnico.",
+      "format": "Barbell prep",
+      "scheme": "2 rounds de 5 muscle clean, 5 front squat, 5 press, 5 jump and land"
+    },
+    "mixed_builder_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Preparar una clase mixta con transiciones rapidas y patron completo.",
+      "format": "2 rounds",
+      "scheme": "150 m row, 8 DB deadlifts, 8 sit-ups, 6 burpees"
+    },
+    "saturday_team_warmup": {
+      "title": "Warm-Up",
+      "duration_minutes": 8,
+      "description": "Activacion simple para mover en parejas o equipos cortos.",
+      "format": "Flow warm-up",
+      "scheme": "200 m partner walk, 10 medball squats, 8 pass-throughs, 20 s group plank"
+    }
+  },
+  "skill": {
+    "pull_up_progression": {
+      "title": "Pull-Up Progression",
+      "duration_minutes": 10,
+      "description": "Definir progresion de tiron segun nivel antes del WOD.",
+      "movements": [
+        {
+          "name": "Ring Row",
+          "reps": 8,
+          "notes": "Opcion base para principiantes"
+        },
+        {
+          "name": "Strict Pull-Up",
+          "reps": 4,
+          "notes": "Controlar scap y hollow"
+        }
+      ],
+      "notes": "Elegir una sola progresion por atleta y sostener calidad."
+    },
+    "kipping_swing_shapes": {
+      "title": "Kipping Shapes",
+      "duration_minutes": 10,
+      "description": "Practicar hollow, arch y beat swing antes de meter volumen.",
+      "movements": [
+        {
+          "name": "Beat Swing",
+          "reps": 8
+        },
+        {
+          "name": "Knee Raise",
+          "reps": 6
+        }
+      ],
+      "notes": "No acelerar a un kipping grande si la posicion base aun no es consistente."
+    },
+    "handstand_line_drill": {
+      "title": "Handstand Line Drill",
+      "duration_minutes": 10,
+      "description": "Control de linea y soporte vertical para progresiones simples.",
+      "movements": [
+        {
+          "name": "Wall Walk",
+          "reps": 3
+        },
+        {
+          "name": "Wall Facing Hold",
+          "reps": 1,
+          "notes": "20-30 s"
+        }
+      ],
+      "notes": "Trabajar stacking y respiracion, no solo tiempo acumulado."
+    },
+    "run_drill_200s": {
+      "title": "Run Drill",
+      "duration_minutes": 8,
+      "description": "Practicar salida, giro y regreso en el circuito exterior del box.",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 12/10 cal bike"
+        }
+      ],
+      "notes": "Usar esta ventana para decidir la mejor alternativa por clima si hace falta."
+    },
+    "carry_bracing_primer": {
+      "title": "Carry and Brace Primer",
+      "duration_minutes": 8,
+      "description": "Fijar brace, postura y pasos cortos antes de una pieza mixta.",
+      "movements": [
+        {
+          "name": "Farmer Carry",
+          "distance_meters": 20,
+          "suggested_load_general": "Moderado"
+        }
+      ]
+    },
+    "power_clean_positions": {
+      "title": "Power Clean Positions",
+      "duration_minutes": 10,
+      "description": "Revisar posicion por encima de rodilla, extension y recepcion.",
+      "movements": [
+        {
+          "name": "Hang Power Clean",
+          "sets": 4,
+          "reps": 2,
+          "suggested_load_general": "Ligero a moderado"
+        }
+      ],
+      "notes": "Priorizar timing y recepcion estable."
+    },
+    "snatch_balance_drill": {
+      "title": "Snatch Footwork Drill",
+      "duration_minutes": 10,
+      "description": "Practica tecnica de pies y estabilidad overhead con complejidad baja.",
+      "movements": [
+        {
+          "name": "Snatch Balance",
+          "sets": 4,
+          "reps": 2,
+          "suggested_load_general": "PVC o muy ligero"
+        }
+      ],
+      "notes": "Solo buscar velocidad y posicion, no carga."
+    },
+    "double_under_prep": {
+      "title": "Double-Under Prep",
+      "duration_minutes": 8,
+      "description": "Ritmo, salto eficiente y opcion clara para principiantes.",
+      "movements": [
+        {
+          "name": "Single Under",
+          "reps": 30
+        },
+        {
+          "name": "Double Under",
+          "reps": 20
+        }
+      ]
+    },
+    "rope_climb_footlock": {
+      "title": "Rope Climb Foot Lock",
+      "duration_minutes": 10,
+      "description": "Practicar pie, tiron y descenso seguro antes de cualquier variante.",
+      "movements": [
+        {
+          "name": "Rope Clamp Drill",
+          "reps": 4
+        }
+      ],
+      "notes": "Usar progresion en seated lock si la trepa completa no es adecuada."
+    }
+  },
+  "strength": {
+    "front_squat_percentage": {
+      "title": "Front Squat Strength",
+      "duration_minutes": 12,
+      "description": "Bloque de fuerza con porcentaje claro y prioridad total a postura y front rack.",
+      "format": "Strength work",
+      "scheme": "5 x 3 @ 72% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "sets": 5,
+          "reps": 3,
+          "percentage_of_pr": "5 x 3 @ 72% del 1RM",
+          "suggested_load_general": "Subir solo si la postura sigue limpia"
+        }
+      ],
+      "notes": "Mantener codos altos y control del descenso."
+    },
+    "back_squat_percentage": {
+      "title": "Back Squat Strength",
+      "duration_minutes": 12,
+      "description": "Trabajo de sentadilla trasera con tempo y profundidad consistentes.",
+      "format": "Strength work",
+      "scheme": "4 x 4 @ 70% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Back Squat",
+          "sets": 4,
+          "reps": 4,
+          "percentage_of_pr": "4 x 4 @ 70% del 1RM",
+          "suggested_load_general": "Buscar velocidad uniforme en la subida"
+        }
+      ],
+      "notes": "No sacrificar profundidad por carga."
+    },
+    "deadlift_wave": {
+      "title": "Deadlift Wave",
+      "duration_minutes": 12,
+      "description": "Bisagra simple con trabajo por olas para reforzar tension y posicion.",
+      "format": "Wave loading",
+      "scheme": "5-5-3-3 build controlado",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Deadlift",
+          "sets": 4,
+          "reps": 5,
+          "suggested_load_general": "Moderado a pesado, sin perder brace"
+        }
+      ],
+      "notes": "Apretar el piso y no despegar con hombros por delante."
+    },
+    "strict_press_build": {
+      "title": "Strict Press Build",
+      "duration_minutes": 10,
+      "description": "Trabajo de empuje vertical con control de linea media y repeticiones limpias.",
+      "format": "Build",
+      "scheme": "5 x 5 build controlado",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Strict Press",
+          "sets": 5,
+          "reps": 5,
+          "suggested_load_male": "75-95 lb",
+          "suggested_load_female": "45-65 lb"
+        }
+      ],
+      "notes": "Evitar arco lumbar excesivo."
+    },
+    "push_press_percentage": {
+      "title": "Push Press Waves",
+      "duration_minutes": 10,
+      "description": "Transferir potencia de piernas a barra con sets cortos y consistentes.",
+      "format": "Strength work",
+      "scheme": "6 x 2 @ 75% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Push Press",
+          "sets": 6,
+          "reps": 2,
+          "percentage_of_pr": "6 x 2 @ 75% del 1RM",
+          "suggested_load_general": "Explosivo, sin press out lento"
+        }
+      ]
+    },
+    "power_clean_build": {
+      "title": "Power Clean Build",
+      "duration_minutes": 10,
+      "description": "Build tecnico para practicar tiron, extension y recepcion sin perseguir maximo.",
+      "format": "Build",
+      "scheme": "5 x 2 progresivo",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Power Clean",
+          "sets": 5,
+          "reps": 2,
+          "suggested_load_male": "95-135 lb",
+          "suggested_load_female": "65-95 lb"
+        }
+      ],
+      "notes": "Cargar solo si la linea de barra y recepcion siguen limpias."
+    }
+  },
+  "wod": {
+    "run_front_squat_burpee": {
+      "title": "Run and Front Rack",
+      "duration_minutes": 16,
+      "description": "Pieza principal para mezclar locomocion, squat y respiracion bajo fatiga.",
+      "format": "For time",
+      "scheme": "3-4 rounds segun variante",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row o 24/20 cal bike"
+        },
+        {
+          "name": "Front Squat",
+          "reps": 12,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb"
+        },
+        {
+          "name": "Burpee Over Bar",
+          "reps": 10
+        }
+      ],
+      "notes": "Buscar que la carrera no rompa la primera sentadilla de cada ronda."
+    },
+    "bike_deadlift_box_jump": {
+      "title": "Bike and Hinge Sprint",
+      "duration_minutes": 14,
+      "description": "WOD corto y potente para mezclar hinge, salto y maquina.",
+      "format": "AMRAP",
+      "scheme": "14 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 14,
+          "machine_calories_female": 12
+        },
+        {
+          "name": "Deadlift",
+          "reps": 10,
+          "suggested_load_male": "185 lb",
+          "suggested_load_female": "125 lb"
+        },
+        {
+          "name": "Box Jump Over",
+          "reps": 12
+        }
+      ],
+      "notes": "Evitar bike demasiado agresiva si rompe la postura en la barra."
+    },
+    "row_lunge_burpee": {
+      "title": "Row and Lunge Builder",
+      "duration_minutes": 15,
+      "description": "Pieza corta para respirar bajo control y sostener patron unilateral.",
+      "format": "For time",
+      "scheme": "4 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 300
+        },
+        {
+          "name": "Front Rack Reverse Lunge",
+          "reps": 14,
+          "suggested_load_male": "75 lb",
+          "suggested_load_female": "55 lb"
+        },
+        {
+          "name": "Burpee",
+          "reps": 10
+        }
+      ]
+    },
+    "row_pullup_wallball": {
+      "title": "Pull and Breathe",
+      "duration_minutes": 16,
+      "description": "Combinar tiron, maquina y patron de squat con respiracion estable.",
+      "format": "AMRAP",
+      "scheme": "16 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 250
+        },
+        {
+          "name": "Pull-Up",
+          "reps": 8
+        },
+        {
+          "name": "Wall Ball",
+          "reps": 14,
+          "suggested_load_male": "20 lb",
+          "suggested_load_female": "14 lb"
+        }
+      ]
+    },
+    "gymnastics_bike_amrap": {
+      "title": "Bike and Gymnastics Base",
+      "duration_minutes": 15,
+      "description": "Ventana de ritmo moderado para repetir repeticiones tecnicas con respiracion util.",
+      "format": "AMRAP",
+      "scheme": "15 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 12,
+          "machine_calories_female": 10
+        },
+        {
+          "name": "Ring Row",
+          "reps": 12
+        },
+        {
+          "name": "Push-Up",
+          "reps": 10
+        }
+      ],
+      "notes": "El objetivo es repetir buena postura, no ir al fallo."
+    },
+    "row_push_press_toes_to_bar": {
+      "title": "Press and Midline",
+      "duration_minutes": 15,
+      "description": "WOD mixto de ritmo medio con empuje, maquina y linea media.",
+      "format": "For time",
+      "scheme": "5 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 200
+        },
+        {
+          "name": "Push Press",
+          "reps": 10,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb"
+        },
+        {
+          "name": "Toes-to-Bar",
+          "reps": 8
+        }
+      ]
+    },
+    "intervals_run_row": {
+      "title": "Run and Row Intervals",
+      "duration_minutes": 18,
+      "description": "Intervalos sostenidos para construir motor con pacing util.",
+      "format": "Intervals",
+      "scheme": "5 x 3:00 work / 1:00 easy",
+      "score_type": "repeatable_effort",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row"
+        },
+        {
+          "name": "Row",
+          "distance_meters": 250
+        }
+      ],
+      "notes": "Salir al primer intervalo un poco mas facil de lo que parece necesario."
+    },
+    "bike_run_triplet": {
+      "title": "Bike Run Triplet",
+      "duration_minutes": 18,
+      "description": "Pieza de verano o engine para sostener respiracion y pasos limpios.",
+      "format": "AMRAP",
+      "scheme": "18 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row"
+        },
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 10,
+          "machine_calories_female": 8
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 16
+        }
+      ]
+    },
+    "row_bike_situp_intervals": {
+      "title": "Threshold Machine Set",
+      "duration_minutes": 18,
+      "description": "Intervalos de maquina con recuperacion corta y linea media simple.",
+      "format": "Every 4:00",
+      "scheme": "4 rounds",
+      "score_type": "repeatable_effort",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 350
+        },
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 12,
+          "machine_calories_female": 10
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 18
+        }
+      ],
+      "notes": "La meta es repetir el mismo esfuerzo, no hacer un primer round desmedido."
+    },
+    "clean_bike_situp": {
+      "title": "Clean and Bike Builder",
+      "duration_minutes": 14,
+      "description": "Combinar barra ligera-media con motor corto y linea media estable.",
+      "format": "For time",
+      "scheme": "4 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Power Clean",
+          "reps": 8,
+          "suggested_load_male": "115 lb",
+          "suggested_load_female": "75 lb"
+        },
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 12,
+          "machine_calories_female": 10
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 14
+        }
+      ]
+    },
+    "oly_barbell_sprint": {
+      "title": "Short Barbell Sprint",
+      "duration_minutes": 12,
+      "description": "Esfuerzo corto y potente con barra ligera y transiciones rapidas.",
+      "format": "EMOM",
+      "scheme": "12 min",
+      "score_type": "quality_rounds",
+      "movements": [
+        {
+          "name": "Hang Power Clean",
+          "reps": 6,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb"
+        },
+        {
+          "name": "Lateral Burpee Over Bar",
+          "reps": 6
+        }
+      ]
+    },
+    "row_thruster_jump": {
+      "title": "Power Row Triplet",
+      "duration_minutes": 15,
+      "description": "Trabajo corto con maquina, empuje y salto.",
+      "format": "For time",
+      "scheme": "5 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 200
+        },
+        {
+          "name": "Thruster",
+          "reps": 8,
+          "suggested_load_male": "75 lb",
+          "suggested_load_female": "55 lb"
+        },
+        {
+          "name": "Box Jump",
+          "reps": 10
+        }
+      ]
+    },
+    "run_db_snatch_box_step": {
+      "title": "Run and DB Flow",
+      "duration_minutes": 16,
+      "description": "Sesion mixta con carrera, mancuerna y escalones para sostener buena transicion.",
+      "format": "AMRAP",
+      "scheme": "16 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 12/10 cal bike"
+        },
+        {
+          "name": "Dumbbell Snatch",
+          "reps": 16,
+          "suggested_load_male": "50 lb",
+          "suggested_load_female": "35 lb"
+        },
+        {
+          "name": "Box Step-Up",
+          "reps": 16
+        }
+      ]
+    },
+    "mixed_modal_chipper": {
+      "title": "Mixed Modal Chipper",
+      "duration_minutes": 18,
+      "description": "Pieza completa para mover cuerpo entero con una sola pasada por estacion.",
+      "format": "For time",
+      "scheme": "Chipper",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 500
+        },
+        {
+          "name": "Walking Lunge",
+          "reps": 30
+        },
+        {
+          "name": "Push Press",
+          "reps": 20,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb"
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 30
+        }
+      ],
+      "notes": "Dividir reps solo si la tecnica se empieza a desordenar."
+    },
+    "emom_bike_pushup_lunge": {
+      "title": "EMOM Builder",
+      "duration_minutes": 18,
+      "description": "Estructura simple y fuerte para sostener trabajo mixto con criterio.",
+      "format": "EMOM",
+      "scheme": "18 min, 3 estaciones",
+      "score_type": "quality_rounds",
+      "movements": [
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 12,
+          "machine_calories_female": 10
+        },
+        {
+          "name": "Push-Up",
+          "reps": 12
+        },
+        {
+          "name": "Walking Lunge",
+          "reps": 16
+        }
+      ]
+    },
+    "community_partner_amrap": {
+      "title": "Partner Community AMRAP",
+      "duration_minutes": 22,
+      "description": "Formato en pareja para mover continuo con buena experiencia de clase.",
+      "format": "Partner AMRAP",
+      "scheme": "22 min, you go / I go",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row por turno"
+        },
+        {
+          "name": "Wall Ball",
+          "reps": 16,
+          "suggested_load_male": "20 lb",
+          "suggested_load_female": "14 lb"
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 16
+        }
+      ],
+      "notes": "Buscar parejas equilibradas y un flujo facil de explicar."
+    },
+    "team_run_carry_situp": {
+      "title": "Team Carry Builder",
+      "duration_minutes": 24,
+      "description": "Sabado de equipo con locomocion, carry y linea media sostenibles.",
+      "format": "Teams of 2",
+      "scheme": "4 rounds for time",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row en relevo"
+        },
+        {
+          "name": "Farmer Carry",
+          "distance_meters": 60,
+          "suggested_load_general": "Moderado"
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 30
+        }
+      ]
+    },
+    "saturday_machine_rotate": {
+      "title": "Saturday Machine Rotate",
+      "duration_minutes": 24,
+      "description": "Sesion por estaciones para clase grande con motor y volumen simple.",
+      "format": "Teams of 3",
+      "scheme": "24 min rotating stations",
+      "score_type": "quality_rounds",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 250
+        },
+        {
+          "name": "Echo Bike",
+          "machine_calories_male": 10,
+          "machine_calories_female": 8
+        },
+        {
+          "name": "Medball Squat",
+          "reps": 16,
+          "suggested_load_male": "20 lb",
+          "suggested_load_female": "14 lb"
+        }
+      ]
+    }
+  },
+  "accessory": {
+    "scap_control_accessory": {
+      "title": "Scap Control",
+      "duration_minutes": 6,
+      "description": "Cierre breve para hombro, control escapular y postura.",
+      "movements": [
+        {
+          "name": "Banded Face Pull",
+          "reps": 15
+        },
+        {
+          "name": "Prone Y-T-W",
+          "reps": 8
+        }
+      ]
+    },
+    "midline_brace_accessory": {
+      "title": "Midline Brace",
+      "duration_minutes": 6,
+      "description": "Trabajo corto de core para sostener posiciones utiles en la semana.",
+      "movements": [
+        {
+          "name": "Dead Bug",
+          "reps": 10
+        },
+        {
+          "name": "Side Plank",
+          "reps": 1,
+          "notes": "20 s por lado"
+        }
+      ]
+    },
+    "single_leg_accessory": {
+      "title": "Single-Leg Reset",
+      "duration_minutes": 6,
+      "description": "Cierre util para cadera, equilibrio y control unilateral.",
+      "movements": [
+        {
+          "name": "Rear Foot Elevated Split Squat",
+          "reps": 8,
+          "suggested_load_general": "Ligero"
+        }
+      ]
+    },
+    "carry_hold_accessory": {
+      "title": "Carry and Hold",
+      "duration_minutes": 6,
+      "description": "Accesorio corto para brace, agarre y postura.",
+      "movements": [
+        {
+          "name": "Farmer Hold",
+          "reps": 1,
+          "notes": "30-40 s"
+        },
+        {
+          "name": "Suitcase Carry",
+          "distance_meters": 20
+        }
+      ]
+    }
+  },
+  "cooldown": {
+    "lower_body_downreg": {
+      "title": "Cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa."
+    },
+    "front_rack_reset": {
+      "title": "Cooldown",
+      "duration_minutes": 6,
+      "description": "Release de front rack, cuadriceps y t-spine para cerrar util."
+    },
+    "upper_body_downreg": {
+      "title": "Cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, dorsales y hombro para soltar tension de tren superior."
+    },
+    "mixed_reset": {
+      "title": "Cooldown",
+      "duration_minutes": 6,
+      "description": "Bajar revoluciones, respirar y soltar las zonas mas cargadas del dia."
+    },
+    "cyclical_downreg": {
+      "title": "Cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion nasal, pantorrilla y cadera despues del trabajo de motor."
+    }
+  },
+  "competitor_extra": {
+    "extra_barbell_cycling": {
+      "title": "Competitor Extra",
+      "duration_minutes": 8,
+      "description": "Extra breve de barbell cycling solo para quien conserve calidad tecnica.",
+      "format": "Every 90 s",
+      "scheme": "5 rounds",
+      "movements": [
+        {
+          "name": "Power Clean",
+          "reps": 3,
+          "suggested_load_male": "135 lb",
+          "suggested_load_female": "95 lb"
+        }
+      ],
+      "notes": "Omitir si la sesion principal ya dejo fatiga tecnica alta."
+    },
+    "repeat_sprint_row": {
+      "title": "Competitor Extra",
+      "duration_minutes": 8,
+      "description": "Trabajo adicional de repeat efforts para perfiles competitivos.",
+      "format": "Intervals",
+      "scheme": "6 x 30 s on / 60 s off",
+      "score_type": "repeatable_effort",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 150
+        }
+      ]
+    },
+    "threshold_flush": {
+      "title": "Competitor Extra",
+      "duration_minutes": 8,
+      "description": "Flush corto para sostener base o umbral sin complicar la operacion.",
+      "format": "Easy flush",
+      "scheme": "8 min",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 800,
+          "weather_alternative": "1000 m row"
+        }
+      ]
+    },
+    "gymnastics_density": {
+      "title": "Competitor Extra",
+      "duration_minutes": 8,
+      "description": "Bloque adicional de densidad tecnica para quien aun tenga calidad de repeticion.",
+      "format": "Density",
+      "scheme": "8 min",
+      "movements": [
+        {
+          "name": "Chest-to-Bar Pull-Up",
+          "reps": 4
+        },
+        {
+          "name": "Strict HSPU",
+          "reps": 4
+        }
+      ]
+    }
+  },
+  "scaling_profiles": {
+    "standard": [
+      {
+        "level": "Principiante",
+        "adjustment": "Reducir volumen, complejidad o carga sin perder la intencion principal del dia."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener el formato con una carga moderada y transiciones controladas."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir la sesion del dia con el volumen y carga objetivo."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y sumar extra solo si la calidad sigue alta."
+      }
+    ],
+    "strength_day": [
+      {
+        "level": "Principiante",
+        "adjustment": "Usar goblet squat, trap bar o barra ligera y bajar rondas del WOD si hace falta."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener el esquema con carga moderada y series tecnicas estables."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir los porcentajes o cargas sugeridas del dia."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y agregar un set o extra solo si la postura sigue limpia."
+      }
+    ],
+    "gymnastics_day": [
+      {
+        "level": "Principiante",
+        "adjustment": "Cambiar a ring row, jumping pull-up o soporte en pared segun la progresion mas util."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener el formato con volumen moderado y kipping solo si la posicion es consistente."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir las repeticiones del dia con criterio tecnico claro."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y usar el extra solo si no se pierde calidad de repeticion."
+      }
+    ],
+    "engine_day": [
+      {
+        "level": "Principiante",
+        "adjustment": "Bajar metros o usar la alternativa por clima desde el inicio para sostener el ritmo."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener el formato con volumen intermedio y pacing estable."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir distancias y calorias objetivo del dia."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y agregar extra solo si se puede repetir el mismo esfuerzo."
+      }
+    ],
+    "oly_day": [
+      {
+        "level": "Principiante",
+        "adjustment": "Usar PVC, barra vacia o high pull simple para sostener posicion y timing."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener tecnica con carga moderada y recepcion estable."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir la carga y el formato objetivo del dia."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y tomar el extra solo si la velocidad bajo la barra sigue limpia."
+      }
+    ],
+    "mixed_day": [
+      {
+        "level": "Principiante",
+        "adjustment": "Reducir reps, usar DB o cargas simples y simplificar la estacion mas tecnica."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener el formato con carga moderada y ritmo controlado."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir el volumen completo del dia."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y considerar el extra solo si la sesion principal no dejo desorden tecnico."
+      }
+    ],
+    "community_day": [
+      {
+        "level": "Principiante",
+        "adjustment": "Ajustar metros, carga o formato de pareja para sostener una buena experiencia de clase."
+      },
+      {
+        "level": "Intermedio",
+        "adjustment": "Mantener el formato con volumen moderado y transiciones ordenadas."
+      },
+      {
+        "level": "RX",
+        "adjustment": "Seguir el formato sabatino completo."
+      },
+      {
+        "level": "Competidor",
+        "adjustment": "Mantener RX y priorizar flow del equipo antes que intensidad extra."
+      }
+    ]
+  },
+  "coach_notes": {
+    "bar_path": {
+      "title": "Bar Path",
+      "content": "Revisar trayectoria de barra y recepcion antes de permitir subir carga."
+    },
+    "pacing": {
+      "title": "Pacing",
+      "content": "El objetivo es sostener rounds parecidos, no romperse en la primera salida."
+    },
+    "rack_flow": {
+      "title": "Rack Flow",
+      "content": "Asignar racks y discos antes del warm-up para evitar cuellos de botella."
+    },
+    "quality_reps": {
+      "title": "Quality Reps",
+      "content": "Cortar o escalar el set si la calidad de repeticion empieza a caer."
+    },
+    "grip_management": {
+      "title": "Grip",
+      "content": "Cuidar agarre y manos desde el warm-up si hay mucho volumen de tiron."
+    },
+    "lane_setup": {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    "weather_call": {
+      "title": "Weather",
+      "content": "Tomar la decision exterior o interior antes del briefing para no cambiar a mitad de clase."
+    },
+    "transition_quality": {
+      "title": "Transitions",
+      "content": "El dia gana valor si la clase se mueve sin pausas largas entre estaciones."
+    },
+    "equipment_flow": {
+      "title": "Equipment",
+      "content": "Montar la sesion con la menor cantidad de cambios de equipo posible."
+    },
+    "partner_balance": {
+      "title": "Partners",
+      "content": "Buscar parejas equilibradas para que el ritmo de equipo sea sostenible."
+    },
+    "recovery_window": {
+      "title": "Recovery",
+      "content": "Controlar la ventana de descanso para que el siguiente esfuerzo siga siendo repetible."
+    }
+  }
+}

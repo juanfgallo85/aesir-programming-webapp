@@ -1,0 +1,167 @@
+[
+  {
+    "term": "AMRAP",
+    "category": "format",
+    "definition": "As many rounds or reps as possible dentro del tiempo establecido."
+  },
+  {
+    "term": "EMOM",
+    "category": "format",
+    "definition": "Every minute on the minute. Empieza trabajo nuevo al inicio de cada minuto."
+  },
+  {
+    "term": "For Time",
+    "category": "format",
+    "definition": "Completar el trabajo indicado lo mas rapido posible con estandares claros."
+  },
+  {
+    "term": "Tabata",
+    "category": "format",
+    "definition": "Protocolo clasico de 20 segundos de trabajo por 10 de descanso durante 8 rondas."
+  },
+  {
+    "term": "Intervals",
+    "category": "format",
+    "definition": "Trabajo dividido en bloques de esfuerzo y descanso o recuperacion definidos."
+  },
+  {
+    "term": "Rounds for Quality",
+    "category": "format",
+    "definition": "Completar rondas priorizando tecnica y control en lugar de velocidad maxima."
+  },
+  {
+    "term": "E2MOM",
+    "category": "format",
+    "definition": "Every 2 minutes on the minute. Se inicia trabajo nuevo cada dos minutos."
+  },
+  {
+    "term": "Every 2:00",
+    "category": "format",
+    "definition": "Otra forma de indicar un E2MOM o ventana de trabajo cada dos minutos."
+  },
+  {
+    "term": "Hang",
+    "category": "technique",
+    "definition": "Inicio del levantamiento desde arriba de la rodilla o muslo, no desde el piso."
+  },
+  {
+    "term": "Power",
+    "category": "technique",
+    "definition": "Recepcion de un levantamiento por encima de paralelo, sin entrar a squat completo."
+  },
+  {
+    "term": "Squat Clean",
+    "category": "technique",
+    "definition": "Clean recibido en sentadilla completa con la barra en front rack."
+  },
+  {
+    "term": "Touch and Go",
+    "category": "technique",
+    "definition": "Encadenar repeticiones sin soltar el implemento entre una y otra."
+  },
+  {
+    "term": "Strict",
+    "category": "technique",
+    "definition": "Movimiento hecho sin impulso extra, usando solo fuerza y control."
+  },
+  {
+    "term": "Kipping",
+    "category": "technique",
+    "definition": "Uso coordinado de cadera y hombro para ayudar un movimiento de gimnasia."
+  },
+  {
+    "term": "Tempo",
+    "category": "technique",
+    "definition": "Ritmo marcado de una repeticion, normalmente expresado con numeros para cada fase."
+  },
+  {
+    "term": "Paused",
+    "category": "technique",
+    "definition": "Movimiento con una pausa intencional en una posicion especifica."
+  },
+  {
+    "term": "Build To",
+    "category": "programming",
+    "definition": "Subir progresivamente la carga hasta llegar a una referencia objetivo del dia."
+  },
+  {
+    "term": "Deload",
+    "category": "programming",
+    "definition": "Semana o bloque con menos volumen o intensidad para facilitar recuperacion."
+  },
+  {
+    "term": "Benchmark",
+    "category": "programming",
+    "definition": "Sesion o pieza usada como referencia para comparar progreso en el tiempo."
+  },
+  {
+    "term": "RX",
+    "category": "level",
+    "definition": "Version de la clase planeada sin ajustes de carga, volumen o movimiento."
+  },
+  {
+    "term": "Scaled",
+    "category": "level",
+    "definition": "Version ajustada de una sesion para sostener seguridad, estimulo y calidad."
+  },
+  {
+    "term": "PR",
+    "category": "strength",
+    "definition": "Personal record. Mejor marca personal en carga, tiempo, reps o rendimiento."
+  },
+  {
+    "term": "1RM",
+    "category": "strength",
+    "definition": "Carga maxima que una persona puede mover una vez con tecnica valida."
+  },
+  {
+    "term": "RPE",
+    "category": "intensity",
+    "definition": "Rate of perceived exertion. Escala subjetiva para estimar el esfuerzo sentido."
+  },
+  {
+    "term": "Effort",
+    "category": "intensity",
+    "definition": "Nivel de exigencia pedido en una pieza o bloque del entrenamiento."
+  },
+  {
+    "term": "Recovery",
+    "category": "intensity",
+    "definition": "Trabajo o fase pensada para bajar fatiga y facilitar adaptacion."
+  },
+  {
+    "term": "Aerobic Base",
+    "category": "intensity",
+    "definition": "Capacidad de sostener trabajo continuo y recuperarse bien entre esfuerzos."
+  },
+  {
+    "term": "Threshold",
+    "category": "intensity",
+    "definition": "Zona de esfuerzo alta pero sostenible por varios minutos con control tactico."
+  },
+  {
+    "term": "Open Gym",
+    "category": "operations",
+    "definition": "Espacio y horario habilitado para practica libre o trabajo complementario."
+  },
+  {
+    "term": "Front Rack",
+    "category": "position",
+    "definition": "Posicion frontal de barra o implementos sobre hombros con codos altos."
+  },
+  {
+    "term": "Pacing",
+    "category": "operations",
+    "definition": "Distribucion del ritmo a lo largo de una pieza para no explotar demasiado pronto."
+  },
+  {
+    "term": "Score Type",
+    "category": "operations",
+    "definition": "Forma en que se mide el resultado del bloque: tiempo, rounds, reps, carga o calidad."
+  },
+  {
+    "term": "Operational Color",
+    "category": "operations",
+    "definition": "Codigo simple interno para indicar que tan pesada o compleja se siente una sesion para operar el box."
+  }
+]

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Glosario | AESIR Programming WebApp{% endblock %}
+
+{% block content %}
+<section class="py-2 py-md-3">
+    <div class="d-flex flex-column gap-3">
+        <div class="hero-panel p-4 p-md-5">
+            <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
+                <div>
+                    <p class="page-eyebrow mb-2">Glosario</p>
+                    <h1 class="h2 mb-2">Terminos base</h1>
+                    <p class="page-intro mb-0">Definiciones rapidas para formatos, tecnica, intensidad y operaciones del box.</p>
+                </div>
+                <div class="d-flex align-items-start">
+                    <a class="btn btn-outline-secondary" href="{{ url_for('library.library_index') }}">Ir a Biblioteca</a>
+                </div>
+            </div>
+        </div>
+
+        {% if terms %}
+        <div class="row g-3">
+            {% for term in terms %}
+            <div class="col-12 col-lg-6">
+                <div class="surface-card definition-card h-100 p-4">
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        {% if term.category %}
+                        <span class="tag-pill">{{ term.category }}</span>
+                        {% endif %}
+                    </div>
+                    <h2 class="h5 mb-2">{{ term.term }}</h2>
+                    <p class="mb-0">{{ term.definition }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="surface-card p-4">
+            <p class="empty-copy mb-0">No hay terminos cargados.</p>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

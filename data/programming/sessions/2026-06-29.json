@@ -1,0 +1,120 @@
+{
+  "session_date": "2026-06-29",
+  "title": "Summer Base Run",
+  "goal": "Dar continuidad al bloque de verano: Reforzar ritmo continuo con carrera y maquinas en esfuerzos largos.",
+  "coach_summary": "Usar el clima y la operacion del box para decidir rapido la mejor alternativa sin perder el objetivo del dia.",
+  "public_summary": "Sesion de verano para construir motor, ritmo y trabajo general fitness con buena continuidad.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "aerobic base",
+  "dominant_pattern": "cyclical",
+  "technical_level": "beginner-intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "green",
+  "equipment_alert": "Exterior, rowers, bikes y cargas simples coordinadas para la misma clase en todos los horarios.",
+  "session_parts": [
+    {
+      "title": "Joint Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad de tobillo, cadera y hombro antes del trabajo principal."
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Carrera, row o bike progresiva y activacion general.",
+      "format": "2 rounds",
+      "scheme": "100-150 m cyclical work, 8 squats o lunges, 20 s plank"
+    },
+    {
+      "title": "Skill Prep",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Practicar la pieza tecnica o la transicion principal del dia.",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 12/10 cal bike"
+        }
+      ]
+    },
+    {
+      "title": "Main WOD",
+      "part_type": "wod",
+      "duration_minutes": 18,
+      "description": "Pieza principal del dia para sostener el objetivo del bloque con ritmo util y escalable.",
+      "format": "AMRAP",
+      "scheme": "Bloque de verano",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "running_distance_meters": 400,
+          "weather_alternative": "500 m row o 24/20 cal bike"
+        },
+        {
+          "name": "Farmer Carry",
+          "distance_meters": 40,
+          "suggested_load_general": "Moderado"
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 16
+        }
+      ],
+      "notes": "Priorizar pacing y transiciones limpias antes que hero efforts."
+    },
+    {
+      "title": "Accessory",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Trabajo breve de core, pie o respiracion para cerrar util.",
+      "movements": [
+        {
+          "name": "Dead Bug",
+          "reps": 10
+        },
+        {
+          "name": "Couch Stretch",
+          "reps": 1,
+          "notes": "30 s por lado"
+        }
+      ]
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion y descarga de cadera, pantorrilla y hombros."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Bajar metros, calorias, carga o usar la alternativa por clima desde el inicio."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen intermedio y ritmo estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la sesion completa del dia con buen control de pacing."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Weather",
+      "content": "Tomar la decision exterior/interior antes de arrancar la clase."
+    },
+    {
+      "title": "Summer Pacing",
+      "content": "En calor fuerte, cuidar hidratacion y evitar salidas demasiado agresivas."
+    }
+  ]
+}

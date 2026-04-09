@@ -1,0 +1,234 @@
+{
+  "session_date": "2026-01-20",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Grip and Pull Reset: Press and Midline",
+  "goal": "Reinstalar consistencia de clase, posiciones basicas y base aerobica despues del arranque de ano. Dia de gimnasia base y tren superior con progresiones claras para toda la clase.",
+  "coach_summary": "Mantener la calidad de repeticiones como criterio principal antes de subir volumen o complejidad.",
+  "public_summary": "Sesion de gimnasia base y trabajo de tren superior con escalados simples y un WOD sostenible.",
+  "family_type": "gymnastics_skill",
+  "dominant_stimulus": "skill stamina",
+  "dominant_pattern": "upper push",
+  "technical_level": "beginner-intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "green",
+  "equipment_alert": "Pull-up bars, rings y espacio de pared organizados con progresiones simples.",
+  "session_parts": [
+    {
+      "title": "Scap and Grip Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion escapular, agarre y hombro para trabajo de tiron o gimnasia base.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Preparar linea media, hombros y ritmo de gimnasia basica.",
+      "format": "2 rounds",
+      "scheme": "8 beat swings, 8 arch rocks, 8 dead bugs, 6 box step-ups",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Pull-Up Progression",
+      "part_type": "skill",
+      "duration_minutes": 10,
+      "description": "Definir progresion de tiron segun nivel antes del WOD.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Ring Row",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "Opcion base para principiantes"
+        },
+        {
+          "name": "Strict Pull-Up",
+          "reps": 4,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "Controlar scap y hollow"
+        }
+      ],
+      "notes": "Elegir una sola progresion por atleta y sostener calidad."
+    },
+    {
+      "title": "Press and Midline",
+      "part_type": "wod",
+      "duration_minutes": 15,
+      "description": "WOD mixto de ritmo medio con empuje, maquina y linea media.",
+      "format": "For time",
+      "scheme": "5 rounds",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 200,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Push Press",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Toes-to-Bar",
+          "reps": 8,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Midline Brace",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Trabajo corto de core para sostener posiciones utiles en la semana.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Dead Bug",
+          "reps": 10,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Side Plank",
+          "reps": 1,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "20 s por lado"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, dorsales y hombro para soltar tension de tren superior.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Cambiar a ring row, jumping pull-up o soporte en pared segun la progresion mas util."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen moderado y kipping solo si la posicion es consistente."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir las repeticiones del dia con criterio tecnico claro."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y usar el extra solo si no se pierde calidad de repeticion."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    {
+      "title": "Grip",
+      "content": "Cuidar agarre y manos desde el warm-up si hay mucho volumen de tiron."
+    },
+    {
+      "title": "Bloque",
+      "content": "Mantener el bloque Foundation Reset simple y sostenible para sumar adherencia."
+    }
+  ]
+}

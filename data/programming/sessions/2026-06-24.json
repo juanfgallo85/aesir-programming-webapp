@@ -1,0 +1,174 @@
+{
+  "session_date": "2026-06-24",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Cyclical Builder: Bike Run Triplet",
+  "goal": "Acumular volumen tecnico de gimnasia basica y control corporal util para todos los perfiles. Dia de motor con foco en ritmo sostenible y control de respiracion.",
+  "coach_summary": "Tomar la decision de exterior o alternativa de clima antes de arrancar el warm-up y sostener la misma logica en todos los horarios.",
+  "public_summary": "Clase para construir engine, respiracion y constancia con una pieza principal facil de seguir.",
+  "family_type": "engine_builder",
+  "dominant_stimulus": "repeat efforts",
+  "dominant_pattern": "mixed cyclical",
+  "technical_level": "beginner-intermediate",
+  "fatigue_level": "low-moderate",
+  "operational_color": "green",
+  "equipment_alert": "Exterior, rowers y bikes coordinados con alternativa clara por clima.",
+  "session_parts": [
+    {
+      "title": "Stride Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activar pie, tobillo, cadera y brace antes de carrera o trabajo ciclico.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Entrar en ritmo de carrera o maquina antes de la pieza principal.",
+      "format": "2 rounds",
+      "scheme": "200 m run o 250 m row, 10 air squats, 8 sit-ups",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Run Drill",
+      "part_type": "skill",
+      "duration_minutes": 8,
+      "description": "Practicar salida, giro y regreso en el circuito exterior del box.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row o 12/10 cal bike",
+          "notes": null
+        }
+      ],
+      "notes": "Usar esta ventana para decidir la mejor alternativa por clima si hace falta."
+    },
+    {
+      "title": "Bike Run Triplet",
+      "part_type": "wod",
+      "duration_minutes": 18,
+      "description": "Pieza de verano o engine para sostener respiracion y pasos limpios.",
+      "format": "AMRAP",
+      "scheme": "18 min",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Run",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": 200,
+          "weather_alternative": "250 m row",
+          "notes": null
+        },
+        {
+          "name": "Echo Bike",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": 10,
+          "machine_calories_female": 8,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 16,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Bajar revoluciones, respirar y soltar las zonas mas cargadas del dia.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Bajar metros o usar la alternativa por clima desde el inicio para sostener el ritmo."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con volumen intermedio y pacing estable."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir distancias y calorias objetivo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar extra solo si se puede repetir el mismo esfuerzo."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Weather",
+      "content": "Tomar la decision exterior o interior antes del briefing para no cambiar a mitad de clase."
+    },
+    {
+      "title": "Lanes",
+      "content": "Definir estaciones y sentido de flujo antes de explicar el WOD."
+    },
+    {
+      "title": "Bloque",
+      "content": "Gymnastics Volume debe proteger calidad de repeticion y progresiones realistas."
+    }
+  ]
+}

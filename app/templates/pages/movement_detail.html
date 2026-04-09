@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block title %}Movimiento | AESIR Programming WebApp{% endblock %}
+
+{% block content %}
+<section class="py-2 py-md-3">
+    <div class="d-flex flex-column gap-3">
+        <div class="d-flex flex-column flex-sm-row gap-2">
+            <a class="btn btn-outline-dark btn-sm" href="{{ url_for('library.library_index') }}">Volver a Biblioteca</a>
+            <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('library.glossary_index') }}">Ver Glosario</a>
+        </div>
+
+        {% if error_message %}
+        <div class="alert alert-warning mb-0" role="alert">
+            {{ error_message }}
+        </div>
+        {% endif %}
+
+        {% if movement %}
+        <div class="hero-panel p-4 p-md-5">
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="tag-pill">{{ movement.category }}</span>
+                    <span class="tag-pill">{{ movement.dominant_pattern }}</span>
+                    <span class="metric-pill">Nivel: {{ movement.technical_level or "No definido" }}</span>
+                </div>
+                <div>
+                    <p class="page-eyebrow mb-2">Detalle de movimiento</p>
+                    <h1 class="h2 mb-2">{{ movement.name }}</h1>
+                    <p class="page-intro mb-0">{{ movement.description or "Movimiento base de la biblioteca AESIR." }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="metric-grid">
+            <div class="metric-card"><div class="metric-label">Slug</div><div class="metric-value">{{ movement.slug }}</div></div>
+            <div class="metric-card"><div class="metric-label">Categoria</div><div class="metric-value">{{ movement.category }}</div></div>
+            <div class="metric-card"><div class="metric-label">Patron</div><div class="metric-value">{{ movement.dominant_pattern }}</div></div>
+            <div class="metric-card"><div class="metric-label">Nivel</div><div class="metric-value">{{ movement.technical_level or "No definido" }}</div></div>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-lg-6">
+                <div class="surface-card h-100 p-4">
+                    <p class="section-label mb-2">Equipo requerido</p>
+                    {% if movement.equipment %}
+                    <div class="d-flex flex-wrap gap-2">
+                        {% for item in movement.equipment %}
+                        <span class="metric-pill">{{ item }}</span>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <p class="empty-copy mb-0">Sin equipo requerido.</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="surface-card h-100 p-4">
+                    <p class="section-label mb-2">Coach cues</p>
+                    {% if movement.basic_cues %}
+                    <ul class="mb-0 ps-3">
+                        {% for cue in movement.basic_cues %}
+                        <li>{{ cue }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="empty-copy mb-0">Sin cues cargados.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-lg-6">
+                <div class="surface-card h-100 p-4">
+                    <p class="section-label mb-2">Errores comunes</p>
+                    {% if movement.common_errors %}
+                    <ul class="mb-0 ps-3">
+                        {% for error in movement.common_errors %}
+                        <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="empty-copy mb-0">Sin errores comunes cargados.</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="surface-card h-100 p-4">
+                    <p class="section-label mb-2">Scaling notes</p>
+                    {% if movement.scaling_notes %}
+                    <ul class="mb-0 ps-3">
+                        {% for note in movement.scaling_notes %}
+                        <li>{{ note }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="empty-copy mb-0">Sin notas de escalado cargadas.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

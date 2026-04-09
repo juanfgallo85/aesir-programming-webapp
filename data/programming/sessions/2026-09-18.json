@@ -1,0 +1,262 @@
+{
+  "session_date": "2026-09-18",
+  "status": "draft",
+  "generated_by": "seed_full_year.py",
+  "generated_at": "2026-04-09T11:09:42",
+  "review_notes": "Auto-generated draft. Revisar cargas, flujo, logistica y clima antes de aprobar.",
+  "is_auto_generated": true,
+  "title": "Friday Modal Flow: Mixed Modal Chipper",
+  "goal": "Preparar una fase de engine competitivo opcional sin perder accesibilidad para la clase general. Dia mixto para unir fuerza util, transiciones y una pieza principal completa.",
+  "coach_summary": "El WOD debe sentirse completo pero sostenible. Ajustar carga o complejidad antes de perder calidad.",
+  "public_summary": "Clase para mover varias capacidades en una misma hora con una pieza principal bien estructurada.",
+  "family_type": "mixed_modal",
+  "dominant_stimulus": "mixed modal",
+  "dominant_pattern": "mixed",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate-high",
+  "operational_color": "amber",
+  "equipment_alert": "Barra, mancuernas o kettlebells y una maquina por carril segun el montaje del dia.",
+  "session_parts": [
+    {
+      "title": "Hinge Activation",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Activacion de posterior, brace y cadera para fijar bisagra y linea media.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Activacion de barra ligera para fijar ritmo, brace y posicion.",
+      "format": "2 rounds",
+      "scheme": "6 empty bar RDL, 6 front squats, 6 push press, 6 inchworms",
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Front Squat Strength",
+      "part_type": "strength",
+      "duration_minutes": 12,
+      "description": "Bloque de fuerza con porcentaje claro y prioridad total a postura y front rack.",
+      "format": "Strength work",
+      "scheme": "5 x 3 @ 72% del 1RM",
+      "score_type": "quality_load",
+      "movements": [
+        {
+          "name": "Front Squat",
+          "reps": 3,
+          "sets": 5,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": "5 x 3 @ 72% del 1RM",
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": "Subir solo si la postura sigue limpia",
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Mantener codos altos y control del descenso."
+    },
+    {
+      "title": "Mixed Modal Chipper",
+      "part_type": "wod",
+      "duration_minutes": 18,
+      "description": "Pieza completa para mover cuerpo entero con una sola pasada por estacion.",
+      "format": "For time",
+      "scheme": "Chipper",
+      "score_type": "for_time",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 500,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Walking Lunge",
+          "reps": 30,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Push Press",
+          "reps": 20,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": "95 lb",
+          "suggested_load_female": "65 lb",
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        },
+        {
+          "name": "Sit-Up",
+          "reps": 30,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": "Dividir reps solo si la tecnica se empieza a desordenar."
+    },
+    {
+      "title": "Carry and Hold",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Accesorio corto para brace, agarre y postura.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [
+        {
+          "name": "Farmer Hold",
+          "reps": 1,
+          "sets": null,
+          "calories": null,
+          "distance_meters": null,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": "30-40 s"
+        },
+        {
+          "name": "Suitcase Carry",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 20,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Respiracion, cadera y piernas para bajar pulsaciones sin prisa.",
+      "format": null,
+      "scheme": null,
+      "score_type": null,
+      "movements": [],
+      "notes": null
+    },
+    {
+      "title": "Competitor Extra",
+      "part_type": "competitor_extra",
+      "duration_minutes": 8,
+      "description": "Trabajo adicional de repeat efforts para perfiles competitivos.",
+      "format": "Intervals",
+      "scheme": "6 x 30 s on / 60 s off",
+      "score_type": "repeatable_effort",
+      "movements": [
+        {
+          "name": "Row",
+          "reps": null,
+          "sets": null,
+          "calories": null,
+          "distance_meters": 150,
+          "percentage_of_pr": null,
+          "suggested_load_male": null,
+          "suggested_load_female": null,
+          "suggested_load_general": null,
+          "machine_calories_male": null,
+          "machine_calories_female": null,
+          "running_distance_meters": null,
+          "weather_alternative": null,
+          "notes": null
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Reducir reps, usar DB o cargas simples y simplificar la estacion mas tecnica."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con carga moderada y ritmo controlado."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir el volumen completo del dia."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y considerar el extra solo si la sesion principal no dejo desorden tecnico."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Transitions",
+      "content": "El dia gana valor si la clase se mueve sin pausas largas entre estaciones."
+    },
+    {
+      "title": "Equipment",
+      "content": "Montar la sesion con la menor cantidad de cambios de equipo posible."
+    },
+    {
+      "title": "Bloque",
+      "content": "Competition Engine debe permitir pacing agresivo opcional sin romper la sesion general."
+    }
+  ]
+}

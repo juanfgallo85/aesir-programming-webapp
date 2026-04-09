@@ -1,0 +1,130 @@
+{
+  "session_date": "2026-04-21",
+  "title": "Gymnastics Flow 2",
+  "goal": "Construir densidad de tiron y trabajo de agarre dentro de Combinar trabajo mixto mas largo con control de transiciones..",
+  "coach_summary": "Elegir la progresion de tiron correcta antes de perseguir velocidad o volumen.",
+  "public_summary": "Trabajo de traccion superior y base respiratoria con opciones claras para todos.",
+  "family_type": "gymnastics_bias",
+  "dominant_stimulus": "muscular endurance",
+  "dominant_pattern": "pull",
+  "technical_level": "intermediate",
+  "fatigue_level": "moderate",
+  "operational_color": "green",
+  "equipment_alert": "Se requiere barra de pull-up, anillas y espacio para carries.",
+  "session_parts": [
+    {
+      "title": "Shoulder Prep",
+      "part_type": "joint_prep",
+      "duration_minutes": 6,
+      "description": "Movilidad escapular, dorsal y grip prep."
+    },
+    {
+      "title": "General Warm-Up",
+      "part_type": "warm_up",
+      "duration_minutes": 8,
+      "description": "Row suave, scap pulls y hollow work.",
+      "format": "2 rounds",
+      "scheme": "150 m row, 6 scap pulls, 20 s hollow hold"
+    },
+    {
+      "title": "Pull Skill",
+      "part_type": "skill",
+      "duration_minutes": 10,
+      "description": "Practicar strict pull-up, ring row o rope progression segun la variante.",
+      "movements": [
+        {
+          "name": "Strict Pull-Up",
+          "reps": 4
+        },
+        {
+          "name": "Ring Row",
+          "reps": 6
+        },
+        {
+          "name": "Rope Climb Progression",
+          "reps": 3,
+          "notes": "Usar seated pull o stand drill si aplica"
+        }
+      ]
+    },
+    {
+      "title": "Pull Density WOD",
+      "part_type": "wod",
+      "duration_minutes": 16,
+      "description": "Pieza para repetir tiron, core y agarre sin romper tecnica.",
+      "format": "AMRAP",
+      "scheme": "14-16 minutes",
+      "score_type": "rounds_and_reps",
+      "movements": [
+        {
+          "name": "Row",
+          "distance_meters": 200
+        },
+        {
+          "name": "Ring Row",
+          "reps": 12
+        },
+        {
+          "name": "Hanging Knee Raise",
+          "reps": 10
+        },
+        {
+          "name": "Farmer Carry",
+          "distance_meters": 30,
+          "suggested_load_general": "Moderado"
+        }
+      ],
+      "notes": "Escalar temprano si la posicion de hombro deja de verse estable."
+    },
+    {
+      "title": "Accessory",
+      "part_type": "accessory",
+      "duration_minutes": 6,
+      "description": "Trabajo breve de espalda alta y respiracion.",
+      "movements": [
+        {
+          "name": "Banded Face Pull",
+          "reps": 15
+        },
+        {
+          "name": "Dead Bug",
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "title": "Cooldown",
+      "part_type": "cooldown",
+      "duration_minutes": 6,
+      "description": "Soltar dorsales, antebrazos y hombros."
+    }
+  ],
+  "scaling_options": [
+    {
+      "level": "Principiante",
+      "adjustment": "Usar ring rows, menos metros y carries mas cortos."
+    },
+    {
+      "level": "Intermedio",
+      "adjustment": "Mantener el formato con la progresion correcta de tiron."
+    },
+    {
+      "level": "RX",
+      "adjustment": "Seguir la sesion completa con reps limpias y hombro activo."
+    },
+    {
+      "level": "Competidor",
+      "adjustment": "Mantener RX y agregar control de pacing, densidad o volumen extra solo si la tecnica sigue limpia."
+    }
+  ],
+  "coach_notes": [
+    {
+      "title": "Grip",
+      "content": "Controlar fatiga de agarre desde el warm-up."
+    },
+    {
+      "title": "Quality",
+      "content": "No dejar que el kip o la cuerda rompan la posicion de hombro."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "code": "beginner",
+    "label": "Principiante",
+    "description": "Atleta que necesita volumen moderado, instrucciones claras y opciones sencillas."
+  },
+  {
+    "code": "intermediate",
+    "label": "Intermedio",
+    "description": "Atleta con buena base tecnica que tolera mas carga y complejidad."
+  },
+  {
+    "code": "rx",
+    "label": "RX",
+    "description": "Atleta que puede seguir la clase objetivo con cargas y volumen completos."
+  },
+  {
+    "code": "competitor",
+    "label": "Competidor",
+    "description": "Perfil opcional para atletas que necesitan reto adicional sin cambiar la clase base."
+  }
+]

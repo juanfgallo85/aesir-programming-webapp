@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}Calendario | AESIR Programming WebApp{% endblock %}
+
+{% block content %}
+<section class="py-2 py-md-3">
+    <div class="d-flex flex-column gap-3">
+        <div class="hero-panel p-4 p-md-5">
+            <p class="page-eyebrow mb-2">Calendario anual</p>
+            <div class="d-flex flex-column gap-3">
+                <div>
+                    <h1 class="h2 mb-2">Programacion 2026</h1>
+                    <p class="page-intro mb-0">Vista editorial simple del ciclo anual, sus bloques y las semanas disponibles para navegar.</p>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="btn btn-dark" href="{{ url_for('weeks.current_week') }}">Semana actual</a>
+                    <a class="btn btn-outline-dark" href="{{ url_for('blocks.current_block') }}">Bloque actual</a>
+                    <a class="btn btn-outline-secondary" href="{{ url_for('days.today') }}">Ir a Hoy</a>
+                </div>
+            </div>
+        </div>
+
+        {% if cycle %}
+        <div class="surface-card p-4 summary-panel">
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+                    <div>
+                        <p class="section-label mb-2">Ciclo actual</p>
+                        <h2 class="h3 mb-1">{{ cycle.title }}</h2>
+                        <p class="muted-copy mb-0">{{ cycle.start_date.isoformat() }} - {{ cycle.end_date.isoformat() }}</p>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="metric-pill">{{ total_blocks }} bloques</span>
+                        <span class="metric-pill">{{ total_weeks }} semanas</span>
+                        <span class="metric-pill">{{ weeks_with_sessions }} semanas con detalle</span>
+                    </div>
+                </div>
+                <p class="mb-0">{{ cycle.focus }}</p>
+                {% if current_block or current_week %}
+                <div class="d-flex flex-column flex-md-row gap-2 muted-copy">
+                    {% if current_block %}
+                    <div>Bloque actual: <strong class="text-dark">{{ current_block.title }}</strong></div>
+                    {% endif %}
+                    {% if current_week %}
+                    <div>Semana actual: <strong class="text-dark">{{ current_week.start_date.isoformat() }}</strong></div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="d-flex flex-column gap-3">
+            {% for item in blocks %}
+            <article id="{{ item.block.id }}" class="surface-card p-4 calendar-block-card {% if item.is_current %}current-block{% endif %}">
+                <div class="d-flex flex-column gap-3">
+                    <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+                        <div>
+                            <p class="section-label mb-2">Bloque {{ item.position }} de {{ total_blocks }}</p>
+                            <h3 class="h4 mb-1">{{ item.block.title }}</h3>
+                            <p class="muted-copy mb-0">{{ item.block.start_date.isoformat() }} - {{ item.block.end_date.isoformat() }}</p>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="metric-pill text-uppercase">{{ item.block.block_type }}</span>
+                            <a class="btn btn-sm btn-outline-dark" href="{{ url_for('blocks.block_detail', block_id=item.block.id) }}">Ver bloque</a>
+                        </div>
+                    </div>
+
+                    <p class="mb-0">{{ item.block.objective }}</p>
+
+                    {% if item.block.focus_tags %}
+                    <div class="d-flex flex-wrap gap-2">
+                        {% for tag in item.block.focus_tags %}
+                        <span class="tag-pill">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <div class="calendar-week-links">
+                        {% for week_summary in item.weeks %}
+                        <div class="calendar-week-chip">
+                            <a
+                                class="btn btn-sm {% if week_summary.is_current %}btn-dark{% elif week_summary.has_sessions %}btn-outline-dark{% else %}btn-outline-secondary{% endif %}"
+                                href="{{ url_for('weeks.week_detail', week_start=week_summary.week.start_date.isoformat()) }}"
+                            >
+                                {{ week_summary.week.title }} | {{ week_summary.week.start_date.strftime('%m-%d') }}
+                            </a>
+                            <span class="coverage-badge coverage-badge-sm {% if week_summary.session_count >= 5 %}complete{% elif week_summary.session_count > 0 %}partial{% else %}pending{% endif %}">
+                                {% if week_summary.session_count >= 5 %}
+                                Completa
+                                {% elif week_summary.session_count > 0 %}
+                                Parcial
+                                {% else %}
+                                Sin detalle
+                                {% endif %}
+                            </span>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="metric-grid">
+                        <div class="metric-card"><div class="metric-label">Semanas</div><div class="metric-value">{{ item.weeks|length }}</div></div>
+                        <div class="metric-card"><div class="metric-label">Con detalle</div><div class="metric-value">{{ item.detailed_weeks_count }}</div></div>
+                        <div class="metric-card">
+                            <div class="metric-label">Cobertura</div>
+                            <div class="metric-value">
+                                {% if item.detailed_weeks_count >= item.weeks|length and item.weeks|length > 0 %}
+                                completa
+                                {% elif item.detailed_weeks_count > 0 %}
+                                parcial
+                                {% else %}
+                                sin detalle
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
