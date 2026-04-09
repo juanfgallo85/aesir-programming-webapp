@@ -1,6 +1,11 @@
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
 .env
 .vscode/
-.pytest_cache/
+.vercel/
+~$*.xlsx
+*.xlsx

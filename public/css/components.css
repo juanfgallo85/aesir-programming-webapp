@@ -1,0 +1,277 @@
+.control-bar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.metric-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.metric-card {
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid var(--aesir-line);
+    border-radius: 0.9rem;
+    padding: 1rem;
+}
+
+.metric-card .metric-label {
+    color: var(--aesir-muted);
+    font-size: 0.78rem;
+    margin-bottom: 0.35rem;
+    text-transform: uppercase;
+}
+
+.metric-card .metric-value {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.session-link-card,
+.library-card,
+.week-chip-link,
+.block-week-link {
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(217, 222, 229, 0.85);
+    border-radius: 1rem;
+    box-shadow: 0 10px 26px rgba(22, 32, 42, 0.05);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.session-link-card:hover,
+.library-card:hover,
+.week-chip-link:hover,
+.block-week-link:hover {
+    border-color: rgba(180, 83, 9, 0.32);
+    box-shadow: 0 16px 34px rgba(22, 32, 42, 0.08);
+    transform: translateY(-2px);
+}
+
+.status-banner {
+    border-radius: 1rem;
+    padding: 1rem 1.1rem;
+}
+
+.status-banner.complete {
+    background: rgba(15, 118, 110, 0.1);
+    border: 1px solid rgba(15, 118, 110, 0.18);
+}
+
+.status-banner.partial {
+    background: rgba(217, 119, 6, 0.12);
+    border: 1px solid rgba(217, 119, 6, 0.18);
+}
+
+.status-banner.pending {
+    background: rgba(71, 85, 105, 0.09);
+    border: 1px solid rgba(71, 85, 105, 0.16);
+}
+
+.status-banner.not_found {
+    background: rgba(185, 28, 28, 0.08);
+    border: 1px solid rgba(185, 28, 28, 0.16);
+}
+
+.coverage-badge {
+    align-items: center;
+    border-radius: 999px;
+    display: inline-flex;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.35rem 0.8rem;
+}
+
+.coverage-badge.complete {
+    background: rgba(15, 118, 110, 0.12);
+    color: #115e59;
+}
+
+.coverage-badge.partial {
+    background: rgba(217, 119, 6, 0.14);
+    color: #9a3412;
+}
+
+.coverage-badge.pending {
+    background: rgba(71, 85, 105, 0.12);
+    color: #334155;
+}
+
+.coverage-badge-sm {
+    font-size: 0.72rem;
+    padding: 0.28rem 0.62rem;
+}
+
+.session-state-badge {
+    align-items: center;
+    border-radius: 999px;
+    display: inline-flex;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.35rem 0.8rem;
+}
+
+.session-state-badge.draft {
+    background: rgba(217, 119, 6, 0.14);
+    color: #9a3412;
+}
+
+.session-state-badge.reviewed {
+    background: rgba(59, 130, 246, 0.12);
+    color: #1d4ed8;
+}
+
+.session-state-badge.final {
+    background: rgba(15, 118, 110, 0.12);
+    color: #0f766e;
+}
+
+.session-state-badge.locked {
+    background: rgba(71, 85, 105, 0.16);
+    color: #334155;
+}
+
+.timeline-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.timeline-section {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(217, 222, 229, 0.85);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.wod-spotlight {
+    background:
+        radial-gradient(circle at top right, rgba(251, 146, 60, 0.22), transparent 34%),
+        radial-gradient(circle at bottom left, rgba(56, 189, 248, 0.16), transparent 28%),
+        linear-gradient(145deg, rgba(15, 23, 42, 0.99), rgba(30, 41, 59, 0.98));
+    border: 1px solid rgba(248, 113, 113, 0.18);
+    border-radius: 1rem;
+    box-shadow: 0 24px 56px rgba(15, 23, 42, 0.28);
+}
+
+.wod-spotlight,
+.wod-spotlight a,
+.wod-spotlight h3,
+.wod-spotlight h4,
+.wod-spotlight p,
+.wod-spotlight strong {
+    color: #fff;
+}
+
+.wod-subcopy {
+    color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.wod-metric-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 0.9rem;
+    padding: 1rem;
+}
+
+.wod-metric-card .metric-label {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.78rem;
+    margin-bottom: 0.35rem;
+    text-transform: uppercase;
+}
+
+.wod-metric-card .metric-value {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.part-movement-chip {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 0.9rem;
+    color: var(--aesir-ink);
+    padding: 0.9rem;
+}
+
+.wod-movement-chip {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 0.95rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.wod-note {
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    color: rgba(255, 255, 255, 0.82);
+    padding-top: 0.9rem;
+}
+
+.summary-panel {
+    border-left: 4px solid rgba(180, 83, 9, 0.42);
+}
+
+.calendar-block-card.current-block {
+    border-color: rgba(180, 83, 9, 0.4);
+}
+
+.calendar-week-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
+
+.calendar-week-chip {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.calendar-week-links .btn {
+    border-radius: 999px;
+}
+
+.definition-card {
+    border-radius: 1rem;
+}
+
+.library-filter-card .form-control,
+.library-filter-card .form-select,
+.control-bar .form-control {
+    min-height: 46px;
+}
+
+.export-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.export-page {
+    background: #fff;
+}
+
+.export-section {
+    border-top: 1px solid var(--aesir-line);
+    padding-top: 1.25rem;
+}
+
+.export-section:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+@media (min-width: 992px) {
+    .control-bar {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

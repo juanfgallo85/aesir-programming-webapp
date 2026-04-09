@@ -186,6 +186,80 @@ python scripts\refresh_future_weeks.py --start-date 2026-05-01 --weeks-ahead 6 -
 - `/export/day/<session_date>`
 - `/export/week/<week_start>`
 
+## Release a GitHub
+
+El repo debe subirse sin:
+
+- `.venv/`
+- `__pycache__/`
+- `.pyc`
+- `.pytest_cache/`
+- `.env`
+- `.vscode/`
+- archivos Excel o temporales de Office
+
+Flujo recomendado en PowerShell:
+
+```powershell
+git status
+git add .
+git commit -m "chore: prepare GitHub and Vercel release"
+```
+
+Si todavia no existe el repo remoto en GitHub:
+
+1. Crea `aesir-programming-webapp` en GitHub
+2. Conecta el remoto:
+
+```powershell
+git remote add origin https://github.com/<tu-usuario>/aesir-programming-webapp.git
+git push -u origin main
+```
+
+Si `origin` ya existe pero apunta a otro repo:
+
+```powershell
+git remote remove origin
+git remote add origin https://github.com/<tu-usuario>/aesir-programming-webapp.git
+git push -u origin main
+```
+
+## Deploy en Vercel
+
+La app queda lista para Vercel con un entrypoint Flask en la raiz:
+
+- `app.py` exporta `app = create_app()`
+
+Compatibilidad de assets:
+
+- En local, Flask sirve los assets a traves del endpoint `static`
+- En Vercel, los assets se sirven desde `public/`
+- `base.html` usa `asset_url(...)` para resolver ambos casos sin cambiar las vistas
+
+Importante:
+
+- Gunicorn no se usa para desarrollo local en Windows
+- En Vercel no hace falta mover la app a React ni cambiar la arquitectura Flask
+
+Flujo de deploy por dashboard:
+
+1. Sube el repo a GitHub
+2. En Vercel elige `Add New Project`
+3. Importa `aesir-programming-webapp`
+4. Vercel detectara Flask desde `app.py`
+5. Los assets de `public/` se serviran como archivos estaticos
+
+Flujo de deploy por CLI si ya tienes sesion iniciada:
+
+```powershell
+vercel
+vercel --prod
+```
+
+Referencia oficial usada para esta compatibilidad:
+
+- Vercel Flask docs: https://vercel.com/docs/frameworks/backend/flask
+
 ## Que cubre el MVP
 
 - App Flask funcional y navegable sin base de datos

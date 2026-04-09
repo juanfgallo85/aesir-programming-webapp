@@ -10,9 +10,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
     >
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/print.css') }}" media="print">
+    <link rel="stylesheet" href="{{ asset_url('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset_url('css/components.css') }}">
+    <link rel="stylesheet" href="{{ asset_url('css/print.css') }}" media="print">
 </head>
 <body class="app-shell">
     {% if not hide_nav %}
